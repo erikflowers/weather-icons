@@ -1,0 +1,138 @@
+@font-face {
+    font-family: 'weather';
+    src: url('../font/artill_clean_icons-webfont.eot');
+    src: url('../font/artill_clean_icons-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/artill_clean_icons-webfont.woff') format('woff'),
+         url('../font/artill_clean_icons-webfont.ttf') format('truetype'),
+         url('../font/artill_clean_icons-webfont.svg#artill_clean_weather_iconsRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="weather-icon-"],
+[class*=" weather-icon-"] {
+  font-family: weather;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: inherit;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  *margin-right: .3em;
+}
+[class^="weather-icon-"]:before,
+[class*=" weather-icon-"]:before {
+  text-decoration: inherit;
+  display: inline-block;
+  speak: none;
+}
+
+// Daytime
+.weather-day-cloudy-strong-winds:before         { content: @day-cloudy-strong-winds        ; }  //  day cloudy strong winds
+.weather-day-cloudy-windy:before                { content: @day-cloudy-windy               ; }  //  day cloudy windy
+.weather-day-cloudy:before                      { content: @day-cloudy                     ; }  //  day cloudy
+.weather-day-hail:before                        { content: @day-hail                       ; }  //  day hail
+.weather-day-lightning:before                   { content: @day-lightning                  ; }  //  day lightning
+.weather-day-rain-mix:before                    { content: @day-rain-mix                   ; }  //  day rain mix
+.weather-day-rain-wind:before                   { content: @day-rain-wind                  ; }  //  day rain wind
+.weather-day-rain:before                        { content: @day-rain                       ; }  //  day rain
+.weather-day-showers:before                     { content: @day-showers                    ; }  //  day showers
+.weather-day-snow:before                        { content: @day-snow                       ; }  //  day snow
+.weather-day-sprinkle:before                    { content: @day-sprinkle                   ; }  //  day sprinkle
+.weather-day-sunny-overcast:before              { content: @day-sunny-overcast             ; }  //  day sunny overcast
+.weather-day-sunny:before                       { content: @day-sunny                      ; }  //  day sunny
+.weather-day-thunderstorm-showers:before        { content: @day-thunderstorm-showers       ; }  //  day thunderstorm showers
+.weather-day-thunderstorm:before                { content: @day-thunderstorm               ; }  //  day thunderstorm
+
+// Neutral-time
+.weather-neutral-cloudy-strong-winds:before     { content: @neutral-cloudy-strong-winds    ; }  //  neutral cloudy strong winds
+.weather-neutral-cloudy-windy:before            { content: @neutral-cloudy-windy           ; }  //  neutral cloudy windy
+.weather-neutral-cloudy:before                  { content: @neutral-cloudy                 ; }  //  neutral cloudy
+.weather-neutral-fog:before                     { content: @neutral-fog                    ; }  //  neutral fog
+.weather-neutral-hail:before                    { content: @neutral-hail                   ; }  //  neutral hail
+.weather-neutral-lightning:before               { content: @neutral-lightning              ; }  //  neutral lightning
+.weather-neutral-rain-mix:before                { content: @neutral-rain-mix               ; }  //  neutral rain mix
+.weather-neutral-rain-wind:before               { content: @neutral-rain-wind              ; }  //  neutral rain wind
+.weather-neutral-rain:before                    { content: @neutral-rain                   ; }  //  neutral rain
+.weather-neutral-showers:before                 { content: @neutral-showers                ; }  //  neutral showers
+.weather-neutral-snow:before                    { content: @neutral-snow                   ; }  //  neutral snow
+.weather-neutral-sprinkle:before                { content: @neutral-sprinkle               ; }  //  neutral sprinkle
+.weather-neutral-thunderstorm-showers:before    { content: @neutral-thunderstorm-showers   ; }  //  neutral thunderstorm showers
+.weather-neutral-thunderstorm:before            { content: @neutral-thunderstorm           ; }  //  neutral thunderstorm
+
+// Nighttime
+.weather-night-alt-cloudy-strong-winds:before   { content: @night-alt-cloudy-strong-winds  ; }  //  night alt cloudy strong winds
+.weather-night-alt-cloudy-windy:before          { content: @night-alt-cloudy-windy         ; }  //  night alt cloudy windy
+.weather-night-alt-fog:before                   { content: @night-alt-fog                  ; }  //  night alt fog
+.weather-night-alt-hail:before                  { content: @night-alt-hail                 ; }  //  night alt hail
+.weather-night-alt-lightning:before             { content: @night-alt-lightning            ; }  //  night alt lightning
+.weather-night-alt-rain-mix:before              { content: @night-alt-rain-mix             ; }  //  night alt rain mix
+.weather-night-alt-rain-wind:before             { content: @night-alt-rain-wind            ; }  //  night alt rain wind
+.weather-night-alt-rain:before                  { content: @night-alt-rain                 ; }  //  night alt rain
+.weather-night-alt-showers:before               { content: @night-alt-showers              ; }  //  night alt showers
+.weather-night-alt-snow:before                  { content: @night-alt-snow                 ; }  //  night alt snow
+.weather-night-alt-sprinkle:before              { content: @night-alt-sprinkle             ; }  //  night alt sprinkle
+.weather-night-alt-thunderstorm-showers:before  { content: @night-alt-thunderstorm-showers ; }  //  night alt thunderstorm showers
+.weather-night-alt-thunderstorm:before          { content: @night-alt-thunderstorm         ; }  //  night alt thunderstorm
+.weather-night-clear:before                     { content: @night-clear                    ; }  //  night clear
+.weather-night-cloudy-strong-winds:before       { content: @night-cloudy-strong-winds      ; }  //  night cloudy strong winds
+.weather-night-cloudy-windy:before              { content: @night-cloudy-windy             ; }  //  night cloudy windy
+.weather-night-cloudy:before                    { content: @night-cloudy                   ; }  //  night cloudy
+.weather-night-hail:before                      { content: @night-hail                     ; }  //  night hail
+.weather-night-lightning:before                 { content: @night-lightning                ; }  //  night lightning
+.weather-night-rain-mix:before                  { content: @night-rain-mix                 ; }  //  night rain mix
+.weather-night-rain-wind:before                 { content: @night-rain-wind                ; }  //  night rain wind
+.weather-night-rain:before                      { content: @night-rain                     ; }  //  night rain
+.weather-night-showers:before                   { content: @night-showers                  ; }  //  night showers
+.weather-night-snow:before                      { content: @night-snow                     ; }  //  night snow
+.weather-night-sprinkle:before                  { content: @night-sprinkle                 ; }  //  night sprinkle
+.weather-night-thunderstorm-showers:before      { content: @night-thunderstorm-showers     ; }  //  night thunderstorm showers
+.weather-night-thunderstorm:before              { content: @night-thunderstorm             ; }  //  night thunderstorm
+
+// Misc
+.weather-celcius:before                         { content: @weather-celcius                ; }  //  celsius
+.weather-cloud-down:before                      { content: @weather-cloud-down             ; }  //  cloud down
+.weather-cloud-refresh:before                   { content: @weather-cloud-refresh          ; }  //  cloud refresh
+.weather-cloud-up:before                        { content: @weather-cloud-up               ; }  //  cloud up
+.weather-cloud:before                           { content: @weather-cloud                  ; }  //  cloud
+.weather-degrees:before                         { content: @weather-degrees                ; }  //  degrees
+.weather-down-left:before                       { content: @weather-down-left              ; }  //  down left
+.weather-down:before                            { content: @weather-down                   ; }  //  down
+.weather-fahrenheit:before                      { content: @weather-fahrenheit             ; }  //  fahrenheit
+.weather-horizon-alt:before                     { content: @weather-horizon-alt            ; }  //  horizon alt
+.weather-horizon:before                         { content: @weather-horizon                ; }  //  horizon
+.weather-left:before                            { content: @weather-left                   ; }  //  left
+.weather-lightning:before                       { content: @weather-lightning              ; }  //  lightning
+.weather-night-fog:before                       { content: @weather-night-fog              ; }  //  night fog
+.weather-refresh-alt:before                     { content: @weather-refresh-alt            ; }  //  refresh alt
+.weather-refresh:before                         { content: @weather-refresh                ; }  //  refresh
+.weather-right:before                           { content: @weather-right                  ; }  //  right
+.weather-sprinkles:before                       { content: @weather-sprinkles              ; }  //  sprinkles
+.weather-strong-wind:before                     { content: @weather-strong-wind            ; }  //  strong wind
+.weather-sunrise:before                         { content: @weather-sunrise                ; }  //  sunrise
+.weather-sunset:before                          { content: @weather-sunset                 ; }  //  sunset
+.weather-thermometer-exterior:before            { content: @weather-thermometer-exterior   ; }  //  thermometer exterior
+.weather-thermometer-internal:before            { content: @weather-thermometer-internal   ; }  //  thermometer internal
+.weather-thermometer:before                     { content: @weather-thermometer            ; }  //  thermometer
+.weather-tornado:before                         { content: @weather-tornado                ; }  //  tornado
+.weather-up-right:before                        { content: @weather-up-right               ; }  //  up right
+.weather-up:before                              { content: @weather-up                     ; }  //  up
+.weather-wind-east:before                       { content: @weather-wind-east              ; }  //  wind east
+.weather-wind-north-east:before                 { content: @weather-wind-north-east        ; }  //  wind north east
+.weather-wind-north-west:before                 { content: @weather-wind-north-west        ; }  //  wind north west
+.weather-wind-north:before                      { content: @weather-wind-north             ; }  //  wind north
+.weather-wind-south-east:before                 { content: @weather-wind-south-east        ; }  //  wind south east
+.weather-wind-south-west:before                 { content: @weather-wind-south-west        ; }  //  wind south west
+.weather-wind-south:before                      { content: @weather-wind-south             ; }  //  wind south
+.weather-wind-west:before                       { content: @weather-wind-west              ; }  //  wind west
+.weather-windy:before                           { content: @weather-windy                  ; }  //  windy
+
+
+
+
+
+
+
+
+
+
+
