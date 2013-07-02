@@ -1,8 +1,6 @@
 body {
-  background-color: hsl(207, 39%, 22%);
   font-family: @copy;
   font-weight: @light;
-  color: hsl(0, 0%, 100%);
   font-size: 16px;
 }
 
@@ -10,10 +8,31 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: @copy;
 }
 
+
 header {
-  height: 100px;
+  height: 300px;
+  background-color: hsl(217, 51%, 47%);
+  .icon {
+    color: hsl(0, 0%, 100%);
+    font-size: 400px;
+    float: left;
+    line-height: .65em;
+  }
+  h1 {
+    float: left;
+    font-family: @hairline;
+    font-weight: @ultraLight;
+    font-size: 60px;
+    margin-top: 200px;
+    color: hsl(0, 0%, 100%);
+  }
 }
 
+footer {
+  height: 200px;
+  background-color: hsl(0, 0%, 20%);
+  margin-top: 100px;
+}
 
 .buttons {
   font-size: 100px;
@@ -80,7 +99,6 @@ header {
     text-align: center;
     padding: 50px 20px;
     color: hsl(0, 0%, 90%);
-    font-size: 100px;
   }
   .title {
     text-align: center;
