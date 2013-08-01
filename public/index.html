@@ -1,454 +1,460 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Demo Homepage</title>
+    <title>Weather Icons - Icon Font inspired by Font Awesome and designed for Bootstrap</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
     <script src="//use.typekit.net/xmb4mjl.js"></script>
     <script>try{Typekit.load();}catch(e){}    script(src='js/bootstrap.min.js')</script>
     <script src="js/scripts.js"></script>
     <link rel="stylesheet" href="css/styles.css">
   </head>
-  <body>   
+  <body>
     <header>
       <div class="container">
         <div class="row-fluid">
           <div class="col-sm-12">
-            <div class="icon"><i class="wi-day-cloudy"></i></div>
             <h1>Weather Icons</h1>
+            <div class="icon"><i class="wi-day-cloudy"></i></div>
           </div>
         </div>
       </div>
     </header>
-    <section class="content container">
+    <section class="share-bar">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-offset-3">share</div>
+        </div>
+      </div>
+    </section>
+    <section class="content container intro">
+      <div class="row">
+        <div class="col-sm-8">
+          <p>Weather Icons is a font of 92 weather themed icons, ready to be dropped right into Bootstrap or any other project. Inspired by Font Awesome, they are infinitley scalable and any CSS that can be applied to text can be applied to them.</p>
+          <p>The icon designs are originally by XXX. The font has been modified slightly for icon-font usage, and turned into a HTML/LESS plugin by me.</p>
+          <p>Verions 0.1</p>
+        </div>
+        <div class="col-sm-4"><a href="#" class="download btn btn-primary btn-large"><i class="wi-lightning"></i>  Download Here</a></div>
+      </div>
+    </section>
+    <section class="content container iconExamples">
       <div class="row">
         <div class="col-sm-12">
-          <div class="icon-examples">
-            <div class="row-fluid">
-              <div class="col-sm-12">
-                <h2>Day</h2>
-              </div>
-            </div>
-            <div class="row-fluid">
-              <div class="col-sm-4">
-                <div class="example">
-                  <div class="icon"><i class="wi-day-cloudy-gusts"></i></div>
-                  <div class="class">wi-day-cloudy-gusts</div>
-                </div>
-                <div class="example">
-                  <div class="icon"><i class="wi-day-cloudy-windy"></i></div>
-                  <div class="class">wi-day-cloudy-windy</div>
-                </div>
-                <div class="example">
-                  <div class="icon"><i class="wi-day-cloudy"></i></div>
-                  <div class="class">wi-day-cloudy</div>
-                </div>
-                <div class="example">
-                  <div class="icon"><i class="wi-day-fog"></i></div>
-                  <div class="class">wi-day-fog</div>
-                </div>
-                <div class="example">
-                  <div class="icon"><i class="wi-day-hail"></i></div>
-                  <div class="class">wi-day-hail</div>
-                </div>
-                <div class="example">
-                  <div class="icon"><i class="wi-day-lightning"></i></div>
-                  <div class="class">wi-day-lightning</div>
-                </div>
-              </div>
-              <div class="col-sm-4">
-                <div class="example">
-                  <div class="icon"><i class="wi-day-rain-mix"></i></div>
-                  <div class="class">wi-day-rain-mix</div>
-                </div>
-                <div class="example">
-                  <div class="icon"><i class="wi-day-rain-wind"></i></div>
-                  <div class="class">wi-day-rain-wind</div>
-                </div>
-                <div class="example">
-                  <div class="icon"><i class="wi-day-rain"></i></div>
-                  <div class="class">wi-day-rain</div>
-                </div>
-                <div class="example">
-                  <div class="icon"><i class="wi-day-showers"></i></div>
-                  <div class="class">wi-day-showers</div>
-                </div>
-                <div class="example">
-                  <div class="icon"><i class="wi-day-snow"></i></div>
-                  <div class="class">wi-day-snow</div>
-                </div>
-                <div class="example">
-                  <div class="icon"><i class="wi-day-sprinkle"></i></div>
-                  <div class="class">wi-day-sprinkle</div>
-                </div>
-              </div>
-              <div class="col-sm-4">               
-                <div class="example">
-                  <div class="icon"><i class="wi-day-sunny-overcast"></i></div>
-                  <div class="class">wi-day-sunny-overcast</div>
-                </div>
-                <div class="example">
-                  <div class="icon"><i class="wi-day-sunny"></i></div>
-                  <div class="class">wi-day-sunny</div>
-                </div>
-                <div class="example">
-                  <div class="icon"><i class="wi-day-storm-showers"></i></div>
-                  <div class="class">wi-day-storm-showers</div>
-                </div>
-                <div class="example">
-                  <div class="icon"><i class="wi-day-thunderstorm"></i></div>
-                  <div class="class">wi-day-thunderstorm          </div>
-                </div>
-              </div>
-            </div>
+          <h2>Day</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="example">
+            <div class="icon"><i class="wi-day-cloudy-gusts"></i></div>
+            <div class="class">wi-day-cloudy-gusts</div>
           </div>
-          <div class="icon-examples">
-            <div class="row-fluid">
-              <div class="col-sm-12">
-                <h2>Neutral</h2>
-              </div>
-            </div>
-            <div class="row-fluid">
-              <div class="col-sm-4">
-                <div class="example">
-                  <div class="icon"><i class="wi-cloudy-gusts"></i></div>
-                  <div class="class">wi-cloudy-gusts</div>
-                </div>
-                <div class="example">
-                  <div class="icon"><i class="wi-cloudy-windy"></i></div>
-                  <div class="class">wi-cloudy-windy</div>
-                </div>
-                <div class="example">
-                  <div class="icon"><i class="wi-cloudy"></i></div>
-                  <div class="class">wi-cloudy</div>
-                </div>
-                <div class="example">
-                  <div class="icon"><i class="wi-fog"></i></div>
-                  <div class="class">wi-fog</div>
-                </div>
-                <div class="example">
-                  <div class="icon"><i class="wi-hail"></i></div>
-                  <div class="class">wi-hail              </div>
-                </div>
-              </div>
-              <div class="col-sm-4">
-                <div class="example">
-                  <div class="icon"><i class="wi-lightning"></i></div>
-                  <div class="class">wi-lightning</div>
-                </div>
-                <div class="example">
-                  <div class="icon"><i class="wi-rain-mix"></i></div>
-                  <div class="class">wi-rain-mix</div>
-                </div>
-                <div class="example">
-                  <div class="icon"><i class="wi-rain-wind"></i></div>
-                  <div class="class">wi-rain-wind</div>
-                </div>
-                <div class="example">
-                  <div class="icon"><i class="wi-rain"></i></div>
-                  <div class="class">wi-rain</div>
-                </div>
-                <div class="example">
-                  <div class="icon"><i class="wi-showers"></i></div>
-                  <div class="class">wi-showers</div>
-                </div>
-              </div>
-              <div class="col-sm-4">               
-                <div class="example">
-                  <div class="icon"><i class="wi-snow"></i></div>
-                  <div class="class">wi-snow</div>
-                </div>
-                <div class="example">
-                  <div class="icon"><i class="wi-sprinkle"></i></div>
-                  <div class="class">wi-sprinkle</div>
-                </div>
-                <div class="example">
-                  <div class="icon"><i class="wi-storm-showers"></i></div>
-                  <div class="class">wi-storm-showers</div>
-                </div>
-                <div class="example">
-                  <div class="icon"><i class="wi-thunderstorm"></i></div>
-                  <div class="class">wi-thunderstorm</div>
-                </div>
-              </div>
-            </div>
+          <div class="example">
+            <div class="icon"><i class="wi-day-cloudy-windy"></i></div>
+            <div class="class">wi-day-cloudy-windy</div>
           </div>
-          <div class="icon-examples">
-            <div class="row-fluid">
-              <div class="col-sm-12">
-                <h2>Night</h2>
-              </div>
-            </div>
-            <div class="row-fluid">
-              <div class="col-sm-4">
-                <div class="example">
-                  <div class="icon"><i class="wi-night-alt-cloudy-gusts"></i></div>
-                  <div class="class">wi-night-alt-cloudy-gusts</div>
-                </div>
-                <div class="example">
-                  <div class="icon"><i class="wi-night-alt-cloudy-windy"></i></div>
-                  <div class="class">wi-night-alt-cloudy-windy</div>
-                </div>
-                <div class="example">
-                  <div class="icon"><i class="wi-night-alt-hail"></i></div>
-                  <div class="class">wi-night-alt-hail</div>
-                </div>
-                <div class="example">
-                  <div class="icon"><i class="wi-night-alt-lightning"></i></div>
-                  <div class="class">wi-night-alt-lightning</div>
-                </div>
-                <div class="example">
-                  <div class="icon"><i class="wi-night-alt-rain-mix"></i></div>
-                  <div class="class">wi-night-alt-rain-mix</div>
-                </div>
-                <div class="example">
-                  <div class="icon"><i class="wi-night-alt-rain-wind"></i></div>
-                  <div class="class">wi-night-alt-rain-wind</div>
-                </div>
-                <div class="example">
-                  <div class="icon"><i class="wi-night-alt-rain"></i></div>
-                  <div class="class">wi-night-alt-rain                </div>
-                </div>
-                <div class="example">
-                  <div class="icon"><i class="wi-night-alt-showers"></i></div>
-                  <div class="class">wi-night-alt-showers</div>
-                </div>
-                <div class="example">
-                  <div class="icon"><i class="wi-night-alt-snow"></i></div>
-                  <div class="class">wi-night-alt-snow</div>
-                </div>
-              </div>
-              <div class="col-sm-4">
-                <div class="example">
-                  <div class="icon"><i class="wi-night-alt-sprinkle"></i></div>
-                  <div class="class">wi-night-alt-sprinkle</div>
-                </div>
-                <div class="example">
-                  <div class="icon"><i class="wi-night-alt-storm-showers"></i></div>
-                  <div class="class">wi-night-alt-storm-showers</div>
-                </div>
-                <div class="example">
-                  <div class="icon"><i class="wi-night-alt-thunderstorm"></i></div>
-                  <div class="class">wi-night-alt-thunderstorm</div>
-                </div>
-                <div class="example">
-                  <div class="icon"><i class="wi-night-clear"></i></div>
-                  <div class="class">wi-night-clear                </div>
-                </div>
-                <div class="example">
-                  <div class="icon"><i class="wi-night-cloudy-gusts"></i></div>
-                  <div class="class">wi-night-cloudy-gusts</div>
-                </div>
-                <div class="example">
-                  <div class="icon"><i class="wi-night-cloudy-windy"></i></div>
-                  <div class="class">wi-night-cloudy-windy</div>
-                </div>
-                <div class="example">
-                  <div class="icon"><i class="wi-night-cloudy"></i></div>
-                  <div class="class">wi-night-cloudy</div>
-                </div>
-                <div class="example">
-                  <div class="icon"><i class="wi-night-hail"></i></div>
-                  <div class="class">wi-night-hail                </div>
-                </div>
-                <div class="example">
-                  <div class="icon"><i class="wi-night-lightning"></i></div>
-                  <div class="class">wi-night-lightning</div>
-                </div>
-              </div>
-              <div class="col-sm-4">               
-                <div class="example">
-                  <div class="icon"><i class="wi-night-rain-mix"></i></div>
-                  <div class="class">wi-night-rain-mix</div>
-                </div>
-                <div class="example">
-                  <div class="icon"><i class="wi-night-rain-wind"></i></div>
-                  <div class="class">wi-night-rain-wind</div>
-                </div>
-                <div class="example">
-                  <div class="icon"><i class="wi-night-rain"></i></div>
-                  <div class="class">wi-night-rain</div>
-                </div>
-                <div class="example">
-                  <div class="icon"><i class="wi-night-showers"></i></div>
-                  <div class="class">wi-night-showers</div>
-                </div>
-                <div class="example">
-                  <div class="icon"><i class="wi-night-snow"></i></div>
-                  <div class="class">wi-night-snow</div>
-                </div>
-                <div class="example">
-                  <div class="icon"><i class="wi-night-sprinkle"></i></div>
-                  <div class="class">wi-night-sprinkle</div>
-                </div>
-                <div class="example">
-                  <div class="icon"><i class="wi-night-storm-showers"></i></div>
-                  <div class="class">wi-night-storm-showers</div>
-                </div>
-                <div class="example">
-                  <div class="icon"><i class="wi-night-thunderstorm"></i></div>
-                  <div class="class">wi-night-thunderstorm</div>
-                </div>
-              </div>
-            </div>
+          <div class="example">
+            <div class="icon"><i class="wi-day-cloudy"></i></div>
+            <div class="class">wi-day-cloudy</div>
           </div>
-          <div class="icon-examples">
-            <div class="row-fluid">
-              <div class="col-sm-12">
-                <h2>Misc</h2>
-              </div>
-            </div>
-            <div class="row-fluid">
-              <div class="col-sm-4">
-                <div class="example">
-                  <div class="icon"><i class="wi-celcius"></i></div>
-                  <div class="class">wi-celcius</div>
-                </div>
-                <div class="example">
-                  <div class="icon"><i class="wi-cloud-down"></i></div>
-                  <div class="class">wi-cloud-down</div>
-                </div>
-                <div class="example">
-                  <div class="icon"><i class="wi-cloud-refresh"></i></div>
-                  <div class="class">wi-cloud-refresh</div>
-                </div>
-                <div class="example">
-                  <div class="icon"><i class="wi-cloud-up"></i></div>
-                  <div class="class">wi-cloud-up</div>
-                </div>
-                <div class="example">
-                  <div class="icon"><i class="wi-cloud"></i></div>
-                  <div class="class">wi-cloud</div>
-                </div>
-                <div class="example">
-                  <div class="icon"><i class="wi-degrees"></i></div>
-                  <div class="class">wi-degrees               </div>
-                </div>
-                <div class="example">
-                  <div class="icon"><i class="wi-down-left"></i></div>
-                  <div class="class">wi-down-left</div>
-                </div>
-                <div class="example">
-                  <div class="icon"><i class="wi-down"></i></div>
-                  <div class="class">wi-down</div>
-                </div>
-                <div class="example">
-                  <div class="icon"><i class="wi-fahrenheit"></i></div>
-                  <div class="class">wi-fahrenheit</div>
-                </div>
-                <div class="example">
-                  <div class="icon"><i class="wi-horizon-alt"></i></div>
-                  <div class="class">wi-horizon-alt</div>
-                </div>
-                <div class="example">
-                  <div class="icon"><i class="wi-horizon"></i></div>
-                  <div class="class">wi-horizon</div>
-                </div>
-                <div class="example">
-                  <div class="icon"><i class="wi-left"></i></div>
-                  <div class="class">wi-left              </div>
-                </div>
-              </div>
-              <div class="col-sm-4">               
-                <div class="example">
-                  <div class="icon"><i class="wi-lightning"></i></div>
-                  <div class="class">wi-lightning</div>
-                </div>
-                <div class="example">
-                  <div class="icon"><i class="wi-night-fog"></i></div>
-                  <div class="class">wi-night-fog</div>
-                </div>
-                <div class="example">
-                  <div class="icon"><i class="wi-refresh-alt"></i></div>
-                  <div class="class">wi-refresh-alt</div>
-                </div>
-                <div class="example">
-                  <div class="icon"><i class="wi-refresh"></i></div>
-                  <div class="class">wi-refresh                </div>
-                </div>
-                <div class="example">
-                  <div class="icon"><i class="wi-right"></i></div>
-                  <div class="class">wi-right</div>
-                </div>
-                <div class="example">
-                  <div class="icon"><i class="wi-sprinkles"></i></div>
-                  <div class="class">wi-sprinkles</div>
-                </div>
-                <div class="example">
-                  <div class="icon"><i class="wi-strong-wind"></i></div>
-                  <div class="class">wi-sunrise</div>
-                </div>
-                <div class="example">
-                  <div class="icon"><i class="wi-sunrise"></i></div>
-                  <div class="class">wi-sunrise</div>
-                </div>
-                <div class="example">
-                  <div class="icon"><i class="wi-sunset"></i></div>
-                  <div class="class">wi-sunset                </div>
-                </div>
-                <div class="example">
-                  <div class="icon"><i class="wi-thermometer-exterior"></i></div>
-                  <div class="class">wi-thermometer-exterior</div>
-                </div>
-                <div class="example">
-                  <div class="icon"><i class="wi-thermometer-internal"></i></div>
-                  <div class="class">wi-thermometer-internal                </div>
-                </div>
-                <div class="example">
-                  <div class="icon"><i class="wi-thermometer"></i></div>
-                  <div class="class">wi-thermometer</div>
-                </div>
-              </div>
-              <div class="col-sm-4">
-                <div class="example">
-                  <div class="icon"><i class="wi-tornado"></i></div>
-                  <div class="class">wi-tornado</div>
-                </div>
-                <div class="example">
-                  <div class="icon"><i class="wi-up-right"></i></div>
-                  <div class="class">wi-up-right</div>
-                </div>
-                <div class="example">
-                  <div class="icon"><i class="wi-up"></i></div>
-                  <div class="class">wi-up</div>
-                </div>
-                <div class="example">
-                  <div class="icon"><i class="wi-wind-east"></i></div>
-                  <div class="class">wi-wind-east</div>
-                </div>
-                <div class="example">
-                  <div class="icon"><i class="wi-wind-north-east"></i></div>
-                  <div class="class">wi-wind-north-east</div>
-                </div>
-                <div class="example">
-                  <div class="icon"><i class="wi-wind-north-west"></i></div>
-                  <div class="class">wi-wind-north-west</div>
-                </div>
-                <div class="example">
-                  <div class="icon"><i class="wi-wind-north"></i></div>
-                  <div class="class">wi-wind-north</div>
-                </div>
-                <div class="example">
-                  <div class="icon"><i class="wi-wind-south-east"></i></div>
-                  <div class="class">wi-wind-south-east</div>
-                </div>
-                <div class="example">
-                  <div class="icon"><i class="wi-wind-south-west"></i></div>
-                  <div class="class">wi-wind-south-west</div>
-                </div>
-                <div class="example">
-                  <div class="icon"><i class="wi-wind-south"></i></div>
-                  <div class="class">wi-wind-south</div>
-                </div>
-                <div class="example">
-                  <div class="icon"><i class="wi-wind-west"></i></div>
-                  <div class="class">wi-wind-west</div>
-                </div>
-                <div class="example">
-                  <div class="icon"><i class="wi-windy"></i></div>
-                  <div class="class">wi-windy</div>
-                </div>
-              </div>
-            </div>
+          <div class="example">
+            <div class="icon"><i class="wi-day-fog"></i></div>
+            <div class="class">wi-day-fog</div>
+          </div>
+          <div class="example">
+            <div class="icon"><i class="wi-day-hail"></i></div>
+            <div class="class">wi-day-hail</div>
+          </div>
+          <div class="example">
+            <div class="icon"><i class="wi-day-lightning"></i></div>
+            <div class="class">wi-day-lightning</div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="example">
+            <div class="icon"><i class="wi-day-rain-mix"></i></div>
+            <div class="class">wi-day-rain-mix</div>
+          </div>
+          <div class="example">
+            <div class="icon"><i class="wi-day-rain-wind"></i></div>
+            <div class="class">wi-day-rain-wind</div>
+          </div>
+          <div class="example">
+            <div class="icon"><i class="wi-day-rain"></i></div>
+            <div class="class">wi-day-rain</div>
+          </div>
+          <div class="example">
+            <div class="icon"><i class="wi-day-showers"></i></div>
+            <div class="class">wi-day-showers</div>
+          </div>
+          <div class="example">
+            <div class="icon"><i class="wi-day-snow"></i></div>
+            <div class="class">wi-day-snow</div>
+          </div>
+          <div class="example">
+            <div class="icon"><i class="wi-day-sprinkle"></i></div>
+            <div class="class">wi-day-sprinkle</div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="example">
+            <div class="icon"><i class="wi-day-sunny-overcast"></i></div>
+            <div class="class">wi-day-sunny-overcast</div>
+          </div>
+          <div class="example">
+            <div class="icon"><i class="wi-day-sunny"></i></div>
+            <div class="class">wi-day-sunny</div>
+          </div>
+          <div class="example">
+            <div class="icon"><i class="wi-day-storm-showers"></i></div>
+            <div class="class">wi-day-storm-showers</div>
+          </div>
+          <div class="example">
+            <div class="icon"><i class="wi-day-thunderstorm"></i></div>
+            <div class="class">wi-day-thunderstorm</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <h2>Neutral</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="example">
+            <div class="icon"><i class="wi-cloudy-gusts"></i></div>
+            <div class="class">wi-cloudy-gusts</div>
+          </div>
+          <div class="example">
+            <div class="icon"><i class="wi-cloudy-windy"></i></div>
+            <div class="class">wi-cloudy-windy</div>
+          </div>
+          <div class="example">
+            <div class="icon"><i class="wi-cloudy"></i></div>
+            <div class="class">wi-cloudy</div>
+          </div>
+          <div class="example">
+            <div class="icon"><i class="wi-fog"></i></div>
+            <div class="class">wi-fog</div>
+          </div>
+          <div class="example">
+            <div class="icon"><i class="wi-hail"></i></div>
+            <div class="class">wi-hail</div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="example">
+            <div class="icon"><i class="wi-lightning"></i></div>
+            <div class="class">wi-lightning</div>
+          </div>
+          <div class="example">
+            <div class="icon"><i class="wi-rain-mix"></i></div>
+            <div class="class">wi-rain-mix</div>
+          </div>
+          <div class="example">
+            <div class="icon"><i class="wi-rain-wind"></i></div>
+            <div class="class">wi-rain-wind</div>
+          </div>
+          <div class="example">
+            <div class="icon"><i class="wi-rain"></i></div>
+            <div class="class">wi-rain</div>
+          </div>
+          <div class="example">
+            <div class="icon"><i class="wi-showers"></i></div>
+            <div class="class">wi-showers</div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="example">
+            <div class="icon"><i class="wi-snow"></i></div>
+            <div class="class">wi-snow</div>
+          </div>
+          <div class="example">
+            <div class="icon"><i class="wi-sprinkle"></i></div>
+            <div class="class">wi-sprinkle</div>
+          </div>
+          <div class="example">
+            <div class="icon"><i class="wi-storm-showers"></i></div>
+            <div class="class">wi-storm-showers</div>
+          </div>
+          <div class="example">
+            <div class="icon"><i class="wi-thunderstorm"></i></div>
+            <div class="class">wi-thunderstorm</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <h2>Night</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="example">
+            <div class="icon"><i class="wi-night-alt-cloudy-gusts"></i></div>
+            <div class="class">wi-night-alt-cloudy-gusts</div>
+          </div>
+          <div class="example">
+            <div class="icon"><i class="wi-night-alt-cloudy-windy"></i></div>
+            <div class="class">wi-night-alt-cloudy-windy</div>
+          </div>
+          <div class="example">
+            <div class="icon"><i class="wi-night-alt-hail"></i></div>
+            <div class="class">wi-night-alt-hail</div>
+          </div>
+          <div class="example">
+            <div class="icon"><i class="wi-night-alt-lightning"></i></div>
+            <div class="class">wi-night-alt-lightning</div>
+          </div>
+          <div class="example">
+            <div class="icon"><i class="wi-night-alt-rain-mix"></i></div>
+            <div class="class">wi-night-alt-rain-mix</div>
+          </div>
+          <div class="example">
+            <div class="icon"><i class="wi-night-alt-rain-wind"></i></div>
+            <div class="class">wi-night-alt-rain-wind</div>
+          </div>
+          <div class="example">
+            <div class="icon"><i class="wi-night-alt-rain"></i></div>
+            <div class="class">wi-night-alt-rain</div>
+          </div>
+          <div class="example">
+            <div class="icon"><i class="wi-night-alt-showers"></i></div>
+            <div class="class">wi-night-alt-showers</div>
+          </div>
+          <div class="example">
+            <div class="icon"><i class="wi-night-alt-snow"></i></div>
+            <div class="class">wi-night-alt-snow</div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="example">
+            <div class="icon"><i class="wi-night-alt-sprinkle"></i></div>
+            <div class="class">wi-night-alt-sprinkle</div>
+          </div>
+          <div class="example">
+            <div class="icon"><i class="wi-night-alt-storm-showers"></i></div>
+            <div class="class">wi-night-alt-storm-showers</div>
+          </div>
+          <div class="example">
+            <div class="icon"><i class="wi-night-alt-thunderstorm"></i></div>
+            <div class="class">wi-night-alt-thunderstorm</div>
+          </div>
+          <div class="example">
+            <div class="icon"><i class="wi-night-clear"></i></div>
+            <div class="class">wi-night-clear</div>
+          </div>
+          <div class="example">
+            <div class="icon"><i class="wi-night-cloudy-gusts"></i></div>
+            <div class="class">wi-night-cloudy-gusts</div>
+          </div>
+          <div class="example">
+            <div class="icon"><i class="wi-night-cloudy-windy"></i></div>
+            <div class="class">wi-night-cloudy-windy</div>
+          </div>
+          <div class="example">
+            <div class="icon"><i class="wi-night-cloudy"></i></div>
+            <div class="class">wi-night-cloudy</div>
+          </div>
+          <div class="example">
+            <div class="icon"><i class="wi-night-hail"></i></div>
+            <div class="class">wi-night-hail</div>
+          </div>
+          <div class="example">
+            <div class="icon"><i class="wi-night-lightning"></i></div>
+            <div class="class">wi-night-lightning</div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="example">
+            <div class="icon"><i class="wi-night-rain-mix"></i></div>
+            <div class="class">wi-night-rain-mix</div>
+          </div>
+          <div class="example">
+            <div class="icon"><i class="wi-night-rain-wind"></i></div>
+            <div class="class">wi-night-rain-wind</div>
+          </div>
+          <div class="example">
+            <div class="icon"><i class="wi-night-rain"></i></div>
+            <div class="class">wi-night-rain</div>
+          </div>
+          <div class="example">
+            <div class="icon"><i class="wi-night-showers"></i></div>
+            <div class="class">wi-night-showers</div>
+          </div>
+          <div class="example">
+            <div class="icon"><i class="wi-night-snow"></i></div>
+            <div class="class">wi-night-snow</div>
+          </div>
+          <div class="example">
+            <div class="icon"><i class="wi-night-sprinkle"></i></div>
+            <div class="class">wi-night-sprinkle</div>
+          </div>
+          <div class="example">
+            <div class="icon"><i class="wi-night-storm-showers"></i></div>
+            <div class="class">wi-night-storm-showers</div>
+          </div>
+          <div class="example">
+            <div class="icon"><i class="wi-night-thunderstorm"></i></div>
+            <div class="class">wi-night-thunderstorm</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <h2>Misc</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="example">
+            <div class="icon"><i class="wi-celcius"></i></div>
+            <div class="class">wi-celcius</div>
+          </div>
+          <div class="example">
+            <div class="icon"><i class="wi-cloud-down"></i></div>
+            <div class="class">wi-cloud-down</div>
+          </div>
+          <div class="example">
+            <div class="icon"><i class="wi-cloud-refresh"></i></div>
+            <div class="class">wi-cloud-refresh</div>
+          </div>
+          <div class="example">
+            <div class="icon"><i class="wi-cloud-up"></i></div>
+            <div class="class">wi-cloud-up</div>
+          </div>
+          <div class="example">
+            <div class="icon"><i class="wi-cloud"></i></div>
+            <div class="class">wi-cloud</div>
+          </div>
+          <div class="example">
+            <div class="icon"><i class="wi-degrees"></i></div>
+            <div class="class">wi-degrees</div>
+          </div>
+          <div class="example">
+            <div class="icon"><i class="wi-down-left"></i></div>
+            <div class="class">wi-down-left</div>
+          </div>
+          <div class="example">
+            <div class="icon"><i class="wi-down"></i></div>
+            <div class="class">wi-down</div>
+          </div>
+          <div class="example">
+            <div class="icon"><i class="wi-fahrenheit"></i></div>
+            <div class="class">wi-fahrenheit</div>
+          </div>
+          <div class="example">
+            <div class="icon"><i class="wi-horizon-alt"></i></div>
+            <div class="class">wi-horizon-alt</div>
+          </div>
+          <div class="example">
+            <div class="icon"><i class="wi-horizon"></i></div>
+            <div class="class">wi-horizon</div>
+          </div>
+          <div class="example">
+            <div class="icon"><i class="wi-left"></i></div>
+            <div class="class">wi-left</div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="example">
+            <div class="icon"><i class="wi-lightning"></i></div>
+            <div class="class">wi-lightning</div>
+          </div>
+          <div class="example">
+            <div class="icon"><i class="wi-night-fog"></i></div>
+            <div class="class">wi-night-fog</div>
+          </div>
+          <div class="example">
+            <div class="icon"><i class="wi-refresh-alt"></i></div>
+            <div class="class">wi-refresh-alt</div>
+          </div>
+          <div class="example">
+            <div class="icon"><i class="wi-refresh"></i></div>
+            <div class="class">wi-refresh</div>
+          </div>
+          <div class="example">
+            <div class="icon"><i class="wi-right"></i></div>
+            <div class="class">wi-right</div>
+          </div>
+          <div class="example">
+            <div class="icon"><i class="wi-sprinkles"></i></div>
+            <div class="class">wi-sprinkles</div>
+          </div>
+          <div class="example">
+            <div class="icon"><i class="wi-strong-wind"></i></div>
+            <div class="class">wi-sunrise</div>
+          </div>
+          <div class="example">
+            <div class="icon"><i class="wi-sunrise"></i></div>
+            <div class="class">wi-sunrise</div>
+          </div>
+          <div class="example">
+            <div class="icon"><i class="wi-sunset"></i></div>
+            <div class="class">wi-sunset</div>
+          </div>
+          <div class="example">
+            <div class="icon"><i class="wi-thermometer-exterior"></i></div>
+            <div class="class">wi-thermometer-exterior</div>
+          </div>
+          <div class="example">
+            <div class="icon"><i class="wi-thermometer-internal"></i></div>
+            <div class="class">wi-thermometer-internal</div>
+          </div>
+          <div class="example">
+            <div class="icon"><i class="wi-thermometer"></i></div>
+            <div class="class">wi-thermometer</div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="example">
+            <div class="icon"><i class="wi-tornado"></i></div>
+            <div class="class">wi-tornado</div>
+          </div>
+          <div class="example">
+            <div class="icon"><i class="wi-up-right"></i></div>
+            <div class="class">wi-up-right</div>
+          </div>
+          <div class="example">
+            <div class="icon"><i class="wi-up"></i></div>
+            <div class="class">wi-up</div>
+          </div>
+          <div class="example">
+            <div class="icon"><i class="wi-wind-east"></i></div>
+            <div class="class">wi-wind-east</div>
+          </div>
+          <div class="example">
+            <div class="icon"><i class="wi-wind-north-east"></i></div>
+            <div class="class">wi-wind-north-east</div>
+          </div>
+          <div class="example">
+            <div class="icon"><i class="wi-wind-north-west"></i></div>
+            <div class="class">wi-wind-north-west</div>
+          </div>
+          <div class="example">
+            <div class="icon"><i class="wi-wind-north"></i></div>
+            <div class="class">wi-wind-north</div>
+          </div>
+          <div class="example">
+            <div class="icon"><i class="wi-wind-south-east"></i></div>
+            <div class="class">wi-wind-south-east</div>
+          </div>
+          <div class="example">
+            <div class="icon"><i class="wi-wind-south-west"></i></div>
+            <div class="class">wi-wind-south-west</div>
+          </div>
+          <div class="example">
+            <div class="icon"><i class="wi-wind-south"></i></div>
+            <div class="class">wi-wind-south</div>
+          </div>
+          <div class="example">
+            <div class="icon"><i class="wi-wind-west"></i></div>
+            <div class="class">wi-wind-west</div>
+          </div>
+          <div class="example">
+            <div class="icon"><i class="wi-windy"></i></div>
+            <div class="class">wi-windy</div>
           </div>
         </div>
       </div>
@@ -456,7 +462,11 @@
     <footer>
       <div class="container">
         <div class="row-fluid">
-          <div class="col-sm-12">Erikflowers</div>
+          <div class="col-sm-12">
+            <p><i class="wi-day-cloudy"></i>The Weather Icons 0.1 project created and maintained by Erik Flowers. Original artwork by XXX.</p>
+            <p>Weather Icons are designed to work with Bootstrap, but can work with any project.</p>
+            <p>LESS/HTML implementation inspired and heavily influenced by Font Awesome</p>
+          </div>
         </div>
       </div>
     </footer>

@@ -2,6 +2,7 @@ body {
   font-family: @copy;
   font-weight: @light;
   font-size: 16px;
+  color: hsl(0, 0%, 20%);
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -10,21 +11,26 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 
 header {
-  height: 300px;
-  background-color: hsl(217, 51%, 47%);
+  height: 400px;
+  padding-top: 130px;
+  background: url("img/sky.jpg") top center no-repeat fixed;
   .icon {
     color: hsl(0, 0%, 100%);
-    font-size: 400px;
+    font-size: 300px;
+    margin-left: 100px;
     float: left;
     line-height: .65em;
+    text-shadow: 0px 2px 2px hsla(0, 0%, 0%, .5);
   }
   h1 {
     float: left;
     font-family: @hairline;
     font-weight: @ultraLight;
     font-size: 60px;
-    margin-top: 200px;
+    margin-top: 100px;
+    margin-left: 0px;
     color: hsl(0, 0%, 100%);
+    text-shadow: 0px 2px 2px hsla(0, 0%, 0%, .5);
   }
 }
 
@@ -32,6 +38,9 @@ footer {
   height: 200px;
   background-color: hsl(0, 0%, 20%);
   margin-top: 100px;
+  color: hsl(0, 0%, 100%);
+  padding-top: 15px;
+  font-weight: @normal;
 }
 
 .buttons {
@@ -39,6 +48,23 @@ footer {
 }
 
 
+.download {
+  display: block;
+
+}
+
+.intro {
+  font-size: 20px;
+  margin-top: 30px;
+  font-weight: @normal;
+}
+
+.share-bar {
+  padding: 20px 0px;
+  background-color: hsl(0, 0%, 90%);
+  border-top: 1px solid hsl(0, 0%, 70%);
+  border-bottom: 1px solid hsl(0, 0%, 70%);
+}
 
 .banner {
   background-color: hsl(0, 0%, 90%);

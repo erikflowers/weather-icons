@@ -54,10 +54,13 @@
 
 
 
-// the retina mixin. Goes .at2x(img/header.png, 650px, 150px).
-// Put the effective size, it goes width then height
+// the retina mixin. An example goes: .at2x(img/header@2x.png, 650px, 150px, top, left, no-repeat, scroll)
+// Put the size that the image appears on a non-retina, e.g. if it's a 200px x 200px non-retina, that is the effective size. The @2x 400px x 400px is calculated automatically. The order to type it is width then height.
+// A modification of the retina.js less mixin - https://github.com/imulus/retinajs
+
+
 @highdpi: ~"(-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-resolution: 1.5dppx)";
-.at2x(@path, @w: auto, @h: auto, @xpos: 0, @ypos: 0, @repeat: no-repeat; @attachment: scroll;) {
+.at2x(@path, @w: auto, @h: auto, @xpos: 0, @ypos: 0, @repeat: no-repeat, @attachment: scroll) {
   background-image: url(@path);
   background-position: @xpos @ypos;
   background-repeat: @repeat;

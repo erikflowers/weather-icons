@@ -3,7 +3,7 @@
 
 
 
-.icon-examples {
+.iconExamples {
   .clearfix;
   h2 {
     font-family: @hairline;
@@ -11,24 +11,26 @@
     color: hsl(217, 51%, 47%);
   }
   .example {
+    @fontsize: 18px;
     .clearfix;
     text-align: center;
     margin: 10px 3px;
     .icon {
-      text-align: center;
-      font-size: 50px;
+      font-size: @fontsize;
       float: left;
-      width:100px;
+      width: 35px;
       i {
-        background-color: hsl(0, 0%, 90%);
+        //background-color: hsl(0, 0%, 97%);
       }
     }
     .class {
       text-align: center;
-      font-size: 16px;
+      font-size: @fontsize;
       float: left;
       margin-top: 0px;
       font-weight: @normal;
+      margin-left: 10px;
+      color: hsl(0, 0%, 20%);
     }
   }
 }
