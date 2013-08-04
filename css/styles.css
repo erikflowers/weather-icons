@@ -1211,7 +1211,7 @@ a .icon-rotate-90:before,a .icon-rotate-180:before,a .icon-rotate-270:before,a .
 body{font-family:"proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:300;font-size:14px;color:#333}
 .reference{font-family:"Helvetica",Arial,sans-serif;font-size:22px}
 h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{font-family:"proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif}
-header{position:relative;height:100px;padding-top:0;background:url("img/sky.jpg") top center no-repeat fixed;border-bottom:10px solid #404040}@media (min-width:768px){header{height:300px}}header h1{float:left;font-family:"aktiv-grotesk-std";font-weight:200;font-size:40px;margin-top:40px;margin-left:0;color:#fff;text-shadow:0 2px 2px rgba(0,0,0,0.9)}@media (min-width:768px){header h1{font-size:60px;margin-top:180px}}
+header{position:relative;height:100px;padding-top:0;background:url("img/sky.jpg") top center no-repeat fixed;border-bottom:5px solid #404040}@media (min-width:768px){header{height:300px}}header h1{float:left;font-family:"aktiv-grotesk-std";font-weight:200;font-size:30px;margin-top:40px;margin-left:0;color:#fff;text-shadow:0 2px 2px rgba(0,0,0,0.9)}@media (min-width:768px){header h1{font-size:60px;margin-top:180px}}
 header .icon{position:absolute;right:20px;top:40px;color:#fff;font-size:55px;margin-left:100px;float:left;line-height:.65em;text-shadow:0 2px 2px rgba(0,0,0,0.5)}@media (min-width:768px){header .icon{font-size:200px;top:100px}}
 footer{height:200px;background-color:#333;margin-top:30px;color:#fff;padding-top:15px;font-weight:400}footer a{color:#b3b3b3}
 .buttons{font-size:100px}
