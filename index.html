@@ -8,6 +8,16 @@
     <script>try{Typekit.load();}catch(e){}    script(src='js/bootstrap.min.js')</script>
     <script src="js/scripts.js"></script>
     <link rel="stylesheet" href="css/styles.css">
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-547519-12', 'erikflowers.github.io');
+      ga('send', 'pageview');
+      
+      
+    </script>
   </head>
   <body>
     <header>
@@ -25,40 +35,39 @@
         <div class="col-sm-12">
           <p class="intro-icons"><i class="wi-day-lightning"></i><i class="wi-night-thunderstorm"></i><i class="wi-day-snow"></i><i class="wi-sprinkles"></i><i class="wi-day-sunny"></i><i class="wi-cloudy"></i><i class="wi-night-rain-mix"></i><i class="wi-sunset"></i><i class="wi-sunrise"></i><i class="wi-day-cloudy-windy"></i><i class="wi-night-rain"></i><i class="wi-night-alt-snow"></i></p>
           <p class="headline">Weather Icons is a font of 92 weather themed icons, ready to be dropped right into  <a href="http://getbootstrap.com">Bootstrap</a> or any other project.  <i class="wi-cloudy"> </i></p>
-          <p>Inspired by  <a href="http://fortawesome.github.io/Font-Awesome/"> Font Awesome</a>, they are infinitley scalable and any CSS that can be applied to text can be applied to them. All you need to do is  <code>&lt;i class="wi-day-lightning"&gt;</code></p>
-          <div class="beta">
-            <div class="title">Version Beta 1</div>
-            <p>This is my first attempt at a Bootstrap/web ready icon-font, so there will be updates and improvements. It is best to download the repo from Github if you want to keep up to date. Please report any issues or requests to the  <a href="https://github.com/erikflowers/weather-icons/issues">repository here</a></p>
-            <p>The icon designs are originally by   <a href="https://twitter.com/artill">Lukas Bischoff.  </a>The font has been modified slightly for icon-font usage, and turned into a HTML/CSS/LESS addon by  <a href="http://www.helloerik.com/">me (Erik).</a></p>
-          </div>
-        </div>
-      </div>
-      <div class="row download-here">
-        <div class="col-sm-4 col-offset-4"><a href="https://github.com/erikflowers/weather-icons" class="download btn btn-primary btn-large">  Download Here  <i class="wi-cloud"></i></a></div>
-      </div>
-      <div class="row social">
-        <div class="col-sm-12">
-          <p><a href="https://twitter.com/share" data-lang="en" data-text="Weather Icons - Bootstrap ready weather themed font icon!" data-via="Erik_UX" data-count="none" class="twitter-share-button">Tweet</a>
-            <script>
-              !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
-              
-            </script><a href="https://twitter.com/Erik_UX" data-show-count="false" data-lang="en" class="twitter-follow-button">Follow @Erik_UX</a>
-            <script>
-              !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
-              
-              
-            </script><a href="https://twitter.com/artill" data-show-count="false" data-lang="en" class="twitter-follow-button">Follow @artill</a>
-            <script>
-              !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
-              
-            </script>
-            <iframe src="http://ghbtns.com/github-btn.html?user=erikflowers&amp;repo=weather-icons&amp;type=fork&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="75" height="20"></iframe>
-            <iframe src="http://ghbtns.com/github-btn.html?user=erikflowers&amp;repo=weather-icons&amp;type=watch&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="73" height="20"></iframe>
-            <iframe src="http://ghbtns.com/github-btn.html?user=erikflowers&amp;type=follow&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="165" height="20"></iframe>
-          </p>
+          <p>Inspired by  <a href="http://fortawesome.github.io/Font-Awesome/"> Font Awesome, they work in essentially the same way.</a>. They are infinitley scalable and any CSS that can be applied to text can be applied to them. All you need to do to insert an icon is add the class to an "i" element:   <code>&lt;i class="wi-day-lightning"&gt;</code>. At this time, there are no other effects/mixins to do advanced icon manipulation yet.</p>
         </div>
       </div>
     </section>
+    <div class="download-share">
+      <div class="container">
+        <div class="row download-here">
+          <div class="download-button"><a href="https://github.com/erikflowers/weather-icons" class="download btn btn-primary btn-large">Download Beta 1                <i class="wi-cloud"></i></a></div>
+        </div>
+        <div class="row social">
+          <div class="col-sm-12">
+            <p><a href="https://twitter.com/share" data-lang="en" data-text="Weather Icons - Bootstrap ready weather themed font icon!" data-via="Erik_UX" data-count="none" class="twitter-share-button">Tweet</a>
+              <script>
+                !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+                
+              </script><a href="https://twitter.com/Erik_UX" data-show-count="false" data-lang="en" class="twitter-follow-button">Follow @Erik_UX</a>
+              <script>
+                !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+                
+                
+              </script><a href="https://twitter.com/artill" data-show-count="false" data-lang="en" class="twitter-follow-button">Follow @artill</a>
+              <script>
+                !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+                
+              </script>
+              <iframe src="http://ghbtns.com/github-btn.html?user=erikflowers&amp;repo=weather-icons&amp;type=fork&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="75" height="20"></iframe>
+              <iframe src="http://ghbtns.com/github-btn.html?user=erikflowers&amp;repo=weather-icons&amp;type=watch&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="73" height="20"></iframe>
+              <iframe src="http://ghbtns.com/github-btn.html?user=erikflowers&amp;type=follow&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="165" height="20"></iframe>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
     <section class="content container iconExamples">
       <div class="row">
         <div class="col-sm-12">
@@ -481,6 +490,17 @@
         </div>
       </div>
     </section>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="beta">
+            <div class="title">Version Beta 1</div>
+            <p>This is my first attempt at a Bootstrap/web ready icon-font, so there will be updates and improvements. It is best to download the repo from Github if you want to keep up to date. Please report any issues or requests to the  <a href="https://github.com/erikflowers/weather-icons/issues">repository here</a></p>
+            <p>The icon designs are originally by   <a href="https://twitter.com/artill">Lukas Bischoff.  </a>The font has been modified slightly for icon-font usage, and turned into a HTML/CSS/LESS addon by  <a href="http://www.helloerik.com/">me (Erik).</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
     <footer>
       <div class="container">
         <div class="row-fluid">
