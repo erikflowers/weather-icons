@@ -11,6 +11,8 @@ Inspired by [Font Awesome](http://fontawesome.io/), They work in essentially the
 
 At this time, there are no other effects/mixins to do advanced icon manipulation yet.
 
+####[View demo and full icon reference](http://erikflowers.github.io/weather-icons/)
+
 ## Getting Started
 Getting started is easy. First, put the fonts in the directory ABOVE your css directory. By default, the fonts are referencing a ../font/ folder that is on the same level as /css. This can be changed via the `@WeatherIconPath` variable in variables.less
 
@@ -25,7 +27,7 @@ This is my first attempt at a [Bootstrap](http://www.getbootstrap.com) and/or we
 The icon designs are originally by [Lukas Bischoff](http://www.twitter.com/artill). The font has been modified slightly for icon-font usage, and turned into a HTML/CSS/LESS addon by [me (Erik)](http://www.helloerik.com).
 
 ### Collaboration
-If you feel so included to add icon ideas, icon art, or other fixes/changes to how the package works, feel free to help! I'd also love it someone wanted to make thia component as well, bower, npm, component, etc. No idea how to do that myself (yet).
+If you feel so included to add icon ideas, icon art, or other fixes/changes to how the package works, feel free to help! I'd also love it if someone wanted to make this a component as well for bower, npm, component, etc. No idea how to do that myself (yet).
 
 ## Credit
 None of this would be  possible without [Bootstrap](http://www.getbootstrap.com), [Font Awesome](http://fontawesome.io/) and [Lukas Bischoff](http://www.twitter.com/artill). I just put it all together into a neat package.
