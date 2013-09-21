@@ -30,7 +30,7 @@ The icon designs are originally by [Lukas Bischoff](http://www.twitter.com/artil
 If you feel so inclined to add icon ideas, icon art, or other fixes/changes to how the package works, feel free to help! I'd also love it if someone wanted to make this a component as well for bower, npm, component, etc. No idea how to do that myself (yet).
 
 ## Credit
-None of this would be  possible without [Bootstrap](http://www.getbootstrap.com), [Font Awesome](http://fontawesome.io/) and [Lukas Bischoff](http://www.twitter.com/artill). I just put it all together into a neat package.
+None of this would be  possible without [Bootstrap](http://www.getbootstrap.com), [Font Awesome](http://fontawesome.io/) and [Lukas Bischoff](http://www.twitter.com/artill). I just put it all together into a neat package. Cheatsheet provided by Michael Woywod.
 
 Weather Icons licensed under [SIL OFL 1.1](http://scripts.sil.org/OFL) &mdash; Code licensed under [MIT License](http://opensource.org/licenses/mit-license.html)  &mdash; Documentation licensed under [CC BY 3.0](http://creativecommons.org/licenses/by/3.0)
 
