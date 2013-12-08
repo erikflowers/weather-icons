@@ -7,7 +7,7 @@ Weather Icons is a font of 92 weather themed icons, ready to be dropped right in
 
 Inspired by [Font Awesome](http://fontawesome.io/), They work in essentially the same way. They are infinitley scalable and any CSS that can be applied to text can be applied to them. All you need to do to insert an icon is add the class to an "i" element:
 
-``<i class="wi-day-lightning">``
+``<i class="wi-day-lightning"></i>``
 
 At this time, there are no other effects/mixins to do advanced icon manipulation yet.
 
