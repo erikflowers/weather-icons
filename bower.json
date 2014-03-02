@@ -1,0 +1,10 @@
+{
+  "name": "weather-icons",
+  "version": "0.0.1",
+  "homepage": "http://erikflowers.github.io/weather-icons/",
+  "authors": [
+    "Erik Flowers <erik@helloerik.com>"
+  ],
+  "description": "92 weather themed icons inspired by Font Awesome and ready for Bootstrap",
+  "license": "MIT"
+}
