@@ -6493,7 +6493,7 @@ header {
 }
 header h1 {
   float: left;
-  font-family: "aktiv-grotesk-std";
+  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 200;
   font-size: 30px;
   margin-top: 40px;
@@ -6689,7 +6689,7 @@ footer a {
   clear: both;
 }
 .iconExamples h2 {
-  font-family: "aktiv-grotesk-std";
+  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 200;
   color: #3b6ab5;
 }
@@ -6787,7 +6787,7 @@ footer a {
 }
 .weather {
   margin: 0px auto;
-  font-family: "aktiv-grotesk-std";
+  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .weather .relative {
   position: relative;
