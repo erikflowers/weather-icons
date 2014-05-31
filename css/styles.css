@@ -6555,7 +6555,7 @@ footer a {
 }
 @media (min-width: 992px) {
   .intro-icons {
-    font-size: 35px;
+    font-size: 45px;
   }
   .intro-icons i {
     margin-right: 10px;
@@ -6718,15 +6718,15 @@ footer a {
   clear: both;
 }
 .iconExamples .example .icon {
-  font-size: 20px;
+  font-size: 28px;
   float: left;
   width: 35px;
 }
 .iconExamples .example .class {
   text-align: center;
-  font-size: 17px;
+  font-size: 14px;
   float: left;
-  margin-top: 0px;
+  margin-top: 6px;
   font-weight: 400;
   margin-left: 10px;
   color: #333333;
