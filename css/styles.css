@@ -6063,15 +6063,15 @@ a .icon-flip-vertical:before {
  *  Twitter: http://twitter.com/Erik_UX
  */
 @font-face {
-  font-family: 'weather-icons';
-  src: url('../fonts/weather-icons-regular-webfont.eot');
-  src: url('../fonts/weather-icons-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/weather-icons-regular-webfont.woff') format('woff'), url('../fonts/weather-icons-regular-webfont.ttf') format('truetype'), url('../fonts/weather-icons-regular-webfont.svg#weathericons-regular-webfontRg') format('svg');
+  font-family: 'weathericons';
+  src: url('../fonts/weathericons-regular-webfont.eot');
+  src: url('../fonts/weathericons-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/weathericons-regular-webfont.woff') format('woff'), url('../fonts/weathericons-regular-webfont.ttf') format('truetype'), url('../fonts/weathericons-regular-webfont.svg#weathericons-regular-webfontRg') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 .wi {
   display: inline-block;
-  font-family: 'weather-icons';
+  font-family: 'weathericons';
   font-style: normal;
   font-weight: normal;
   line-height: 1;
