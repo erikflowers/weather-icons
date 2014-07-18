@@ -11,6 +11,8 @@ Inspired by [Font Awesome](http://fontawesome.io/), They work in essentially the
 
 At this time, there are no other effects/mixins to do advanced icon manipulation yet.
 
+![Icon Preview](http://wes.io/WeM5/preview.png)
+
 ####[View demo and full icon reference](http://erikflowers.github.io/weather-icons/)
 
 ## Getting Started
