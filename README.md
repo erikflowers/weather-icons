@@ -5,7 +5,7 @@
 
 Weather Icons is a font of 123 weather themed icons, ready to be dropped right into [Bootstrap](http://www.getbootstrap.com) or any other project. 
 
-Inspired by [Font Awesome](http://fontawesome.io/), They work in essentially the same way. They are infinitley scalable and any CSS that can be applied to text can be applied to them. All you need to do to insert an icon is add the base class and the specific icon class to an "i" element:
+Inspired by [Font Awesome](http://fontawesome.io/), they work in essentially the same way. They are infinitley scalable and any CSS that can be applied to text can be applied to them. All you need to do to insert an icon is add the base class and the specific icon class to an "i" element:
 
 ``<i class="wi wi-day-lightning"></i>``
 
