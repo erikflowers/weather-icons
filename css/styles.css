@@ -6538,6 +6538,9 @@ footer a {
 .buttons {
   font-size: 100px;
 }
+.follow {
+  text-align: center;
+}
 .intro-icons {
   font-size: 15px;
   color: #357cbb;
