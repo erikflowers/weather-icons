@@ -5465,7 +5465,7 @@ a .icon-flip-vertical:before {
   content: "\f0c4";
 }
 .icon-copy:before {
-  content: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  content: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .icon-paperclip:before,
 .icon-paper-clip:before {
@@ -6529,168 +6529,168 @@ a .icon-flip-vertical:before {
 .wi-wind-default:before {
   content: "\f0b1";
 }
-wi-wind-default._0-deg {
+.wi-wind-default._0-deg {
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
   -ms-transform: rotate(0deg);
   -o-transform: rotate(0deg);
   transform: rotate(0deg);
 }
-wi-wind-default._15-deg {
+.wi-wind-default._15-deg {
   -webkit-transform: rotate(15deg);
   -moz-transform: rotate(15deg);
   -ms-transform: rotate(15deg);
   -o-transform: rotate(15deg);
   transform: rotate(15deg);
 }
-wi-wind-default._30-deg {
+.wi-wind-default._30-deg {
   -webkit-transform: rotate(30deg);
   -moz-transform: rotate(30deg);
   -ms-transform: rotate(30deg);
   -o-transform: rotate(30deg);
   transform: rotate(30deg);
 }
-wi-wind-default._45-deg {
+.wi-wind-default._45-deg {
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   -o-transform: rotate(45deg);
   transform: rotate(45deg);
 }
-wi-wind-default._60-deg {
+.wi-wind-default._60-deg {
   -webkit-transform: rotate(60deg);
   -moz-transform: rotate(60deg);
   -ms-transform: rotate(60deg);
   -o-transform: rotate(60deg);
   transform: rotate(60deg);
 }
-wi-wind-default._75-deg {
+.wi-wind-default._75-deg {
   -webkit-transform: rotate(75deg);
   -moz-transform: rotate(75deg);
   -ms-transform: rotate(75deg);
   -o-transform: rotate(75deg);
   transform: rotate(75deg);
 }
-wi-wind-default._90-deg {
+.wi-wind-default._90-deg {
   -webkit-transform: rotate(90deg);
   -moz-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   -o-transform: rotate(90deg);
   transform: rotate(90deg);
 }
-wi-wind-default._105-deg {
+.wi-wind-default._105-deg {
   -webkit-transform: rotate(105deg);
   -moz-transform: rotate(105deg);
   -ms-transform: rotate(105deg);
   -o-transform: rotate(105deg);
   transform: rotate(105deg);
 }
-wi-wind-default._120-deg {
+.wi-wind-default._120-deg {
   -webkit-transform: rotate(120deg);
   -moz-transform: rotate(120deg);
   -ms-transform: rotate(120deg);
   -o-transform: rotate(120deg);
   transform: rotate(120deg);
 }
-wi-wind-default._135-deg {
+.wi-wind-default._135-deg {
   -webkit-transform: rotate(135deg);
   -moz-transform: rotate(135deg);
   -ms-transform: rotate(135deg);
   -o-transform: rotate(135deg);
   transform: rotate(135deg);
 }
-wi-wind-default._150-deg {
+.wi-wind-default._150-deg {
   -webkit-transform: rotate(150deg);
   -moz-transform: rotate(150deg);
   -ms-transform: rotate(150deg);
   -o-transform: rotate(150deg);
   transform: rotate(150deg);
 }
-wi-wind-default._165-deg {
+.wi-wind-default._165-deg {
   -webkit-transform: rotate(165deg);
   -moz-transform: rotate(165deg);
   -ms-transform: rotate(165deg);
   -o-transform: rotate(165deg);
   transform: rotate(165deg);
 }
-wi-wind-default._180-deg {
+.wi-wind-default._180-deg {
   -webkit-transform: rotate(180deg);
   -moz-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   -o-transform: rotate(180deg);
   transform: rotate(180deg);
 }
-wi-wind-default._195-deg {
+.wi-wind-default._195-deg {
   -webkit-transform: rotate(195deg);
   -moz-transform: rotate(195deg);
   -ms-transform: rotate(195deg);
   -o-transform: rotate(195deg);
   transform: rotate(195deg);
 }
-wi-wind-default._210-deg {
+.wi-wind-default._210-deg {
   -webkit-transform: rotate(210deg);
   -moz-transform: rotate(210deg);
   -ms-transform: rotate(210deg);
   -o-transform: rotate(210deg);
   transform: rotate(210deg);
 }
-wi-wind-default._225-deg {
+.wi-wind-default._225-deg {
   -webkit-transform: rotate(225deg);
   -moz-transform: rotate(225deg);
   -ms-transform: rotate(225deg);
   -o-transform: rotate(225deg);
   transform: rotate(225deg);
 }
-wi-wind-default._240-deg {
+.wi-wind-default._240-deg {
   -webkit-transform: rotate(240deg);
   -moz-transform: rotate(240deg);
   -ms-transform: rotate(240deg);
   -o-transform: rotate(240deg);
   transform: rotate(240deg);
 }
-wi-wind-default._255-deg {
+.wi-wind-default._255-deg {
   -webkit-transform: rotate(255deg);
   -moz-transform: rotate(255deg);
   -ms-transform: rotate(255deg);
   -o-transform: rotate(255deg);
   transform: rotate(255deg);
 }
-wi-wind-default._270-deg {
+.wi-wind-default._270-deg {
   -webkit-transform: rotate(270deg);
   -moz-transform: rotate(270deg);
   -ms-transform: rotate(270deg);
   -o-transform: rotate(270deg);
   transform: rotate(270deg);
 }
-wi-wind-default._285-deg {
+.wi-wind-default._285-deg {
   -webkit-transform: rotate(295deg);
   -moz-transform: rotate(295deg);
   -ms-transform: rotate(295deg);
   -o-transform: rotate(295deg);
   transform: rotate(295deg);
 }
-wi-wind-default._300-deg {
+.wi-wind-default._300-deg {
   -webkit-transform: rotate(300deg);
   -moz-transform: rotate(300deg);
   -ms-transform: rotate(300deg);
   -o-transform: rotate(300deg);
   transform: rotate(300deg);
 }
-wi-wind-default._315-deg {
+.wi-wind-default._315-deg {
   -webkit-transform: rotate(315deg);
   -moz-transform: rotate(315deg);
   -ms-transform: rotate(315deg);
   -o-transform: rotate(315deg);
   transform: rotate(315deg);
 }
-wi-wind-default._330-deg {
+.wi-wind-default._330-deg {
   -webkit-transform: rotate(330deg);
   -moz-transform: rotate(330deg);
   -ms-transform: rotate(330deg);
   -o-transform: rotate(330deg);
   transform: rotate(330deg);
 }
-wi-wind-default._345-deg {
+.wi-wind-default._345-deg {
   -webkit-transform: rotate(345deg);
   -moz-transform: rotate(345deg);
   -ms-transform: rotate(345deg);
@@ -6787,8 +6787,8 @@ wi-wind-default._345-deg {
   color: #ffffff;
 }
 body {
-  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 300;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
   font-size: 14px;
   color: #333333;
 }
@@ -6808,7 +6808,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 header {
   position: relative;
@@ -6824,8 +6824,8 @@ header {
 }
 header h1 {
   float: left;
-  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 200;
+  font-family: "proxima nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 100;
   font-size: 30px;
   margin-top: 40px;
   margin-left: 0px;
@@ -6992,16 +6992,6 @@ footer a {
 .banner .github .icon-github-alt {
   color: #ffffff;
 }
-.module .icon {
-  text-align: center;
-  padding: 50px 20px;
-  color: #e6e6e6;
-}
-.module .title {
-  text-align: center;
-  font-size: 20px;
-  font-weight: 500;
-}
 .iconExamples:before,
 .iconExamples:after {
   content: " ";
@@ -7023,7 +7013,7 @@ footer a {
   clear: both;
 }
 .iconExamples h2 {
-  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 200;
   color: #3b6ab5;
 }
@@ -7064,237 +7054,6 @@ footer a {
   font-weight: 400;
   margin-left: 10px;
   color: #333333;
-}
-.weatherseparator {
-  padding-bottom: 10px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-  margin-bottom: 50px;
-}
-.weatherseparator:before,
-.weatherseparator:after {
-  content: " ";
-  /* 1 */
-  display: table;
-  /* 2 */
-}
-.weatherseparator:after {
-  clear: both;
-}
-.weatherseparator:before,
-.weatherseparator:after {
-  content: " ";
-  /* 1 */
-  display: table;
-  /* 2 */
-}
-.weatherseparator:after {
-  clear: both;
-}
-.row-fluid:before,
-.row-fluid:after {
-  content: " ";
-  /* 1 */
-  display: table;
-  /* 2 */
-}
-.row-fluid:after {
-  clear: both;
-}
-.row-fluid:before,
-.row-fluid:after {
-  content: " ";
-  /* 1 */
-  display: table;
-  /* 2 */
-}
-.row-fluid:after {
-  clear: both;
-}
-.examples {
-  font-family: 'weather';
-  font-size: 50px;
-  font-weight: normal;
-  font-style: normal;
-  text-decoration: inherit;
-  text-transform: none;
-  -webkit-font-smoothing: antialiased;
-}
-.weather {
-  margin: 0px auto;
-  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-.weather .relative {
-  position: relative;
-}
-.weather .currently {
-  float: left;
-  font-size: 30px;
-  font-weight: 100;
-  margin-top: 5px;
-  opacity: 0.8;
-  filter: alpha(opacity=80);
-}
-.weather .mainTemp {
-  float: left;
-}
-.weather .mainTemp:before,
-.weather .mainTemp:after {
-  content: " ";
-  /* 1 */
-  display: table;
-  /* 2 */
-}
-.weather .mainTemp:after {
-  clear: both;
-}
-.weather .mainTemp:before,
-.weather .mainTemp:after {
-  content: " ";
-  /* 1 */
-  display: table;
-  /* 2 */
-}
-.weather .mainTemp:after {
-  clear: both;
-}
-.weather .mainTemp .temp {
-  font-size: 70px;
-  line-height: 1em;
-  font-weight: 200;
-  float: left;
-  margin-right: 5px;
-}
-.weather .mainTemp .highLow {
-  float: left;
-  font-size: 22px;
-  line-height: 1em;
-  margin-top: 5px;
-  font-weight: 200;
-  text-align: center;
-  opacity: 0.5;
-  filter: alpha(opacity=50);
-}
-.weather .mainTemp .highLow:before,
-.weather .mainTemp .highLow:after {
-  content: " ";
-  /* 1 */
-  display: table;
-  /* 2 */
-}
-.weather .mainTemp .highLow:after {
-  clear: both;
-}
-.weather .mainTemp .highLow:before,
-.weather .mainTemp .highLow:after {
-  content: " ";
-  /* 1 */
-  display: table;
-  /* 2 */
-}
-.weather .mainTemp .highLow:after {
-  clear: both;
-}
-.weather .mainTemp .highLow .high {
-  margin-top: 10px;
-  margin-bottom: 5px;
-}
-.weather .mainIcon {
-  font-size: 110px;
-  opacity: 0.5;
-  filter: alpha(opacity=50);
-  line-height: .3em;
-  float: right;
-}
-.weather .icon {
-  position: absolute;
-  top: 0px;
-  left: 100px;
-  color: #ffffff;
-  opacity: 0.3;
-  filter: alpha(opacity=30);
-  z-index: 9;
-  font-size: 130px;
-  line-height: 1em;
-  margin-top: -20px;
-  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
-  text-align: right;
-}
-.weather .tomorrow {
-  font-size: 18px;
-  font-weight: 300;
-  line-height: 1em;
-  margin-top: 20px;
-}
-.weather .tomorrow:before,
-.weather .tomorrow:after {
-  content: " ";
-  /* 1 */
-  display: table;
-  /* 2 */
-}
-.weather .tomorrow:after {
-  clear: both;
-}
-.weather .tomorrow:before,
-.weather .tomorrow:after {
-  content: " ";
-  /* 1 */
-  display: table;
-  /* 2 */
-}
-.weather .tomorrow:after {
-  clear: both;
-}
-.weather .tomorrow .day {
-  float: left;
-}
-.weather .tomorrow .day .name {
-  opacity: 0.5;
-  filter: alpha(opacity=50);
-  display: inline-block;
-  margin-right: 10px;
-}
-.weather .tomorrow .day .condition {
-  display: inline-block;
-}
-.weather .tomorrow .temps {
-  float: right;
-}
-.weather .tomorrow .temps:before,
-.weather .tomorrow .temps:after {
-  content: " ";
-  /* 1 */
-  display: table;
-  /* 2 */
-}
-.weather .tomorrow .temps:after {
-  clear: both;
-}
-.weather .tomorrow .temps:before,
-.weather .tomorrow .temps:after {
-  content: " ";
-  /* 1 */
-  display: table;
-  /* 2 */
-}
-.weather .tomorrow .temps:after {
-  clear: both;
-}
-.weather .tomorrow .temps .tomorrow-icon {
-  font-size: 40px;
-  margin-right: 5px;
-  opacity: 0.5;
-  filter: alpha(opacity=50);
-}
-.weather .tomorrow .temps .high {
-  display: inline-block;
-  margin-right: 10px;
-}
-.weather .tomorrow .temps .low {
-  display: inline-block;
-  margin-right: 0px;
-  opacity: 0.5;
-  filter: alpha(opacity=50);
 }
 .download-share {
   padding: 20px 0px 30px 0px;
