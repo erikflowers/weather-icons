@@ -32,7 +32,7 @@ Umbrella, day-windy, night-alt-cloudy, up-left, down-right, day-sleet, night-sle
 
 12 clock icons
 
-13 Beafort Scale icons
+13 Beaufort Scale icons
 
 ### Collaboration
 If you feel so inclined to add icon ideas, icon art, or other fixes/changes to how the package works, feel free to help! I'd also love it if someone wanted to make this a component as well for bower, npm, component, etc. No idea how to do that myself (yet).
