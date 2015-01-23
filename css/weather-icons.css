@@ -740,21 +740,27 @@
 .wi-moon-waning-crescent-6:before {
   content: "\f0b0";
 }
+.wi-wmo4680-0:before,
 .wi-wmo4680-00:before {
   content: ' ';
 }
+.wi-wmo4680-1:before,
 .wi-wmo4680-01:before {
   content: "\f013";
 }
+.wi-wmo4680-2:before,
 .wi-wmo4680-02:before {
   content: ' ';
 }
+.wi-wmo4680-3:before,
 .wi-wmo4680-03:before {
   content: "\f013";
 }
+.wi-wmo4680-4:before,
 .wi-wmo4680-04:before {
   content: "\f014";
 }
+.wi-wmo4680-5:before,
 .wi-wmo4680-05:before {
   content: "\f014";
 }
@@ -774,7 +780,7 @@
   content: "\f014";
 }
 .wi-wmo4680-21:before {
-  content: "\f014";
+  content: "\f017";
 }
 .wi-wmo4680-22:before {
   content: "\f017";
@@ -786,7 +792,7 @@
   content: "\f01b";
 }
 .wi-wmo4680-25:before {
-  content: "\f017";
+  content: "\f015";
 }
 .wi-wmo4680-26:before {
   content: "\f01e";
@@ -819,16 +825,16 @@
   content: "\f014";
 }
 .wi-wmo4680-40:before {
-  content: "\f019";
+  content: "\f017";
 }
 .wi-wmo4680-41:before {
-  content: "\f019";
+  content: "\f01c";
 }
 .wi-wmo4680-42:before {
   content: "\f019";
 }
 .wi-wmo4680-43:before {
-  content: "\f019";
+  content: "\f01c";
 }
 .wi-wmo4680-44:before {
   content: "\f019";
@@ -849,7 +855,7 @@
   content: "\f01c";
 }
 .wi-wmo4680-51:before {
-  content: "\f019";
+  content: "\f01c";
 }
 .wi-wmo4680-52:before {
   content: "\f019";
@@ -876,7 +882,7 @@
   content: "\f01c";
 }
 .wi-wmo4680-61:before {
-  content: "\f019";
+  content: "\f01c";
 }
 .wi-wmo4680-62:before {
   content: "\f019";
@@ -930,7 +936,7 @@
   content: "\f019";
 }
 .wi-wmo4680-81:before {
-  content: "\f019";
+  content: "\f01c";
 }
 .wi-wmo4680-82:before {
   content: "\f019";
@@ -939,7 +945,7 @@
   content: "\f019";
 }
 .wi-wmo4680-84:before {
-  content: "\f019";
+  content: "\f01d";
 }
 .wi-wmo4680-85:before {
   content: "\f017";
@@ -976,4 +982,151 @@
 }
 .wi-wmo4680-99:before {
   content: "\f056";
+}
+.wi-yahoo-0 {
+  content: "\f056";
+}
+.wi-yahoo-1 {
+  content: "\f00e";
+}
+.wi-yahoo-2 {
+  content: "\f073";
+}
+.wi-yahoo-3 {
+  content: "\f01e";
+}
+.wi-yahoo-4 {
+  content: "\f01e";
+}
+.wi-yahoo-5 {
+  content: "\f017";
+}
+.wi-yahoo-6 {
+  content: "\f017";
+}
+.wi-yahoo-7 {
+  content: "\f017";
+}
+.wi-yahoo-8 {
+  content: "\f015";
+}
+.wi-yahoo-9 {
+  content: "\f01a";
+}
+.wi-yahoo-10 {
+  content: "\f015";
+}
+.wi-yahoo-11 {
+  content: "\f01a";
+}
+.wi-yahoo-12 {
+  content: "\f01a";
+}
+.wi-yahoo-13 {
+  content: "\f01b";
+}
+.wi-yahoo-14 {
+  content: "\f00a";
+}
+.wi-yahoo-15 {
+  content: "\f064";
+}
+.wi-yahoo-16 {
+  content: "\f01b";
+}
+.wi-yahoo-17 {
+  content: "\f015";
+}
+.wi-yahoo-18 {
+  content: "\f017";
+}
+.wi-yahoo-19 {
+  content: "\f063";
+}
+.wi-yahoo-20 {
+  content: "\f014";
+}
+.wi-yahoo-21 {
+  content: "\f021";
+}
+.wi-yahoo-22 {
+  content: "\f062";
+}
+.wi-yahoo-23 {
+  content: "\f050";
+}
+.wi-yahoo-24 {
+  content: "\f050";
+}
+.wi-yahoo-25 {
+  content: "\f076";
+}
+.wi-yahoo-26 {
+  content: "\f013";
+}
+.wi-yahoo-27 {
+  content: "\f031";
+}
+.wi-yahoo-28 {
+  content: "\f002";
+}
+.wi-yahoo-29 {
+  content: "\f031";
+}
+.wi-yahoo-30 {
+  content: "\f002";
+}
+.wi-yahoo-31 {
+  content: "\f02e";
+}
+.wi-yahoo-32 {
+  content: "\f00d";
+}
+.wi-yahoo-33 {
+  content: "\f083";
+}
+.wi-yahoo-34 {
+  content: "\f00c";
+}
+.wi-yahoo-35 {
+  content: "\f017";
+}
+.wi-yahoo-36 {
+  content: "\f072";
+}
+.wi-yahoo-37 {
+  content: "\f00e";
+}
+.wi-yahoo-38 {
+  content: "\f00e";
+}
+.wi-yahoo-39 {
+  content: "\f00e";
+}
+.wi-yahoo-40 {
+  content: "\f01a";
+}
+.wi-yahoo-41 {
+  content: "\f064";
+}
+.wi-yahoo-42 {
+  content: "\f01b";
+}
+.wi-yahoo-43 {
+  content: "\f064";
+}
+.wi-yahoo-44 {
+  content: "\f00c";
+}
+.wi-yahoo-45 {
+  content: "\f00e";
+}
+.wi-yahoo-46 {
+  content: "\f01b";
+}
+.wi-yahoo-47 {
+  content: "\f00e";
+}
+.wi-yahoo-3200 {
+  content: "\f077";
 }
