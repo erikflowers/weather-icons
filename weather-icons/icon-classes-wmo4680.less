@@ -1,179 +1,94 @@
-// WMO 4680 icons
+// Codes according to WMO4680
 
-// No significant weather observed 
+// Reference:
+// WMO PUBLICATION NO. 306 - MANUAL ON CODES - Volume 1.1, Part A, Alphanumeric Codes, pp.360-362
+// http://www.wmo.int/pages/prog/www/WMOCodes/WMO306_vI1/VolumeI.1.html
+
 .@{weather-icons-prefix}-wmo4680-00:before       { content: ' '                    ; }
-// Clouds generally dissolving or becoming less developed during the past hour
 .@{weather-icons-prefix}-wmo4680-01:before       { content: @cloudy                ; }
-// State of sky on the whole unchanged during the past hour
 .@{weather-icons-prefix}-wmo4680-02:before       { content: ' '                    ; }
-// Clouds generally forming or developing during the past hour
 .@{weather-icons-prefix}-wmo4680-03:before       { content: @cloudy                ; }
-// Haze or smoke, or dust in suspension in the air, visibility equal to, or greater than, 1 km
 .@{weather-icons-prefix}-wmo4680-04:before       { content: @fog                   ; }
-// Haze or smoke, or dust in suspension in the air, visibility less than 1 km
 .@{weather-icons-prefix}-wmo4680-05:before       { content: @fog                   ; }
-// 06–09 Reserved
-// Mist
 .@{weather-icons-prefix}-wmo4680-10:before       { content: @fog                   ; }
-// Diamond dust
 .@{weather-icons-prefix}-wmo4680-11:before       { content: @fog                   ; }
-// Distant lightning
 .@{weather-icons-prefix}-wmo4680-12:before       { content: @lightning             ; }
-// 13–17 Reserved
-// Squalls
 .@{weather-icons-prefix}-wmo4680-18:before       { content: @strong-wind           ; }
-// 19 Reserved
-// Fog
 .@{weather-icons-prefix}-wmo4680-20:before       { content: @fog                   ; }
 
-// PRECIPITATION
 .@{weather-icons-prefix}-wmo4680-21:before       { content: @fog                   ; }
-// Drizzle (not freezing) or snow grains
 .@{weather-icons-prefix}-wmo4680-22:before       { content: @rain-mix              ; }
-// Rain (not freezing)
 .@{weather-icons-prefix}-wmo4680-23:before       { content: @rain                  ; }
-// Snow
 .@{weather-icons-prefix}-wmo4680-24:before       { content: @snow                  ; }
-// Freezing drizzle or freezing rain
 .@{weather-icons-prefix}-wmo4680-25:before       { content: @rain-mix              ; }
-// Thunderstorm (with or without precipitation)
 .@{weather-icons-prefix}-wmo4680-26:before       { content: @thunderstorm          ; }
 
-// BLOWING OR DRIFTING SNOW OR SAND
 .@{weather-icons-prefix}-wmo4680-27:before       { content: @dust                  ; }
-// Blowing or drifting snow or sand, visibility equal to, or greater than, 1 km
 .@{weather-icons-prefix}-wmo4680-28:before       { content: @dust                  ; }
-// Blowing or drifting snow or sand, visibility less than 1 km
 .@{weather-icons-prefix}-wmo4680-29:before       { content: @dust                  ; }
 
-// FOG
 .@{weather-icons-prefix}-wmo4680-30:before       { content: @fog                   ; }
-// Fog or ice fog in patches
 .@{weather-icons-prefix}-wmo4680-31:before       { content: @fog                   ; }
-// Fog or ice fog, has become thinner during the past hour
 .@{weather-icons-prefix}-wmo4680-32:before       { content: @fog                   ; }
-// Fog or ice fog, no appreciable change during the past hour
 .@{weather-icons-prefix}-wmo4680-33:before       { content: @fog                   ; }
-// Fog or ice fog, has begun or become thicker during the past hour
 .@{weather-icons-prefix}-wmo4680-34:before       { content: @fog                   ; }
-// Fog, depositing rime
 .@{weather-icons-prefix}-wmo4680-35:before       { content: @fog                   ; }
-// 36–39 Reserved
 
-// PRECIPITATION
 .@{weather-icons-prefix}-wmo4680-40:before       { content: @rain                  ; }
-// Precipitation, slight or moderate
 .@{weather-icons-prefix}-wmo4680-41:before       { content: @rain                  ; }
-// Precipitation, heavy
 .@{weather-icons-prefix}-wmo4680-42:before       { content: @rain                  ; }
-// Liquid precipitation, slight or moderate
 .@{weather-icons-prefix}-wmo4680-43:before       { content: @rain                  ; }
-// Liquid precipitation, heavy
 .@{weather-icons-prefix}-wmo4680-44:before       { content: @rain                  ; }
-// Solid precipitation, slight or moderate
 .@{weather-icons-prefix}-wmo4680-45:before       { content: @hail                  ; }
-// Solid precipitation, heavy
 .@{weather-icons-prefix}-wmo4680-46:before       { content: @hail                  ; }
-// Freezing precipitation, slight or moderate
 .@{weather-icons-prefix}-wmo4680-47:before       { content: @snow                  ; }
-// Freezing precipitation, heavy
 .@{weather-icons-prefix}-wmo4680-48:before       { content: @snow                  ; }
-// 49 Reserved
 
-// DRIZZLE
 .@{weather-icons-prefix}-wmo4680-50:before       { content: @sprinkle              ; }
-// Drizzle, not freezing, slight
 .@{weather-icons-prefix}-wmo4680-51:before       { content: @rain                  ; }
-// Drizzle, not freezing, moderate
 .@{weather-icons-prefix}-wmo4680-52:before       { content: @rain                  ; }
-// Drizzle, not freezing, heavy
 .@{weather-icons-prefix}-wmo4680-53:before       { content: @rain                  ; }
-// Drizzle, freezing, slight
 .@{weather-icons-prefix}-wmo4680-54:before       { content: @snowflake-cold        ; }
-// Drizzle, freezing, moderate
 .@{weather-icons-prefix}-wmo4680-55:before       { content: @snowflake-cold        ; }
-// Drizzle, freezing, heavy
 .@{weather-icons-prefix}-wmo4680-56:before       { content: @snowflake-cold        ; }
-// Drizzle and rain, slight
 .@{weather-icons-prefix}-wmo4680-57:before       { content: @sprinkle              ; }
-// Drizzle and rain, moderate or heavy
 .@{weather-icons-prefix}-wmo4680-58:before       { content: @rain                  ; }
-// 59 Reserved
 
-// RAIN
 .@{weather-icons-prefix}-wmo4680-60:before       { content: @sprinkle              ; }
-// Rain, not freezing, slight
 .@{weather-icons-prefix}-wmo4680-61:before       { content: @rain                  ; }
-// Rain, not freezing, moderate
 .@{weather-icons-prefix}-wmo4680-62:before       { content: @rain                  ; }
-// Rain, not freezing, heavy
 .@{weather-icons-prefix}-wmo4680-63:before       { content: @rain                  ; }
-// Rain, freezing, slight
 .@{weather-icons-prefix}-wmo4680-64:before       { content: @hail                  ; }
-// Rain, freezing, moderate
 .@{weather-icons-prefix}-wmo4680-65:before       { content: @hail                  ; }
-// Rain, freezing, heavy
 .@{weather-icons-prefix}-wmo4680-66:before       { content: @hail                  ; }
-// Rain (or drizzle) and snow, slight
 .@{weather-icons-prefix}-wmo4680-67:before       { content: @rain-mix              ; }
-// Rain (or drizzle) and snow, moderate or heavy
 .@{weather-icons-prefix}-wmo4680-68:before       { content: @rain-mix              ; }
-// 69 Reserved
 
-// SNOW
 .@{weather-icons-prefix}-wmo4680-70:before       { content: @snow                  ; }
-// Snow, slight
 .@{weather-icons-prefix}-wmo4680-71:before       { content: @snow                  ; }
-// Snow, moderate
 .@{weather-icons-prefix}-wmo4680-72:before       { content: @snow                  ; }
-// Snow, heavy
 .@{weather-icons-prefix}-wmo4680-73:before       { content: @snow                  ; }
-// Ice pellets, slight
 .@{weather-icons-prefix}-wmo4680-74:before       { content: @snowflake-cold        ; }
-// Ice pellets, moderate
 .@{weather-icons-prefix}-wmo4680-75:before       { content: @snowflake-cold        ; }
-// Ice pellets, heavy
 .@{weather-icons-prefix}-wmo4680-76:before       { content: @snowflake-cold        ; }
-// Snow grains
 .@{weather-icons-prefix}-wmo4680-77:before       { content: @snow                  ; }
-// Ice crystals
 .@{weather-icons-prefix}-wmo4680-78:before       { content: @snowflake-cold        ; }
-// 79 Reserved
 
-// SHOWER(S) or INTERMITTENT PRECIPITATION
 .@{weather-icons-prefix}-wmo4680-80:before       { content: @rain                  ; }
-// Rain shower(s) or intermittent rain, slight
 .@{weather-icons-prefix}-wmo4680-81:before       { content: @rain                  ; }
-// Rain shower(s) or intermittent rain, moderate
 .@{weather-icons-prefix}-wmo4680-82:before       { content: @rain                  ; }
-// Rain shower(s) or intermittent rain, heavy
 .@{weather-icons-prefix}-wmo4680-83:before       { content: @rain                  ; }
-// Rain shower(s) or intermittent rain, violent
 .@{weather-icons-prefix}-wmo4680-84:before       { content: @rain                  ; }
-// Snow shower(s) or intermittent snow, slight
 .@{weather-icons-prefix}-wmo4680-85:before       { content: @rain-mix              ; }
-// Snow shower(s) or intermittent snow, moderate
 .@{weather-icons-prefix}-wmo4680-86:before       { content: @rain-mix              ; }
-// Snow shower(s) or intermittent snow, heavy
 .@{weather-icons-prefix}-wmo4680-87:before       { content: @rain-mix              ; }
-// 88 Reserved
-// Hail
 .@{weather-icons-prefix}-wmo4680-89:before       { content: @hail                  ; }
 
-// THUNDERSTORM
 .@{weather-icons-prefix}-wmo4680-90:before       { content: @lightning             ; }
-// Thunderstorm, slight or moderate, with no precipitation
 .@{weather-icons-prefix}-wmo4680-91:before       { content: @storm-showers         ; }
-// Thunderstorm, slight or moderate, with rain showers and/or snow showers
 .@{weather-icons-prefix}-wmo4680-92:before       { content: @thunderstorm          ; }
-// Thunderstorm, slight or moderate, with hail
 .@{weather-icons-prefix}-wmo4680-93:before       { content: @thunderstorm          ; }
-// Thunderstorm, heavy, with no precipitation
 .@{weather-icons-prefix}-wmo4680-94:before       { content: @lightning             ; }
-// Thunderstorm, heavy, with rain showers and/or snow showers
 .@{weather-icons-prefix}-wmo4680-95:before       { content: @thunderstorm          ; }
-// Thunderstorm, heavy, with hail
 .@{weather-icons-prefix}-wmo4680-96:before       { content: @thunderstorm          ; }
-// 98 Reserved
-// Tornado
 .@{weather-icons-prefix}-wmo4680-99:before       { content: @tornado               ; }
