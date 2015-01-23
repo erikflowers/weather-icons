@@ -1130,3 +1130,42 @@
 .wi-yahoo-3200:before {
   content: "\f077";
 }
+.wi-forecastio-clear-day:before {
+  content: "\f00d";
+}
+.wi-forecastio-clear-night:before {
+  content: "\f02e";
+}
+.wi-forecastio-rain:before {
+  content: "\f019";
+}
+.wi-forecastio-snow:before {
+  content: "\f01b";
+}
+.wi-forecastio-sleet:before {
+  content: "\f0b5";
+}
+.wi-forecastio-wind:before {
+  content: "\f050";
+}
+.wi-forecastio-fog:before {
+  content: "\f014";
+}
+.wi-forecastio-cloudy:before {
+  content: "\f013";
+}
+.wi-forecastio-partly-cloudy-day:before {
+  content: "\f002";
+}
+.wi-forecastio-partly-cloudy-night:before {
+  content: "\f031";
+}
+.wi-forecastio-hail:before {
+  content: "\f015";
+}
+.wi-forecastio-thunderstorm:before {
+  content: "\f01e";
+}
+.wi-forecastio-tornado:before {
+  content: "\f056";
+}
