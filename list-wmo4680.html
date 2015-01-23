@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="css/weather-icons.css">
+<style type="text/css">
+html {font-family: sans-serif;}
+table { border-collapse: collapse; }
+tr { border-top: 1px solid #eee; border-bottom: 1px solid #eee; }
+td {padding: 5px;}
+td:nth-child(2) { font-family: monospace;}
+td:nth-child(3) { text-align: center;}
+.wi {font-size:2em;}
+</style>
+</head>
+<body>
+<table>
+<tr>
+<th>Icon</th>
+<th>wi- Alias</th>
+<th><small>WMO<br>Code</small></th>
+<th>WMO Description</th>
+</tr>
+<tr><td><i class="wi wi-wmo4680-00"></i></td><td>' '</td><td>00</td><td>No significant weather observed</td></tr>
+<tr><td><i class="wi wi-wmo4680-01"></i></td><td>@cloudy</td><td>01</td><td>Clouds generally dissolving or becoming less developed during the past hour</td></tr>
+<tr><td><i class="wi wi-wmo4680-02"></i></td><td>' '</td><td>02</td><td>State of sky on the whole unchanged during the past hour</td></tr>
+<tr><td><i class="wi wi-wmo4680-03"></i></td><td>@cloudy</td><td>03</td><td>Clouds generally forming or developing during the past hour</td></tr>
+<tr><td><i class="wi wi-wmo4680-04"></i></td><td>@fog</td><td>04</td><td>Haze or smoke, or dust in suspension in the air, visibility equal to, or greater than, 1 km</td></tr>
+<tr><td><i class="wi wi-wmo4680-05"></i></td><td>@fog</td><td>05</td><td>Haze or smoke, or dust in suspension in the air, visibility less than 1 km</td></tr>
+<tr><td><i class="wi wi-wmo4680-10"></i></td><td>@fog</td><td>10</td><td>Mist</td></tr>
+<tr><td><i class="wi wi-wmo4680-11"></i></td><td>@fog</td><td>11</td><td>Diamond dust</td></tr>
+<tr><td><i class="wi wi-wmo4680-12"></i></td><td>@lightning</td><td>12</td><td>Distant lightning</td></tr>
+<tr><td><i class="wi wi-wmo4680-18"></i></td><td>@strong-wind</td><td>18</td><td>Squalls</td></tr>
+<tr><td><i class="wi wi-wmo4680-20"></i></td><td>@fog</td><td>20</td><td>Fog</td></tr>
+<tr><td><i class="wi wi-wmo4680-21"></i></td><td>@fog</td><td>21</td><td>PRECIPITATION</td></tr>
+<tr><td><i class="wi wi-wmo4680-22"></i></td><td>@rain-mix</td><td>22</td><td>Drizzle (not freezing) or snow grains</td></tr>
+<tr><td><i class="wi wi-wmo4680-23"></i></td><td>@rain</td><td>23</td><td>Rain (not freezing)</td></tr>
+<tr><td><i class="wi wi-wmo4680-24"></i></td><td>@snow</td><td>24</td><td>Snow</td></tr>
+<tr><td><i class="wi wi-wmo4680-25"></i></td><td>@rain-mix</td><td>25</td><td>Freezing drizzle or freezing rain</td></tr>
+<tr><td><i class="wi wi-wmo4680-26"></i></td><td>@thunderstorm</td><td>26</td><td>Thunderstorm (with or without precipitation)</td></tr>
+<tr><td><i class="wi wi-wmo4680-27"></i></td><td>@dust</td><td>27</td><td>BLOWING OR DRIFTING SNOW OR SAND</td></tr>
+<tr><td><i class="wi wi-wmo4680-28"></i></td><td>@dust</td><td>28</td><td>Blowing or drifting snow or sand, visibility equal to, or greater than, 1 km</td></tr>
+<tr><td><i class="wi wi-wmo4680-29"></i></td><td>@dust</td><td>29</td><td>Blowing or drifting snow or sand, visibility less than 1 km</td></tr>
+<tr><td><i class="wi wi-wmo4680-30"></i></td><td>@fog</td><td>30</td><td>FOG</td></tr>
+<tr><td><i class="wi wi-wmo4680-31"></i></td><td>@fog</td><td>31</td><td>Fog or ice fog in patches</td></tr>
+<tr><td><i class="wi wi-wmo4680-32"></i></td><td>@fog</td><td>32</td><td>Fog or ice fog, has become thinner during the past hour</td></tr>
+<tr><td><i class="wi wi-wmo4680-33"></i></td><td>@fog</td><td>33</td><td>Fog or ice fog, no appreciable change during the past hour</td></tr>
+<tr><td><i class="wi wi-wmo4680-34"></i></td><td>@fog</td><td>34</td><td>Fog or ice fog, has begun or become thicker during the past hour</td></tr>
+<tr><td><i class="wi wi-wmo4680-35"></i></td><td>@fog</td><td>35</td><td>Fog, depositing rime</td></tr>
+<tr><td><i class="wi wi-wmo4680-40"></i></td><td>@rain</td><td>40</td><td>PRECIPITATION</td></tr>
+<tr><td><i class="wi wi-wmo4680-41"></i></td><td>@rain</td><td>41</td><td>Precipitation, slight or moderate</td></tr>
+<tr><td><i class="wi wi-wmo4680-42"></i></td><td>@rain</td><td>42</td><td>Precipitation, heavy</td></tr>
+<tr><td><i class="wi wi-wmo4680-43"></i></td><td>@rain</td><td>43</td><td>Liquid precipitation, slight or moderate</td></tr>
+<tr><td><i class="wi wi-wmo4680-44"></i></td><td>@rain</td><td>44</td><td>Liquid precipitation, heavy</td></tr>
+<tr><td><i class="wi wi-wmo4680-45"></i></td><td>@hail</td><td>45</td><td>Solid precipitation, slight or moderate</td></tr>
+<tr><td><i class="wi wi-wmo4680-46"></i></td><td>@hail</td><td>46</td><td>Solid precipitation, heavy</td></tr>
+<tr><td><i class="wi wi-wmo4680-47"></i></td><td>@snow</td><td>47</td><td>Freezing precipitation, slight or moderate</td></tr>
+<tr><td><i class="wi wi-wmo4680-48"></i></td><td>@snow</td><td>48</td><td>Freezing precipitation, heavy</td></tr>
+<tr><td><i class="wi wi-wmo4680-50"></i></td><td>@sprinkle</td><td>50</td><td>DRIZZLE</td></tr>
+<tr><td><i class="wi wi-wmo4680-51"></i></td><td>@rain</td><td>51</td><td>Drizzle, not freezing, slight</td></tr>
+<tr><td><i class="wi wi-wmo4680-52"></i></td><td>@rain</td><td>52</td><td>Drizzle, not freezing, moderate</td></tr>
+<tr><td><i class="wi wi-wmo4680-53"></i></td><td>@rain</td><td>53</td><td>Drizzle, not freezing, heavy</td></tr>
+<tr><td><i class="wi wi-wmo4680-54"></i></td><td>@snowflake-cold</td><td>54</td><td>Drizzle, freezing, slight</td></tr>
+<tr><td><i class="wi wi-wmo4680-55"></i></td><td>@snowflake-cold</td><td>55</td><td>Drizzle, freezing, moderate</td></tr>
+<tr><td><i class="wi wi-wmo4680-56"></i></td><td>@snowflake-cold</td><td>56</td><td>Drizzle, freezing, heavy</td></tr>
+<tr><td><i class="wi wi-wmo4680-57"></i></td><td>@sprinkle</td><td>57</td><td>Drizzle and rain, slight</td></tr>
+<tr><td><i class="wi wi-wmo4680-58"></i></td><td>@rain</td><td>58</td><td>Drizzle and rain, moderate or heavy</td></tr>
+<tr><td><i class="wi wi-wmo4680-60"></i></td><td>@sprinkle</td><td>60</td><td>RAIN</td></tr>
+<tr><td><i class="wi wi-wmo4680-61"></i></td><td>@rain</td><td>61</td><td>Rain, not freezing, slight</td></tr>
+<tr><td><i class="wi wi-wmo4680-62"></i></td><td>@rain</td><td>62</td><td>Rain, not freezing, moderate</td></tr>
+<tr><td><i class="wi wi-wmo4680-63"></i></td><td>@rain</td><td>63</td><td>Rain, not freezing, heavy</td></tr>
+<tr><td><i class="wi wi-wmo4680-64"></i></td><td>@hail</td><td>64</td><td>Rain, freezing, slight</td></tr>
+<tr><td><i class="wi wi-wmo4680-65"></i></td><td>@hail</td><td>65</td><td>Rain, freezing, moderate</td></tr>
+<tr><td><i class="wi wi-wmo4680-66"></i></td><td>@hail</td><td>66</td><td>Rain, freezing, heavy</td></tr>
+<tr><td><i class="wi wi-wmo4680-67"></i></td><td>@rain-mix</td><td>67</td><td>Rain (or drizzle) and snow, slight</td></tr>
+<tr><td><i class="wi wi-wmo4680-68"></i></td><td>@rain-mix</td><td>68</td><td>Rain (or drizzle) and snow, moderate or heavy</td></tr>
+<tr><td><i class="wi wi-wmo4680-70"></i></td><td>@snow</td><td>70</td><td>SNOW</td></tr>
+<tr><td><i class="wi wi-wmo4680-71"></i></td><td>@snow</td><td>71</td><td>Snow, slight</td></tr>
+<tr><td><i class="wi wi-wmo4680-72"></i></td><td>@snow</td><td>72</td><td>Snow, moderate</td></tr>
+<tr><td><i class="wi wi-wmo4680-73"></i></td><td>@snow</td><td>73</td><td>Snow, heavy</td></tr>
+<tr><td><i class="wi wi-wmo4680-74"></i></td><td>@snowflake-cold</td><td>74</td><td>Ice pellets, slight</td></tr>
+<tr><td><i class="wi wi-wmo4680-75"></i></td><td>@snowflake-cold</td><td>75</td><td>Ice pellets, moderate</td></tr>
+<tr><td><i class="wi wi-wmo4680-76"></i></td><td>@snowflake-cold</td><td>76</td><td>Ice pellets, heavy</td></tr>
+<tr><td><i class="wi wi-wmo4680-77"></i></td><td>@snow</td><td>77</td><td>Snow grains</td></tr>
+<tr><td><i class="wi wi-wmo4680-78"></i></td><td>@snowflake-cold</td><td>78</td><td>Ice crystals</td></tr>
+<tr><td><i class="wi wi-wmo4680-80"></i></td><td>@rain</td><td>80</td><td>SHOWER(S) or INTERMITTENT PRECIPITATION</td></tr>
+<tr><td><i class="wi wi-wmo4680-81"></i></td><td>@rain</td><td>81</td><td>Rain shower(s) or intermittent rain, slight</td></tr>
+<tr><td><i class="wi wi-wmo4680-82"></i></td><td>@rain</td><td>82</td><td>Rain shower(s) or intermittent rain, moderate</td></tr>
+<tr><td><i class="wi wi-wmo4680-83"></i></td><td>@rain</td><td>83</td><td>Rain shower(s) or intermittent rain, heavy</td></tr>
+<tr><td><i class="wi wi-wmo4680-84"></i></td><td>@rain</td><td>84</td><td>Rain shower(s) or intermittent rain, violent</td></tr>
+<tr><td><i class="wi wi-wmo4680-85"></i></td><td>@rain-mix</td><td>85</td><td>Snow shower(s) or intermittent snow, slight</td></tr>
+<tr><td><i class="wi wi-wmo4680-86"></i></td><td>@rain-mix</td><td>86</td><td>Snow shower(s) or intermittent snow, moderate</td></tr>
+<tr><td><i class="wi wi-wmo4680-87"></i></td><td>@rain-mix</td><td>87</td><td>Snow shower(s) or intermittent snow, heavy</td></tr>
+<tr><td><i class="wi wi-wmo4680-89"></i></td><td>@hail</td><td>89</td><td>Hail</td></tr>
+<tr><td><i class="wi wi-wmo4680-90"></i></td><td>@lightning</td><td>90</td><td>THUNDERSTORM</td></tr>
+<tr><td><i class="wi wi-wmo4680-91"></i></td><td>@storm-showers</td><td>91</td><td>Thunderstorm, slight or moderate, with no precipitation</td></tr>
+<tr><td><i class="wi wi-wmo4680-92"></i></td><td>@thunderstorm</td><td>92</td><td>Thunderstorm, slight or moderate, with rain showers and/or snow showers</td></tr>
+<tr><td><i class="wi wi-wmo4680-93"></i></td><td>@thunderstorm</td><td>93</td><td>Thunderstorm, slight or moderate, with hail</td></tr>
+<tr><td><i class="wi wi-wmo4680-94"></i></td><td>@lightning</td><td>94</td><td>Thunderstorm, heavy, with no precipitation</td></tr>
+<tr><td><i class="wi wi-wmo4680-95"></i></td><td>@thunderstorm</td><td>95</td><td>Thunderstorm, heavy, with rain showers and/or snow showers</td></tr>
+<tr><td><i class="wi wi-wmo4680-96"></i></td><td>@thunderstorm</td><td>96</td><td>Thunderstorm, heavy, with hail</td></tr>
+<tr><td><i class="wi wi-wmo4680-99"></i></td><td>@tornado</td><td>99</td><td>Tornado</td></tr>
+</table>
+
+</body>
+</html>
