@@ -1,0 +1,9 @@
+// Import varables and mixins
+@import "partials/variables";
+@import "partials/mixins";
+
+// Create all icon classes
+@include icons($collection);
+
+// Create all wind rotation classes
+@include wind-rotations(15,345);

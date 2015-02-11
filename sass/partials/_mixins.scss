@@ -1,0 +1,34 @@
+// Mixin for handle rotation of degrees
+@mixin wind-rotate($degrees) {
+  -webkit-transform: rotate($degrees);
+  -moz-transform: rotate($degrees);
+  -ms-transform: rotate($degrees);
+  -o-transform: rotate($degrees);
+  transform: rotate($degrees);
+}
+
+// Function for printing out classes for weather icons
+@mixin icons($collection) {
+
+    $length: length($collection);
+    @for $i from 0 to $length {
+        $tmp: nth($collection, $i+1);
+        $name: nth($tmp, 1);
+        $val: nth($tmp, 2);
+        .#{$weather-icons-prefix}-#{$name}:before {
+            content:$val;
+        }
+    }
+
+}
+
+// Create all rotations based on steps
+@mixin wind-rotations($step,$max) {
+    $length: $max/$step;
+    @for $i from 0 to $length+1 {
+        $currStep: $i*$step;
+        .#{$weather-icons-prefix}-wind-default._#{$currStep}-deg {
+            @include wind-rotate(#{$currStep}deg);
+        }
+    }
+}
