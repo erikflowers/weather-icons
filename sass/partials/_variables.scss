@@ -4,8 +4,14 @@ $WeatherIconVersion:          "1.3.0";
 $weather-icons-prefix:         wi;
 $weather-icons-font-family:    weathericons;
 
-// Glyph Names
+
+// Create a collection of all the names and variables to use in a loop later on.
+
+// Note that the unicode character should be written without the "\" we adds that later
+// Example: "\f000" should be "f000" and we output the rest.
+// For more information see "partials/functions.scss"
 $collection:
+// Glyph Names
 ("day-cloudy-gusts", "f000")
 ("day-cloudy-windy", "f001")
 ("day-cloudy", "f002")

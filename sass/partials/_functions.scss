@@ -1,4 +1,5 @@
-// Functions for fixing unicode characters
+// Functions for fixing unicode characters see link below if any questions
+// https://github.com/sass/sass/issues/1395#issuecomment-57658736
 @function unicode($str){
     @return unquote("\"")+unquote(str-insert($str, "\\", 1))+unquote("\"")
 }
