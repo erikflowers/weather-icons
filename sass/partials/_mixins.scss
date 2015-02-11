@@ -16,7 +16,7 @@
         $name: nth($tmp, 1);
         $val: nth($tmp, 2);
         .#{$weather-icons-prefix}-#{$name}:before {
-            content:$val;
+            content:unicode($val);
         }
     }
 
