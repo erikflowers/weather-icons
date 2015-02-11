@@ -1,3 +1,4 @@
+@charset "utf-8";
 // Mixin for handle fallback support for transform-rotation
 // We use it to rotate the degrees of the wind icon
 @mixin wind-rotate($degrees) {
