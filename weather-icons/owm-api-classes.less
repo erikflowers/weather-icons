@@ -1,0 +1,204 @@
+    @font-face {
+        font-family: '@{weather-icons-font-family}';
+        src: url('@{weather-icons-path}/@{weather-icons-font-family}-regular-webfont.eot');
+        src: url('@{weather-icons-path}/@{weather-icons-font-family}-regular-webfont.eot?#iefix') format('embedded-opentype'),
+             url('@{weather-icons-path}/@{weather-icons-font-family}-regular-webfont.woff') format('woff'),
+             url('@{weather-icons-path}/@{weather-icons-font-family}-regular-webfont.ttf') format('truetype'),
+             url('@{weather-icons-path}/@{weather-icons-font-family}-regular-webfont.svg#weathericons-regular-webfontRg') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    .@{weather-icons-prefix-owm} {
+      display: inline-block;
+      font-family: '@{weather-icons-font-family}';
+      font-style: normal;
+      font-weight: normal;
+      line-height: 1;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    // Neutral
+    .@{weather-icons-prefix-owm}-200:before                            { content: @thunderstorm                ; }
+    .@{weather-icons-prefix-owm}-201:before                            { content: @thunderstorm                ; }
+    .@{weather-icons-prefix-owm}-202:before                            { content: @thunderstorm                ; }
+    .@{weather-icons-prefix-owm}-210:before                            { content: @lightning                   ; }
+    .@{weather-icons-prefix-owm}-211:before                            { content: @lightning                   ; }
+    .@{weather-icons-prefix-owm}-212:before                            { content: @lightning                   ; }
+    .@{weather-icons-prefix-owm}-221:before                            { content: @lightning                   ; }
+    .@{weather-icons-prefix-owm}-230:before                            { content: @thunderstorm                ; }
+    .@{weather-icons-prefix-owm}-231:before                            { content: @thunderstorm                ; }
+    .@{weather-icons-prefix-owm}-232:before                            { content: @thunderstorm                ; }
+    .@{weather-icons-prefix-owm}-300:before                            { content: @sprinkle                    ; }
+    .@{weather-icons-prefix-owm}-301:before                            { content: @sprinkle                    ; }
+    .@{weather-icons-prefix-owm}-302:before                            { content: @rain                        ; }
+    .@{weather-icons-prefix-owm}-310:before                            { content: @rain-mix                    ; }
+    .@{weather-icons-prefix-owm}-311:before                            { content: @rain                        ; }
+    .@{weather-icons-prefix-owm}-312:before                            { content: @rain                        ; }
+    .@{weather-icons-prefix-owm}-313:before                            { content: @showers                     ; }
+    .@{weather-icons-prefix-owm}-314:before                            { content: @rain                        ; }
+    .@{weather-icons-prefix-owm}-321:before                            { content: @sprinkle                    ; }
+    .@{weather-icons-prefix-owm}-500:before                            { content: @sprinkle                    ; }
+    .@{weather-icons-prefix-owm}-501:before                            { content: @rain                        ; }
+    .@{weather-icons-prefix-owm}-502:before                            { content: @rain                        ; }
+    .@{weather-icons-prefix-owm}-503:before                            { content: @rain                        ; }
+    .@{weather-icons-prefix-owm}-504:before                            { content: @rain                        ; }
+    .@{weather-icons-prefix-owm}-511:before                            { content: @rain-mix                    ; }
+    .@{weather-icons-prefix-owm}-520:before                            { content: @showers                     ; }
+    .@{weather-icons-prefix-owm}-521:before                            { content: @showers                     ; }
+    .@{weather-icons-prefix-owm}-522:before                            { content: @showers                     ; }
+    .@{weather-icons-prefix-owm}-531:before                            { content: @storm-showers               ; }
+    .@{weather-icons-prefix-owm}-600:before                            { content: @snow                        ; }
+    .@{weather-icons-prefix-owm}-601:before                            { content: @snow                        ; }
+    .@{weather-icons-prefix-owm}-602:before                            { content: @sleet                       ; }
+    .@{weather-icons-prefix-owm}-611:before                            { content: @rain-mix                    ; }
+    .@{weather-icons-prefix-owm}-612:before                            { content: @rain-mix                    ; }
+    .@{weather-icons-prefix-owm}-615:before                            { content: @rain-mix                    ; }
+    .@{weather-icons-prefix-owm}-616:before                            { content: @rain-mix                    ; }
+    .@{weather-icons-prefix-owm}-620:before                            { content: @rain-mix                    ; }
+    .@{weather-icons-prefix-owm}-621:before                            { content: @snow                        ; }
+    .@{weather-icons-prefix-owm}-622:before                            { content: @snow                        ; }
+    .@{weather-icons-prefix-owm}-701:before                            { content: @showers                     ; }
+    .@{weather-icons-prefix-owm}-711:before                            { content: @smoke                       ; }
+    .@{weather-icons-prefix-owm}-721:before                            { content: @day-haze                    ; }
+    .@{weather-icons-prefix-owm}-731:before                            { content: @dust                        ; }
+    .@{weather-icons-prefix-owm}-741:before                            { content: @fog                         ; }
+    .@{weather-icons-prefix-owm}-761:before                            { content: @dust                        ; }
+    .@{weather-icons-prefix-owm}-762:before                            { content: @dust                        ; }
+    .@{weather-icons-prefix-owm}-771:before                            { content: @cloudy-gusts                ; }
+    .@{weather-icons-prefix-owm}-781:before                            { content: @tornado                     ; }
+    .@{weather-icons-prefix-owm}-800:before                            { content: @day-sunny                   ; }
+    .@{weather-icons-prefix-owm}-801:before                            { content: @cloudy-gusts                ; }
+    .@{weather-icons-prefix-owm}-802:before                            { content: @cloudy-gusts                ; }
+    .@{weather-icons-prefix-owm}-803:before                            { content: @cloudy-gusts                ; }
+    .@{weather-icons-prefix-owm}-803:before                            { content: @cloudy-windy                ; }
+    .@{weather-icons-prefix-owm}-804:before                            { content: @cloudy                      ; }
+    .@{weather-icons-prefix-owm}-900:before                            { content: @tornado                     ; }
+    .@{weather-icons-prefix-owm}-901:before                            { content: @storm-showers               ; }
+    .@{weather-icons-prefix-owm}-902:before                            { content: @hurricane                   ; }
+    .@{weather-icons-prefix-owm}-903:before                            { content: @snowflake-cold              ; }
+    .@{weather-icons-prefix-owm}-904:before                            { content: @hot                         ; }
+    .@{weather-icons-prefix-owm}-905:before                            { content: @windy                       ; }
+    .@{weather-icons-prefix-owm}-906:before                            { content: @hail                        ; }
+    .@{weather-icons-prefix-owm}-957:before                            { content: @strong-wind                 ; }
+
+    //Day
+    .@{weather-icons-prefix-owm}-day-200:before                        { content: @day-thunderstorm            ; }
+    .@{weather-icons-prefix-owm}-day-201:before                        { content: @day-thunderstorm            ; }
+    .@{weather-icons-prefix-owm}-day-202:before                        { content: @day-thunderstorm            ; }
+    .@{weather-icons-prefix-owm}-day-210:before                        { content: @day-lightning               ; }
+    .@{weather-icons-prefix-owm}-day-211:before                        { content: @day-lightning               ; }
+    .@{weather-icons-prefix-owm}-day-212:before                        { content: @day-lightning               ; }
+    .@{weather-icons-prefix-owm}-day-221:before                        { content: @day-lightning               ; }
+    .@{weather-icons-prefix-owm}-day-230:before                        { content: @day-thunderstorm            ; }
+    .@{weather-icons-prefix-owm}-day-231:before                        { content: @day-thunderstorm            ; }
+    .@{weather-icons-prefix-owm}-day-232:before                        { content: @day-thunderstorm            ; }
+    .@{weather-icons-prefix-owm}-day-300:before                        { content: @day-sprinkle                ; }
+    .@{weather-icons-prefix-owm}-day-301:before                        { content: @day-sprinkle                ; }
+    .@{weather-icons-prefix-owm}-day-302:before                        { content: @day-rain                    ; }
+    .@{weather-icons-prefix-owm}-day-310:before                        { content: @day-rain                    ; }
+    .@{weather-icons-prefix-owm}-day-311:before                        { content: @day-rain                    ; }
+    .@{weather-icons-prefix-owm}-day-312:before                        { content: @day-rain                    ; }
+    .@{weather-icons-prefix-owm}-day-313:before                        { content: @day-rain                    ; }
+    .@{weather-icons-prefix-owm}-day-314:before                        { content: @day-rain                    ; }
+    .@{weather-icons-prefix-owm}-day-321:before                        { content: @day-sprinkle                ; }
+    .@{weather-icons-prefix-owm}-day-500:before                        { content: @day-sprinkle                ; }
+    .@{weather-icons-prefix-owm}-day-501:before                        { content: @day-rain                    ; }
+    .@{weather-icons-prefix-owm}-day-502:before                        { content: @day-rain                    ; }
+    .@{weather-icons-prefix-owm}-day-503:before                        { content: @day-rain                    ; }
+    .@{weather-icons-prefix-owm}-day-504:before                        { content: @day-rain                    ; }
+    .@{weather-icons-prefix-owm}-day-511:before                        { content: @day-rain-mix                ; }
+    .@{weather-icons-prefix-owm}-day-520:before                        { content: @day-showers                 ; }
+    .@{weather-icons-prefix-owm}-day-521:before                        { content: @day-showers                 ; }
+    .@{weather-icons-prefix-owm}-day-522:before                        { content: @day-showers                 ; }
+    .@{weather-icons-prefix-owm}-day-531:before                        { content: @day-storm-showers           ; }
+    .@{weather-icons-prefix-owm}-day-600:before                        { content: @day-snow                    ; }
+    .@{weather-icons-prefix-owm}-day-601:before                        { content: @day-sleet                   ; }
+    .@{weather-icons-prefix-owm}-day-602:before                        { content: @day-snow                    ; }
+    .@{weather-icons-prefix-owm}-day-611:before                        { content: @day-rain-mix                ; }
+    .@{weather-icons-prefix-owm}-day-612:before                        { content: @day-rain-mix                ; }
+    .@{weather-icons-prefix-owm}-day-615:before                        { content: @day-rain-mix                ; }
+    .@{weather-icons-prefix-owm}-day-616:before                        { content: @day-rain-mix                ; }
+    .@{weather-icons-prefix-owm}-day-620:before                        { content: @day-rain-mix                ; }
+    .@{weather-icons-prefix-owm}-day-621:before                        { content: @day-snow                    ; }
+    .@{weather-icons-prefix-owm}-day-622:before                        { content: @day-snow                    ; }
+    .@{weather-icons-prefix-owm}-day-701:before                        { content: @day-showers                 ; }
+    .@{weather-icons-prefix-owm}-day-711:before                        { content: @smoke                       ; }
+    .@{weather-icons-prefix-owm}-day-721:before                        { content: @day-haze                    ; }
+    .@{weather-icons-prefix-owm}-day-731:before                        { content: @dust                        ; }
+    .@{weather-icons-prefix-owm}-day-741:before                        { content: @day-fog                     ; }
+    .@{weather-icons-prefix-owm}-day-761:before                        { content: @dust                        ; }
+    .@{weather-icons-prefix-owm}-day-762:before                        { content: @dust                        ; }
+    .@{weather-icons-prefix-owm}-day-781:before                        { content: @tornado                     ; }
+    .@{weather-icons-prefix-owm}-day-800:before                        { content: @day-sunny                   ; }
+    .@{weather-icons-prefix-owm}-day-801:before                        { content: @day-cloudy-gusts            ; }
+    .@{weather-icons-prefix-owm}-day-802:before                        { content: @day-cloudy-gusts            ; }
+    .@{weather-icons-prefix-owm}-day-803:before                        { content: @day-cloudy-gusts            ; }
+    .@{weather-icons-prefix-owm}-day-804:before                        { content: @day-sunny-overcast          ; }
+    .@{weather-icons-prefix-owm}-day-900:before                        { content: @tornado                     ; }
+    .@{weather-icons-prefix-owm}-day-902:before                        { content: @hurricane                   ; }
+    .@{weather-icons-prefix-owm}-day-903:before                        { content: @snowflake-cold              ; }
+    .@{weather-icons-prefix-owm}-day-904:before                        { content: @hot                         ; }
+    .@{weather-icons-prefix-owm}-day-906:before                        { content: @day-hail                    ; }
+    .@{weather-icons-prefix-owm}-day-957:before                        { content: @strong-wind                 ; }
+
+    //Night
+    .@{weather-icons-prefix-owm}-night-200:before                      { content: @night-alt-thunderstorm      ; }
+    .@{weather-icons-prefix-owm}-night-201:before                      { content: @night-alt-thunderstorm      ; }
+    .@{weather-icons-prefix-owm}-night-202:before                      { content: @night-alt-thunderstorm      ; }
+    .@{weather-icons-prefix-owm}-night-210:before                      { content: @night-alt-lightning         ; }
+    .@{weather-icons-prefix-owm}-night-211:before                      { content: @night-alt-lightning         ; }
+    .@{weather-icons-prefix-owm}-night-212:before                      { content: @night-alt-lightning         ; }
+    .@{weather-icons-prefix-owm}-night-221:before                      { content: @night-alt-lightning         ; }
+    .@{weather-icons-prefix-owm}-night-230:before                      { content: @night-alt-thunderstorm      ; }
+    .@{weather-icons-prefix-owm}-night-231:before                      { content: @night-alt-thunderstorm      ; }
+    .@{weather-icons-prefix-owm}-night-232:before                      { content: @night-alt-thunderstorm      ; }
+    .@{weather-icons-prefix-owm}-night-300:before                      { content: @night-alt-sprinkle          ; }
+    .@{weather-icons-prefix-owm}-night-301:before                      { content: @night-alt-sprinkle          ; }
+    .@{weather-icons-prefix-owm}-night-302:before                      { content: @night-alt-rain              ; }
+    .@{weather-icons-prefix-owm}-night-310:before                      { content: @night-alt-rain              ; }
+    .@{weather-icons-prefix-owm}-night-311:before                      { content: @night-alt-rain              ; }
+    .@{weather-icons-prefix-owm}-night-312:before                      { content: @night-alt-rain              ; }
+    .@{weather-icons-prefix-owm}-night-313:before                      { content: @night-alt-rain              ; }
+    .@{weather-icons-prefix-owm}-night-314:before                      { content: @night-alt-rain              ; }
+    .@{weather-icons-prefix-owm}-night-321:before                      { content: @night-alt-sprinkle          ; }
+    .@{weather-icons-prefix-owm}-night-500:before                      { content: @night-alt-sprinkle          ; }
+    .@{weather-icons-prefix-owm}-night-501:before                      { content: @night-alt-rain              ; }
+    .@{weather-icons-prefix-owm}-night-502:before                      { content: @night-alt-rain              ; }
+    .@{weather-icons-prefix-owm}-night-503:before                      { content: @night-alt-rain              ; }
+    .@{weather-icons-prefix-owm}-night-504:before                      { content: @night-alt-rain              ; }
+    .@{weather-icons-prefix-owm}-night-511:before                      { content: @night-alt-rain-mix          ; }
+    .@{weather-icons-prefix-owm}-night-520:before                      { content: @night-alt-showers           ; }
+    .@{weather-icons-prefix-owm}-night-521:before                      { content: @night-alt-showers           ; }
+    .@{weather-icons-prefix-owm}-night-522:before                      { content: @night-alt-showers           ; }
+    .@{weather-icons-prefix-owm}-night-531:before                      { content: @night-alt-storm-showers     ; }
+    .@{weather-icons-prefix-owm}-night-600:before                      { content: @night-alt-snow              ; }
+    .@{weather-icons-prefix-owm}-night-601:before                      { content: @night-alt-sleet             ; }
+    .@{weather-icons-prefix-owm}-night-602:before                      { content: @night-alt-snow              ; }
+    .@{weather-icons-prefix-owm}-night-611:before                      { content: @night-alt-rain-mix          ; }
+    .@{weather-icons-prefix-owm}-night-612:before                      { content: @night-alt-rain-mix          ; }
+    .@{weather-icons-prefix-owm}-night-615:before                      { content: @night-alt-rain-mix          ; }
+    .@{weather-icons-prefix-owm}-night-616:before                      { content: @night-alt-rain-mix          ; }
+    .@{weather-icons-prefix-owm}-night-620:before                      { content: @night-alt-rain-mix          ; }
+    .@{weather-icons-prefix-owm}-night-621:before                      { content: @night-alt-snow              ; }
+    .@{weather-icons-prefix-owm}-night-622:before                      { content: @night-alt-snow              ; }
+    .@{weather-icons-prefix-owm}-night-701:before                      { content: @night-alt-showers           ; }
+    .@{weather-icons-prefix-owm}-night-711:before                      { content: @smoke                       ; }
+    .@{weather-icons-prefix-owm}-night-721:before                      { content: @day-haze                    ; }
+    .@{weather-icons-prefix-owm}-night-731:before                      { content: @dust                        ; }
+    .@{weather-icons-prefix-owm}-night-741:before                      { content: @night-fog                   ; }
+    .@{weather-icons-prefix-owm}-night-761:before                      { content: @dust                        ; }
+    .@{weather-icons-prefix-owm}-night-762:before                      { content: @dust                        ; }
+    .@{weather-icons-prefix-owm}-night-781:before                      { content: @tornado                     ; }
+    .@{weather-icons-prefix-owm}-night-800:before                      { content: @night-clear                 ; }
+    .@{weather-icons-prefix-owm}-night-801:before                      { content: @night-alt-cloudy-gusts      ; }
+    .@{weather-icons-prefix-owm}-night-802:before                      { content: @night-alt-cloudy-gusts      ; }
+    .@{weather-icons-prefix-owm}-night-803:before                      { content: @night-alt-cloudy-gusts      ; }
+    .@{weather-icons-prefix-owm}-night-804:before                      { content: @night-alt-cloudy            ; }
+    .@{weather-icons-prefix-owm}-night-900:before                      { content: @tornado                     ; }
+    .@{weather-icons-prefix-owm}-night-902:before                      { content: @hurricane                   ; }
+    .@{weather-icons-prefix-owm}-night-903:before                      { content: @snowflake-cold              ; }
+    .@{weather-icons-prefix-owm}-night-904:before                      { content: @hot                         ; }
+    .@{weather-icons-prefix-owm}-night-906:before                      { content: @night-alt-hail              ; }
+    .@{weather-icons-prefix-owm}-night-957:before                      { content: @strong-wind                 ; }
