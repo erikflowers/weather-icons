@@ -3,7 +3,7 @@
   * SASS code base!
 * **Updates**
   * New taxonomy has been adopted which more closely matches FontAwesome
-  * LESS code base
+  * Less code base
     * Moved and renamed to match new taxonomy
   * Closer feature parity with FontAwesome for both code bases
 * **Deprecations**
