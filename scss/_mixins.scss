@@ -13,17 +13,6 @@
 
 }
 
-@for $i from 0 through 270 {
-
-  @if $i == 0 or $i % 45 == 0 {
-
-    .#{$wi-css-prefix}-rotate-#{$i} {
-
-      wi-icon-rotate(#{$i})
-    }
-  }
-}
-
 @mixin wi-icon-rotate($degrees) {
 
   @if $degrees == 0 or $degrees % 90 == 0 {

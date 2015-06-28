@@ -28,8 +28,8 @@
  */
 
 // the building blocks
-@import "core";
 @import "variables";
+@import "core";
 @import "functions";
 @import "mixins";
 
@@ -42,6 +42,6 @@
 // @import "bordered-pulled";
 // @import "fixed-width";
 // @import "list";
-// @import "rotated-flipped";
+@import "rotated-flipped";
 // @import "sizes";
 // @import "stacked";
