@@ -7,6 +7,7 @@
     * Moved and renamed to match new taxonomy
   * Closer feature parity with FontAwesome for both code bases
 * **Deprecations**
+  * `font-family` is no longer customizable and is locked to `WeatherIcon` 
   * Icons
     * `wind-beafort-*` has been renamed `wind-beaufort-*` to rectify a typo
     * Prefixed directional icons with `direction-`
