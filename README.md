@@ -18,9 +18,9 @@ At this time, there are no other effects/mixins to do advanced icon manipulation
 **[View demo and full icon reference](http://erikflowers.github.io/weather-icons/)**
 
 ### Getting Started
-Getting started is easy. First, put the fonts in the directory ABOVE your css directory. By default, the fonts are referencing a ../fonts/ folder that is on the same level as /css. This can be changed via the `@WeatherIconPath` variable in variables.less
+Getting started is easy. First, put the fonts in the directory ABOVE your css directory. By default, the fonts are referencing a ../fonts/ folder that is on the same level as /css. This can be changed via the `$wi-font-path` variable in `scss/_variables.scss`
 
-Include in your main .less file `weather-icons/weather-icons.less` and that is all you need to do. 
+Include in your main .less file `scss/weather-icons.scss` and that is all you need to do. 
 
 It is best to clone [the GitHub repo](http://www.github.com/erikflowers/weather-icons) if you want to keep up to date. Please report any issues or requests to the repository here
 

@@ -3,9 +3,9 @@
   * SASS code base!
 * **Updates**
   * New taxonomy has been adopted which more closely matches FontAwesome
-  * Less code base
+  * LessCSS code base
     * Moved and renamed to match new taxonomy
-  * Feature parity between the Less and SASS code bases
+  * Feature parity between the LessCSS and SASS code bases
   * Closer feature parity with FontAwesome for both code bases
 * **Deprecations**
   * `font-family` is no longer customizable and is locked to `WeatherIcon` 
@@ -21,6 +21,9 @@
       * `.up` becomes `.direction-up`
       * `.up-left` becomes `.direction-up-left`
       * `.up-right` becomes `.direction-up-right`
+* **Known Issues**
+  * Condition code mappings do not work in the LessCSS code base. This is due to a known issue with using variable interpolation during `extend()`. For this reason, the bundled CSS is now built using the SASS code base in order to allow for condition code mappings. Sorry, LessCSS users.
+    * More info: http://lesscss.org/features/#extend-feature-selector-interpolation-with-extend
 
 ### 1.3.0
 * **Additions**
