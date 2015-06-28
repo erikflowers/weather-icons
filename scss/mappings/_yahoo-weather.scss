@@ -1,0 +1,67 @@
+// icon definitions
+// --------------------------
+
+$yahoo-mapping-namespace: yahoo;
+
+// create the icon definitions
+// lifted from @aloncarmel: https://gist.github.com/aloncarmel/8575527
+$yahoo-condition-code-mappings: (
+  0   : "tornado",
+  1   : "storm-showers",
+  2   : "tornado",
+  3   : "thunderstorm",
+  4   : "thunderstorm",
+  5   : "snow",
+  6   : "rain-mix",
+  7   : "rain-mix",
+  8   : "sprinkle",
+  9   : "sprinkle",
+  10  : "hail",
+  11  : "showers",
+  12  : "showers",
+  13  : "snow",
+  14  : "storm-showers",
+  15  : "snow",
+  16  : "snow",
+  17  : "hail",
+  18  : "hail",
+  19  : "cloudy-gusts",
+  20  : "fog",
+  21  : "fog",
+  22  : "fog",
+  23  : "cloudy-gusts",
+  24  : "cloudy-windy",
+  25  : "thermometer",
+  26  : "cloudy",
+  27  : "night-cloudy",
+  28  : "day-cloudy",
+  29  : "night-cloudy",
+  30  : "day-cloudy",
+  31  : "night-clear",
+  32  : "day-sunny",
+  33  : "night-clear",
+  34  : "day-sunny-overcast",
+  35  : "hail",
+  36  : "day-sunny",
+  37  : "thunderstorm",
+  38  : "thunderstorm",
+  39  : "thunderstorm",
+  40  : "storm-showers",
+  41  : "snow",
+  42  : "snow",
+  43  : "snow",
+  44  : "cloudy",
+  45  : "lightning",
+  46  : "snow",
+  47  : "thunderstorm",
+  3200: "cloud"
+);
+
+// generate condition code mapping classes and @extend the matching class
+@each $yahoo-condition-code, $yahoo-condition-code-mapping in $yahoo-condition-code-mappings {
+
+  .#{$wi-css-prefix}-#{$yahoo-mapping-namespace}-#{$yahoo-condition-code}:before {
+
+    @extend .#{$wi-css-prefix}-#{$yahoo-condition-code-mapping};
+  }
+}
