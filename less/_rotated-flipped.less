@@ -6,10 +6,8 @@
   "flip-vertical";
 @z: '';
 
+// calculate classes and values for rotation
 .calculateRotations(@i) when (@i >= 0) {
-
-  // iterate
-  .calculateRotations((@i - 1));
 
   @z: ~"@{wi-css-prefix}-rotate-@{i}";
 
@@ -17,24 +15,26 @@
 
     .wi-icon-rotate(@i);
   }
+
+  .calculateRotations((@i - 1));
 }
 .calculateRotations(359);
 
+// flip icons horizontal/vertical
 .@{wi-css-prefix}-flip-horizontal { .wi-icon-flip(-1, 1, 0); }
 .@{wi-css-prefix}-flip-vertical   { .wi-icon-flip(1, -1, 2); }
 
 // ie 8-9 fix
 // -------------------------
-
-// todo: check on assigning an array of selectors to the selector instead of this
-//       unnecessary duplication of code
+// todo: check on assigning an array of selectors to the selector instead of using
+//       this loop
 
 :root  {
 
   .calculateIEFixes(@i) when (@i >= 0) {
 
-  // iterate
-  .calculateIEFixes((@i - 1));
+    // iterate
+    .calculateIEFixes((@i - 1));
 
     @z: ~"@{wi-css-prefix}-rotate-@{i}";
 

@@ -4,12 +4,12 @@
 .fa-icon() {
 
   display: inline-block;
-  font: normal normal normal @wi-font-size-base/1 WeatherIcons; // shortening font declaration
   font-size: inherit; // can't have font-size inherit on line above, so need to override
+  font: normal normal normal @wi-font-size-base/1 WeatherIcons; // shortening font declaration
   text-rendering: auto; // optimizelegibility throws things off #1094
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   transform: translate(0, 0); // ensures no half-pixel rendering in firefox
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
 }
 
 .wi-icon-rotate(@degrees) {
@@ -17,14 +17,17 @@
   & when (mod(@degrees, 90) = 0) {
 
     @rotation: @degrees / 90;
+
     filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=@rotation);
   }
+
   -webkit-transform: rotate(~"@{degrees}deg");
       -ms-transform: rotate(~"@{degrees}deg");
           transform: rotate(~"@{degrees}deg");
 }
 
 .wi-icon-flip(@horiz, @vert, @rotation) {
+
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=@rotation, mirror=1);
   -webkit-transform: scale(@horiz, @vert);
       -ms-transform: scale(@horiz, @vert);

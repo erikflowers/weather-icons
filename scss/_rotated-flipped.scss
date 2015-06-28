@@ -8,6 +8,7 @@ $rotations-requiring-ie-fix: (
 );
 $z: '';
 
+// calculate classes and values for rotation
 @for $i from 0 through 359 {
 
   @if $i == 0 or $i % $wi-rotate-by  == 0 {
@@ -27,14 +28,14 @@ $z: '';
   }
 }
 
+// flip icons horizontal/vertical
 .#{$wi-css-prefix}-flip-horizontal { @include wi-icon-flip(-1, 1, 0); }
 .#{$wi-css-prefix}-flip-vertical   { @include wi-icon-flip(1, -1, 2); }
 
 // ie 8-9 fix
 // -------------------------
-
-// todo: check on assigning an array of selectors to the selector instead of this
-//       unnecessary duplication of code
+// todo: check on assigning an array of selectors to the selector instead of using
+//       this loop
 
 :root  {
 

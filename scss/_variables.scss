@@ -10,7 +10,27 @@ $wi-version       : "2.0.0" !default;
 // $wi-inverse:          #fff !default;
 // $wi-li-width:         (30em / 14) !default;
 
+// icon sizes - these scale font size and line height
+// key value pair, creates selectors like `.wi-lg`
+$wi-icon-scales: (
+  "default": 1.000,
+  "lg"     : 1.333,
+  "sm"     : 0.666,
+  "xlg"    : 1.666,
+  "xsm"    : 0.333
+) !default;
+
+// icon size multipliers - these scale font size
+// key value pair, creates selectors like `.w-2x`
+$wi-icon-multipliers: (
+  "2x": 2.000,
+  "3x": 3.000,
+  "4x": 4.000,
+  "5x": 5.000
+) !default;
+
 // icon glyphs
+// key value pair, creates selectors like `.wi-day-cloudy`
 $wi-icon-glyphs: (
   "_reserved_"                 : "\f049",
   "alien"                      : "\f075",
@@ -190,21 +210,4 @@ $wi-icon-glyphs: (
   "wind-south-west"            : "\f05a",
   "wind-west"                  : "\f059",
   "windy"                      : "\f021"
-) !default;
-
-// icon sizes - these scale font size and line height
-$wi-icon-scales: (
-  "default": 1.000,
-  "lg"     : 1.333,
-  "sm"     : 0.666,
-  "xlg"    : 1.666,
-  "xsm"    : 0.333
-) !default;
-
-// icon size multipliers - these scale font size
-$wi-icon-multipliers: (
-  "2x": 2.000,
-  "3x": 3.000,
-  "4x": 4.000,
-  "5x": 5.000
 ) !default;

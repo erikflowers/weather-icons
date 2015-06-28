@@ -1,9 +1,7 @@
 // icon definitions
 // --------------------------
 
-// loop over key/value pairs
-// - lifted shamelessly from: http://stackoverflow.com/questions/23658087/loop-over-an-array-of-name-value-pairs-in-less#answer-26445367
-
+// create icon definitions
 .createIconClasses(@iterator: 1) when(@iterator <= length(@wi-icon-glyphs)) {
 
   @wi-glyph-name: extract(extract(@wi-icon-glyphs, @iterator), 1);
