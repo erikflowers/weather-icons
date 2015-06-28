@@ -1,2 +1,47 @@
 // rotated and flipped icons
 // -------------------------
+
+@rotations-requiring-ie-fix:
+  "flip-horizontal",
+  "flip-vertical";
+@z: '';
+
+.calculateRotations(@i) when (@i >= 0) {
+
+  // iterate
+  .calculateRotations((@i - 1));
+
+  @z: ~"@{wi-css-prefix}-rotate-@{i}";
+
+  .@{z} when (mod(@i, @wi-rotate-by) = 0) {
+
+    .wi-icon-rotate(@i);
+  }
+}
+.calculateRotations(359);
+
+.@{wi-css-prefix}-flip-horizontal { .wi-icon-flip(-1, 1, 0); }
+.@{wi-css-prefix}-flip-vertical   { .wi-icon-flip(1, -1, 2); }
+
+// ie 8-9 fix
+// -------------------------
+
+// todo: check on assigning an array of selectors to the selector instead of this
+//       unnecessary duplication of code
+
+:root  {
+
+  .calculateIEFixes(@i) when (@i >= 0) {
+
+  // iterate
+  .calculateIEFixes((@i - 1));
+
+    @z: ~"@{wi-css-prefix}-rotate-@{i}";
+
+    .@{z} when (mod(@i, 90) = 0) {
+
+      filter: none;
+    }
+  }
+  .calculateIEFixes(359);
+}
