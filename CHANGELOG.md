@@ -2,7 +2,7 @@
 * **Additions**
   * SASS code base!
 * **Updates**
-  * New taxonomy has been adopted which mroe closely matches FontAwesome
+  * New taxonomy has been adopted which more closely matches FontAwesome
   * LESS code base
     * Moved and renamed to match new taxonomy
   * Closer feature parity with FontAwesome for both code bases
