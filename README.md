@@ -7,7 +7,9 @@ Weather Icons is a font of 189 weather themed icons, ready to be dropped right i
 
 Inspired by [Font Awesome](http://fontawesome.io/), they work in essentially the same way. They are infinitley scalable and any CSS that can be applied to text can be applied to them. All you need to do to insert an icon is add the base class and the specific icon class to an "i" element:
 
-`<i class="wi wi-day-lightning"></i>`
+```html
+<i class="wi wi-day-lightning"></i>
+```
 
 At this time, there are no other effects/mixins to do advanced icon manipulation yet.
 
@@ -23,7 +25,10 @@ Include in your main .less file `weather-icons/weather-icons.less` and that is a
 It is best to clone [the GitHub repo](http://www.github.com/erikflowers/weather-icons) if you want to keep up to date. Please report any issues or requests to the repository here
 
 ### CSS Only Method
-If you just want to add a css file to your project with no Less compiling, you just need to reference the `weather-icons.css` included in the css folder. *If you are not familiar with using Bootstrap, or using Bootstrap in the precompiled Less mode, I would recommend you give it a try)*
+The pre-compiled CSS sources are compiled using the Less source. To get started using the CSS files, simply copy them to `css/` in your site's root folder and then include the following line of code in your HTML file's `<head>`:
+```html
+<link rel="stylesheet" type="text/css" href="css/weather-icons.min.css">
+```
 
 ### Collaboration
 If you feel so inclined to add icon ideas, icon art, or other fixes/changes to how the package works, feel free to help! I'd also love it if someone wanted to make this a component as well for bower, npm, component, etc. No idea how to do that myself (yet).

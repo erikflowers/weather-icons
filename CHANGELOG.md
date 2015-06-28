@@ -5,6 +5,7 @@
   * New taxonomy has been adopted which more closely matches FontAwesome
   * Less code base
     * Moved and renamed to match new taxonomy
+  * Feature parity between the Less and SASS code bases
   * Closer feature parity with FontAwesome for both code bases
 * **Deprecations**
   * `font-family` is no longer customizable and is locked to `WeatherIcon` 
