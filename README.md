@@ -43,7 +43,9 @@ Weather Icons is maintained by
   * [zakmac.com](http://www.zakmac.com)
 
 ### License and credit
-The icon designs are originally by [Lukas Bischoff](http://www.twitter.com/artill). Icon art for v1.1 forward, HTML, Less, and CSS are by [me (Erik)](http://www.helloerik.com).
+* The icon designs are originally by [Lukas Bischoff](http://www.twitter.com/artill)
+* Icon art for v1.1 forward, HTML, original Less, and CSS are by [Erik Flowers](http://www.helloerik.com)
+* Less refactor and SASS are by [Zak MacDonald](http://github.com/zakmac)
 
 None of this would be  possible without [Bootstrap](http://www.getbootstrap.com), [Font Awesome](http://fontawesome.io/) and [Lukas Bischoff](http://www.twitter.com/artill). I just put it all together into a neat package. Cheatsheet provided by Michael Woywod.
 
