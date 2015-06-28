@@ -1,10 +1,8 @@
 /**
- *  Weather Icons 1.3
- *  Updated November 30th, 2014
- *  Weather themed icons for Bootstrap
+ *  Weather Icons 2.0.0
+ *  A weather themed icon font
  *  ---------------------------------------------------------------------------
- * Maintained at http://erikflowers.github.io/weather-icons
- *  http://twitter.com/Erik_UX
+ *  Maintained at http://erikflowers.github.io/weather-icons
  *
  *  License
  *  ---------------------------------------------------------------------------
@@ -14,15 +12,15 @@
  *    http://opensource.org/licenses/mit-license.html
  *  - Documentation licensed under CC BY 3.0 -
  *    http://creativecommons.org/licenses/by/3.0/
- *  - Inspired by and works great as a companion with Font Awesome
+ *  - Inspired by and works great as a companion to Font Awesome
  *    "Font Awesome by Dave Gandy - http://fontawesome.io"
  *
- *  Weather Icons Bootstrap Package Author - Erik Flowers - erik@helloerik.com
+ *  Weather Icons Bootstrap Package Author - Erik Flowers
  *  ---------------------------------------------------------------------------
  *  Email: erik@helloerik.com
  *  Twitter: http://twitter.com/Erik_UX
  *
- *  Weather Icons SCSS Fork Author - Zak MacDonald - me@zakmac.com
+ *  Weather Icons Contributor - Zak MacDonald
  *  ---------------------------------------------------------------------------
  *  Email: me@zakmac.com
  */
@@ -30,8 +28,8 @@
   font-family: 'WeatherIcons';
   font-style: normal;
   font-weight: normal;
-  src: url('../fonts/weathericons-webfont.eot?v=1.3.0');
-  src: url('../fonts/weathericons-webfont.eot?#iefix&v=1.3.0') format('embedded-opentype'), url('../fonts/weathericons-webfont.woff?v=1.3.0') format('woff'), url('../fonts/weathericons-webfont.ttf?v=1.3.0') format('truetype'), url('../fonts/weathericons-webfont.svg?v=1.3.0#weathericonregular') format('svg');
+  src: url('../fonts/weathericons-webfont.eot?v=2.0.0');
+  src: url('../fonts/weathericons-webfont.eot?#iefix&v=2.0.0') format('embedded-opentype'), url('../fonts/weathericons-webfont.woff?v=2.0.0') format('woff'), url('../fonts/weathericons-webfont.ttf?v=2.0.0') format('truetype'), url('../fonts/weathericons-webfont.svg?v=2.0.0#weathericonregular') format('svg');
 }
 .wi {
   display: inline-block;
@@ -576,98 +574,34 @@
 .wi-windy:before {
   content: "\f021";
 }
-.wi-rotate-0 {
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);
-  -webkit-transform: rotate(0deg);
-  -ms-transform: rotate(0deg);
-  transform: rotate(0deg);
+.wi-fw {
+  text-align: center;
+  width: 1.28571429em;
 }
-.wi-rotate-15 {
-  -webkit-transform: rotate(15deg);
-  -ms-transform: rotate(15deg);
-  transform: rotate(15deg);
+.wi-rotate-345 {
+  -webkit-transform: rotate(345deg);
+  -ms-transform: rotate(345deg);
+  transform: rotate(345deg);
 }
-.wi-rotate-30 {
-  -webkit-transform: rotate(30deg);
-  -ms-transform: rotate(30deg);
-  transform: rotate(30deg);
+.wi-rotate-330 {
+  -webkit-transform: rotate(330deg);
+  -ms-transform: rotate(330deg);
+  transform: rotate(330deg);
 }
-.wi-rotate-45 {
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
+.wi-rotate-315 {
+  -webkit-transform: rotate(315deg);
+  -ms-transform: rotate(315deg);
+  transform: rotate(315deg);
 }
-.wi-rotate-60 {
-  -webkit-transform: rotate(60deg);
-  -ms-transform: rotate(60deg);
-  transform: rotate(60deg);
+.wi-rotate-300 {
+  -webkit-transform: rotate(300deg);
+  -ms-transform: rotate(300deg);
+  transform: rotate(300deg);
 }
-.wi-rotate-75 {
-  -webkit-transform: rotate(75deg);
-  -ms-transform: rotate(75deg);
-  transform: rotate(75deg);
-}
-.wi-rotate-90 {
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
-  -webkit-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  transform: rotate(90deg);
-}
-.wi-rotate-105 {
-  -webkit-transform: rotate(105deg);
-  -ms-transform: rotate(105deg);
-  transform: rotate(105deg);
-}
-.wi-rotate-120 {
-  -webkit-transform: rotate(120deg);
-  -ms-transform: rotate(120deg);
-  transform: rotate(120deg);
-}
-.wi-rotate-135 {
-  -webkit-transform: rotate(135deg);
-  -ms-transform: rotate(135deg);
-  transform: rotate(135deg);
-}
-.wi-rotate-150 {
-  -webkit-transform: rotate(150deg);
-  -ms-transform: rotate(150deg);
-  transform: rotate(150deg);
-}
-.wi-rotate-165 {
-  -webkit-transform: rotate(165deg);
-  -ms-transform: rotate(165deg);
-  transform: rotate(165deg);
-}
-.wi-rotate-180 {
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
-  -webkit-transform: rotate(180deg);
-  -ms-transform: rotate(180deg);
-  transform: rotate(180deg);
-}
-.wi-rotate-195 {
-  -webkit-transform: rotate(195deg);
-  -ms-transform: rotate(195deg);
-  transform: rotate(195deg);
-}
-.wi-rotate-210 {
-  -webkit-transform: rotate(210deg);
-  -ms-transform: rotate(210deg);
-  transform: rotate(210deg);
-}
-.wi-rotate-225 {
-  -webkit-transform: rotate(225deg);
-  -ms-transform: rotate(225deg);
-  transform: rotate(225deg);
-}
-.wi-rotate-240 {
-  -webkit-transform: rotate(240deg);
-  -ms-transform: rotate(240deg);
-  transform: rotate(240deg);
-}
-.wi-rotate-255 {
-  -webkit-transform: rotate(255deg);
-  -ms-transform: rotate(255deg);
-  transform: rotate(255deg);
+.wi-rotate-285 {
+  -webkit-transform: rotate(285deg);
+  -ms-transform: rotate(285deg);
+  transform: rotate(285deg);
 }
 .wi-rotate-270 {
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
@@ -675,30 +609,98 @@
   -ms-transform: rotate(270deg);
   transform: rotate(270deg);
 }
-.wi-rotate-285 {
-  -webkit-transform: rotate(285deg);
-  -ms-transform: rotate(285deg);
-  transform: rotate(285deg);
+.wi-rotate-255 {
+  -webkit-transform: rotate(255deg);
+  -ms-transform: rotate(255deg);
+  transform: rotate(255deg);
 }
-.wi-rotate-300 {
-  -webkit-transform: rotate(300deg);
-  -ms-transform: rotate(300deg);
-  transform: rotate(300deg);
+.wi-rotate-240 {
+  -webkit-transform: rotate(240deg);
+  -ms-transform: rotate(240deg);
+  transform: rotate(240deg);
 }
-.wi-rotate-315 {
-  -webkit-transform: rotate(315deg);
-  -ms-transform: rotate(315deg);
-  transform: rotate(315deg);
+.wi-rotate-225 {
+  -webkit-transform: rotate(225deg);
+  -ms-transform: rotate(225deg);
+  transform: rotate(225deg);
 }
-.wi-rotate-330 {
-  -webkit-transform: rotate(330deg);
-  -ms-transform: rotate(330deg);
-  transform: rotate(330deg);
+.wi-rotate-210 {
+  -webkit-transform: rotate(210deg);
+  -ms-transform: rotate(210deg);
+  transform: rotate(210deg);
 }
-.wi-rotate-345 {
-  -webkit-transform: rotate(345deg);
-  -ms-transform: rotate(345deg);
-  transform: rotate(345deg);
+.wi-rotate-195 {
+  -webkit-transform: rotate(195deg);
+  -ms-transform: rotate(195deg);
+  transform: rotate(195deg);
+}
+.wi-rotate-180 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.wi-rotate-165 {
+  -webkit-transform: rotate(165deg);
+  -ms-transform: rotate(165deg);
+  transform: rotate(165deg);
+}
+.wi-rotate-150 {
+  -webkit-transform: rotate(150deg);
+  -ms-transform: rotate(150deg);
+  transform: rotate(150deg);
+}
+.wi-rotate-135 {
+  -webkit-transform: rotate(135deg);
+  -ms-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+.wi-rotate-120 {
+  -webkit-transform: rotate(120deg);
+  -ms-transform: rotate(120deg);
+  transform: rotate(120deg);
+}
+.wi-rotate-105 {
+  -webkit-transform: rotate(105deg);
+  -ms-transform: rotate(105deg);
+  transform: rotate(105deg);
+}
+.wi-rotate-90 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.wi-rotate-75 {
+  -webkit-transform: rotate(75deg);
+  -ms-transform: rotate(75deg);
+  transform: rotate(75deg);
+}
+.wi-rotate-60 {
+  -webkit-transform: rotate(60deg);
+  -ms-transform: rotate(60deg);
+  transform: rotate(60deg);
+}
+.wi-rotate-45 {
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.wi-rotate-30 {
+  -webkit-transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
+.wi-rotate-15 {
+  -webkit-transform: rotate(15deg);
+  -ms-transform: rotate(15deg);
+  transform: rotate(15deg);
+}
+.wi-rotate-0 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
 }
 .wi-flip-horizontal {
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1);
@@ -723,4 +725,44 @@
 }
 :root .wi-rotate-270 {
   filter: none;
+}
+.wi-default {
+  font-size: 14px;
+  line-height: 10px;
+  vertical-align: -15%;
+}
+.wi-lg {
+  font-size: 18px;
+  line-height: 13px;
+  vertical-align: -15%;
+}
+.wi-sm {
+  font-size: 9px;
+  line-height: 6px;
+  vertical-align: -15%;
+}
+.wi-xlg {
+  font-size: 23px;
+  line-height: 17px;
+  vertical-align: -15%;
+}
+.wi-xsm {
+  font-size: 4px;
+  line-height: 3px;
+  vertical-align: -15%;
+}
+.wi-default {
+  font-size: 14px;
+}
+.wi-lg {
+  font-size: 18px;
+}
+.wi-sm {
+  font-size: 9px;
+}
+.wi-xlg {
+  font-size: 23px;
+}
+.wi-xsm {
+  font-size: 4px;
 }
