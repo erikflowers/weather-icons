@@ -3,12 +3,12 @@
 
 @font-face {
 
-  font-family: 'WeatherIcon';
+  font-family: 'WeatherIcons';
   font-style: normal;
   font-weight: normal;
-  src: url('#{$wi-font-path}/weathericon-webfont.eot?v=#{$wi-version}');
-  src: url('#{$wi-font-path}/weathericon-webfont.eot?#iefix&v=#{$wi-version}') format('embedded-opentype'),
-    url('#{$wi-font-path}/weathericon-webfont.woff?v=#{$wi-version}') format('woff'),
-    url('#{$wi-font-path}/weathericon-webfont.ttf?v=#{$wi-version}') format('truetype'),
-    url('#{$wi-font-path}/weathericon-webfont.svg?v=#{$wi-version}#weathericonregular') format('svg');
+  src: url('#{$wi-font-path}/weathericons-webfont.eot?v=#{$wi-version}');
+  src: url('#{$wi-font-path}/weathericons-webfont.eot?#iefix&v=#{$wi-version}') format('embedded-opentype'),
+    url('#{$wi-font-path}/weathericons-webfont.woff?v=#{$wi-version}') format('woff'),
+    url('#{$wi-font-path}/weathericons-webfont.ttf?v=#{$wi-version}') format('truetype'),
+    url('#{$wi-font-path}/weathericons-webfont.svg?v=#{$wi-version}#weathericonregular') format('svg');
 }

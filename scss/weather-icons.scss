@@ -29,12 +29,10 @@
 
 // the building blocks
 @import "variables";
+@import "mixins";
+@import "font";
 @import "core";
 @import "functions";
-@import "mixins";
-
-// the steak
-@import "font";
 @import "icons";
 
 // the sizzle
