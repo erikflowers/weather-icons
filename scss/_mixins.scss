@@ -1,0 +1,46 @@
+// mixins lifted directly from FontAwesome
+// -------------------------
+
+@mixin wi-icon() {
+
+  display: inline-block;
+  font: normal normal normal #{$wi-font-size-base} / 1 WeatherIcons; // shortening font declaration
+  font-size: inherit; // can't have font-size inherit on line above, so need to override
+  text-rendering: auto; // optimizelegibility throws things off #1094
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transform: translate(0, 0); // ensures no half-pixel rendering in firefox
+
+}
+
+@for $i from 0 through 270 {
+
+  @if $i == 0 or $i % 45 == 0 {
+
+    .#{$wi-css-prefix}-rotate-#{$i} {
+
+      wi-icon-rotate(#{$i})
+    }
+  }
+}
+
+@mixin wi-icon-rotate($degrees) {
+
+  @if $degrees == 0 or $degrees % 90 == 0 {
+
+    $rotation: $degrees / 90;
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=#{$rotation});
+  }
+
+  -webkit-transform: rotate(#{$degrees}deg);
+      -ms-transform: rotate(#{$degrees}deg);
+          transform: rotate(#{$degrees}deg);
+}
+
+@mixin wi-icon-flip($horiz, $vert, $rotation) {
+
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=#{$rotation});
+  -webkit-transform: scale($horiz, $vert);
+      -ms-transform: scale($horiz, $vert);
+          transform: scale($horiz, $vert);
+}
