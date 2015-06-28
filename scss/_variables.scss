@@ -1,15 +1,15 @@
 // variables
 // --------------------------
 
-$wi-font-path:        "../fonts" !default;
-$wi-font-size-base:   14px !default;
-$wi-css-prefix:       wi !default;
-$wi-version:          "1.3.0" !default;
+$wi-font-path     : "../fonts" !default;
+$wi-font-size-base: 14px !default;
+$wi-css-prefix    : wi !default;
+$wi-version       : "1.3.0" !default;
 // $wi-border-color:     #eee !default;
 // $wi-inverse:          #fff !default;
 // $wi-li-width:         (30em / 14) !default;
 
-// glyphs
+// icon glyphs
 $wi-icon-glyphs: (
   "_reserved_"                 : "\f049",
   "alien"                      : "\f075",
@@ -191,16 +191,16 @@ $wi-icon-glyphs: (
   "windy"                      : "\f021"
 ) !default;
 
-// sizes - these scale font size and line height
+// icon sizes - these scale font size and line height
 $wi-icon-scales: (
   "default": 1.000,
-  "lg": 1.333,
-  "sm": 0.666,
-  "xlg": 1.666,
-  "xsm": 0.333
+  "lg"     : 1.333,
+  "sm"     : 0.666,
+  "xlg"    : 1.666,
+  "xsm"    : 0.333
 ) !default;
 
-// multipliers - these scale font size
+// icon size multipliers - these scale font size
 $wi-icon-multipliers: (
   "2x": 2.000,
   "3x": 3.000,
