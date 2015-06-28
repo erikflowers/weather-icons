@@ -66,18 +66,18 @@ $owm-condition-code-mappings: (
   904: "hot",
   905: "windy",
   906: "hail",
-  951: "beaufort-0",
-  952: "beaufort-2",
-  953: "beaufort-3",
-  954: "beaufort-4",
-  955: "beaufort-5",
-  956: "beaufort-6",
-  957: "beaufort-7",
-  958: "beaufort-8",
-  959: "beaufort-9",
-  960: "beaufort-10",
-  961: "beaufort-11",
-  962: "beaufort-12"
+  951: "wind-beaufort-0",
+  952: "wind-beaufort-2",
+  953: "wind-beaufort-3",
+  954: "wind-beaufort-4",
+  955: "wind-beaufort-5",
+  956: "wind-beaufort-6",
+  957: "wind-beaufort-7",
+  958: "wind-beaufort-8",
+  959: "wind-beaufort-9",
+  960: "wind-beaufort-10",
+  961: "wind-beaufort-11",
+  962: "wind-beaufort-12"
 );
 
 // generate condition code mapping classes and @extend the matching class
