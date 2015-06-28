@@ -1,0 +1,10 @@
+// icon definitions
+// --------------------------
+
+@each $wi-glyph-name, $wi-glyph-content in $wi-icon-glyphs {
+
+  .#{$wi-css-prefix}-#{$wi-glyph-name}:before {
+
+    content: $wi-glyph-content;
+  }
+}

@@ -1,0 +1,22 @@
+// icon sizes
+// --------------------------
+
+// scale icon size by n
+@each $wi-icon-scale-name, $wi-icon-scale in $wi-icon-scales {
+
+  .#{$wi-css-prefix}-#{$wi-icon-scale-name} {
+
+    font-size: ($wi-font-size-base / strip-units($wi-font-size-base * $wi-icon-scale));
+    line-height: ($wi-font-size-base * $wi-icon-scale / strip-units($wi-font-size-base));
+    vertical-align: -15%;
+  }
+}
+
+// multiply icon size by n
+@each $wi-icon-multiplier-name, $wi-icon-multiplier in $wi-icon-multipliers {
+
+  .#{$wi-css-prefix}-#{$wi-icon-multiplier-name} {
+
+    font-size: ($wi-font-size-base * $wi-icon-multiplier);
+  }
+}
