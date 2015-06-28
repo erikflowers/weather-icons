@@ -8,7 +8,7 @@
   * Closer feature parity with FontAwesome for both code bases
 * **Deprecations**
   * `font-family` is no longer customizable and is locked to `WeatherIcon` 
-  * Rotation syntax has been simplified from `.wi-wind-default.rotate_*-deg` `.wi-rotate-*`
+  * Rotation syntax has been simplified from `.wi-wind-default_*-deg` `.wi-rotate-*`
   * Icons
     * `.wind-beafort-*` has been renamed `.wind-beaufort-*` to rectify a typo
     * Prefixed directional icons with `.direction-`
