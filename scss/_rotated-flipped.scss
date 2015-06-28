@@ -12,7 +12,7 @@ $z: '';
 
   @if $i == 0 or $i % $wi-rotate-by  == 0 {
 
-    $Z: #{$wi-css-prefix}-rotate-#{$i};
+    $z: #{$wi-css-prefix}-rotate-#{$i};
 
     .#{$z} {
 
@@ -40,7 +40,7 @@ $z: '';
 
   @each $fix in $rotations-requiring-ie-fix {
 
-    &.#{$fix} {
+    .#{$fix} {
 
       filter: none;
     }
