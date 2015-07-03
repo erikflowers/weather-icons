@@ -1,0 +1,90 @@
+// icon definitions
+// --------------------------
+
+$owm-mapping-namespace: owm;
+
+// create the icon definitions
+$owm-condition-code-mappings: (
+  200: "storm-showers",
+  201: "storm-showers",
+  202: "thunderstorm",
+  210: "storm-showers",
+  211: "storm-showers",
+  212: "thunderstorm",
+  221: "storm-showers",
+  230: "storm-showers",
+  231: "storm-showers",
+  232: "storm-showers",
+  300: "sprinkle",
+  301: "showers",
+  302: "showers",
+  310: "rain-mix",
+  311: "rain-mix",
+  312: "rain-mix",
+  313: "rain-mix",
+  314: "rain-mix",
+  321: "showers",
+  500: "showers",
+  501: "rain",
+  502: "rain",
+  503: "rain",
+  504: "rain",
+  511: "sleet",
+  520: "rain-mix",
+  521: "rain-mix",
+  522: "showers",
+  531: "showers",
+  600: "snow",
+  601: "snow",
+  602: "snow",
+  611: "sleet",
+  612: "sleet",
+  615: "rain-mix",
+  616: "rain-mix",
+  620: "rain-mix",
+  621: "rain-mix",
+  622: "rain-mix",
+  701: "sprinkles",
+  711: "smoke",
+  721: "day-haze",
+  731: "dust",
+  741: "fog",
+  751: "dust",
+  761: "dust",
+  762: "dust",
+  771: "strong-wind",
+  781: "tornado",
+  800: "day-sunny",
+  801: "day-cloudy",
+  802: "day-cloudy",
+  803: "day-cloudy",
+  804: "cloudy",
+  900: "tornado",
+  901: "hurricane",
+  902: "hurricane",
+  903: "snowflake-cold",
+  904: "hot",
+  905: "windy",
+  906: "hail",
+  951: "wind-beaufort-0",
+  952: "wind-beaufort-2",
+  953: "wind-beaufort-3",
+  954: "wind-beaufort-4",
+  955: "wind-beaufort-5",
+  956: "wind-beaufort-6",
+  957: "wind-beaufort-7",
+  958: "wind-beaufort-8",
+  959: "wind-beaufort-9",
+  960: "wind-beaufort-10",
+  961: "wind-beaufort-11",
+  962: "wind-beaufort-12"
+);
+
+// generate condition code mapping classes and @extend the matching class
+@each $owm-condition-code, $owm-condition-code-mapping in $owm-condition-code-mappings {
+
+  .#{$wi-css-prefix}-#{$owm-mapping-namespace}-#{$owm-condition-code}:before {
+
+    @extend .#{$wi-css-prefix}-#{$owm-condition-code-mapping};
+  }
+}

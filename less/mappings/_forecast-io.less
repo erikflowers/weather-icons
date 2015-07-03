@@ -1,0 +1,41 @@
+// icon definitions
+// --------------------------
+
+// note: this mapping functionality is currently not supported in LessCSS due to
+//       a known issue with selector interpolation
+//       http://lesscss.org/features/#extend-feature-selector-interpolation-with-extend
+
+@forecast-io-mapping-namespace: forecast-io;
+
+// create the icon definitions
+@forecast-io-condition-code-mappings:
+  "clear-day"           "day-sunny",
+  "clear-night"         "night-clear",
+  "cloudy"              "cloudy",
+  "fog"                 "fog",
+  "hail"                "hail",
+  "partly-cloudy-day"   "day-cloudy",
+  "partly-cloudy-night" "night-partly-cloudy",
+  "rain"                "rain",
+  "sleet"               "sleet",
+  "snow"                "snow",
+  "thunderstorm"        "thunderstorm",
+  "tornado"             "tornado",
+  "wind"                "windy";
+
+// generate condition code mapping classes and @extend the matching class
+// todo: extend() doesn't seem to function...
+.createForecastIOMappings(@iterator: 1) when(@iterator <= length(@forecast-io-condition-code-mappings)) {
+
+  @forecast-io-condition-code: extract(extract(@forecast-io-condition-code-mappings, @iterator), 1);
+  @forecast-io-condition-code-mapping: extract(extract(@forecast-io-condition-code-mappings, @iterator), 2);
+  @forecast-io-condition-code-mapping-unquoted: ~"@{forecast-io-condition-code-mapping}";
+
+  .@{wi-css-prefix}-@{forecast-io-mapping-namespace}-@{forecast-io-condition-code}:before {
+
+    &:extend(.@{wi-css-prefix}-@{forecast-io-condition-code-mapping-unquoted}:before all);
+  }
+
+  .createForecastIOMappings((@iterator + 1));
+}
+.createForecastIOMappings();

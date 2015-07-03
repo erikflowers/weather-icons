@@ -1,0 +1,48 @@
+/**
+ *  Weather Icons 2.0.0
+ *  A weather themed icon font
+ *  ---------------------------------------------------------------------------
+ *  Maintained at http://erikflowers.github.io/weather-icons
+ *
+ *  License
+ *  ---------------------------------------------------------------------------
+ *  - Fpmt licensed under SIL OFL 1.1 -
+ *    http://scripts.sil.org/OFL
+ *  - CSS, SASS and LESS are licensed under MIT License -
+ *    http://opensource.org/licenses/mit-license.html
+ *  - Documentation licensed under CC BY 3.0 -
+ *    http://creativecommons.org/licenses/by/3.0/
+ *  - Inspired by and works great as a companion to Font Awesome
+ *    "Font Awesome by Dave Gandy - http://fontawesome.io"
+ *
+ *  Weather Icons Bootstrap Package Author - Erik Flowers
+ *  ---------------------------------------------------------------------------
+ *  Email: erik@helloerik.com
+ *  Twitter: http://twitter.com/Erik_UX
+ *
+ *  Weather Icons Contributor - Zak MacDonald
+ *  ---------------------------------------------------------------------------
+ *  Email: me@zakmac.com
+ */
+
+// the building blocks
+@import "variables";
+@import "mixins";
+@import "font";
+@import "core";
+@import "functions";
+@import "icons";
+
+// the sizzle
+// @import "animated";
+// @import "bordered-pulled";
+// @import "fixed-width";
+// @import "list";
+@import "rotated-flipped";
+@import "sizes";
+// @import "stacked";
+
+// mappings
+@import "mappings/forecast-io";
+@import "mappings/open-weather-map";
+@import "mappings/yahoo-weather";

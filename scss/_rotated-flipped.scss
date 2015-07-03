@@ -1,0 +1,49 @@
+// rotated and flipped icons
+// -------------------------
+
+$rotations-requiring-ie-fix: (
+
+  "flip-horizontal",
+  "flip-vertical"
+);
+$z: '';
+
+// calculate classes and values for rotation
+@for $i from 0 through 359 {
+
+  @if $i == 0 or $i % $wi-rotate-by  == 0 {
+
+    $z: #{$wi-css-prefix}-rotate-#{$i};
+
+    .#{$z} {
+
+      @include wi-icon-rotate($i);
+    }
+
+    // check if this item needs
+    @if $i == 0 or $i % 90 == 0 {
+
+      $rotations-requiring-ie-fix: append($rotations-requiring-ie-fix, #{$z});
+    }
+  }
+}
+
+// flip icons horizontal/vertical
+.#{$wi-css-prefix}-flip-horizontal { @include wi-icon-flip(-1, 1, 0); }
+.#{$wi-css-prefix}-flip-vertical   { @include wi-icon-flip(1, -1, 2); }
+
+// ie 8-9 fix
+// -------------------------
+// todo: check on assigning an array of selectors to the selector instead of using
+//       this loop
+
+:root  {
+
+  @each $fix in $rotations-requiring-ie-fix {
+
+    .#{$fix} {
+
+      filter: none;
+    }
+  }
+}

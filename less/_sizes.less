@@ -1,0 +1,36 @@
+// icon sizes
+// --------------------------
+
+// scale icon size by n
+.createIconScales(@iterator: 1) when(@iterator <= length(@wi-icon-scales)) {
+
+  @wi-icon-scale-name: extract(extract(@wi-icon-scales, @iterator), 1);
+  @wi-icon-scale-name-unquoted: ~"@{wi-icon-scale-name}";
+  @wi-icon-scale: extract(extract(@wi-icon-scales, @iterator), 2);
+
+  .@{wi-css-prefix}-@{wi-icon-scale-name-unquoted} {
+
+    font-size: unit(@wi-icon-scale, em);
+    line-height: unit(@wi-icon-scale * 0.75, em);
+    vertical-align: -15%;
+  }
+
+  .createIconScales((@iterator + 1));
+}
+.createIconScales();
+
+// multiply icon size by n
+.createIconMultipliers(@iterator: 1) when(@iterator <= length(@wi-icon-multipliers)) {
+
+  @wi-icon-multiplier-name: extract(extract(@wi-icon-multipliers, @iterator), 1);
+  @wi-icon-multiplier-name-unquoted: ~"@{wi-icon-multiplier-name}";
+  @wi-icon-multiplier: extract(extract(@wi-icon-multipliers, @iterator), 2);
+
+  .@{wi-css-prefix}-@{wi-icon-multiplier-name-unquoted} {
+
+    font-size: unit(@wi-icon-multiplier, em);
+  }
+
+  .createIconMultipliers((@iterator + 1));
+}
+.createIconMultipliers();

@@ -1,0 +1,15 @@
+// base class definition
+// --------------------------
+
+// lifted from FontAwesome
+// https://github.com/FortAwesome/Font-Awesome/blob/6549e2920b0a27213b895200becc485ab01e9974/less/core.less
+.@{wi-css-prefix} {
+
+  display: inline-block;
+  font-size: inherit; // can't have font-size inherit on line above, so need to override
+  font: normal normal normal @wi-font-size-base/1 WeatherIcons; // shortening font declaration
+  text-rendering: auto; // optimizelegibility throws things off #1094
+  transform: translate(0, 0); // ensures no half-pixel rendering in firefox
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
