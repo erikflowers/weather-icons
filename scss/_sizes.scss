@@ -6,8 +6,8 @@
 
   .#{$wi-css-prefix}-#{$wi-icon-scale-name} {
 
-    font-size: #{fudge(unitless($wi-font-size-base) * $wi-icon-scale)}px;
-    line-height: #{fudge(unitless($wi-font-size-base) * $wi-icon-scale * 0.75)}px;
+    font-size: #{$wi-icon-scale}em;
+    line-height: #{$wi-icon-scale * 0.75}em;
     vertical-align: -15%;
   }
 }
@@ -17,6 +17,6 @@
 
   .#{$wi-css-prefix}-#{$wi-icon-multiplier-name} {
 
-    font-size: #{fudge($wi-font-size-base * $wi-icon-multiplier)}px;
+    font-size: #{$wi-icon-multiplier}em;
   }
 }

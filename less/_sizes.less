@@ -10,8 +10,8 @@
 
   .@{wi-css-prefix}-@{wi-icon-scale-name-unquoted} {
 
-    font-size: floor(@wi-font-size-base * @wi-icon-scale);
-    line-height: floor(@wi-font-size-base * @wi-icon-scale * 0.75);
+    font-size: unit(@wi-icon-scale, em);
+    line-height: unit(@wi-icon-scale * 0.75, em);
     vertical-align: -15%;
   }
 
@@ -20,15 +20,15 @@
 .createIconScales();
 
 // multiply icon size by n
-.createIconMultipliers(@iterator: 1) when(@iterator <= length(@wi-icon-scales)) {
+.createIconMultipliers(@iterator: 1) when(@iterator <= length(@wi-icon-multipliers)) {
 
-  @wi-icon-multiplier-name: extract(extract(@wi-icon-scales, @iterator), 1);
+  @wi-icon-multiplier-name: extract(extract(@wi-icon-multipliers, @iterator), 1);
   @wi-icon-multiplier-name-unquoted: ~"@{wi-icon-multiplier-name}";
-  @wi-icon-multiplier: extract(extract(@wi-icon-scales, @iterator), 2);
+  @wi-icon-multiplier: extract(extract(@wi-icon-multipliers, @iterator), 2);
 
   .@{wi-css-prefix}-@{wi-icon-multiplier-name-unquoted} {
 
-    font-size: floor(@wi-font-size-base * @wi-icon-multiplier);
+    font-size: unit(@wi-icon-multiplier, em);
   }
 
   .createIconMultipliers((@iterator + 1));
