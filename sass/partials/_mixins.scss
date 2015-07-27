@@ -1,0 +1,65 @@
+@charset "utf-8";
+// Mixin for handle fallback support for transform-rotation
+// We use it to rotate the degrees of the wind icon
+@mixin wind-rotate($degrees) {
+
+    -webkit-transform: rotate($degrees);
+    -moz-transform: rotate($degrees);
+    -ms-transform: rotate($degrees);
+    -o-transform: rotate($degrees);
+    transform: rotate($degrees);
+
+}
+
+// Function for outputing all classes for weather icons
+@mixin icons($collection) {
+
+    // Get the length of collection and store it in a variable for reusing
+    $length: length($collection);
+    // Loop throug all the variables in collection
+    @for $i from 0 to $length {
+
+        // Get the current collection item
+        $tmp: nth($collection, $i+1);
+
+        // Get the class name from the variable collection
+        $name: nth($tmp, 1);
+        
+        // Get the value of the value collection
+        $val: nth($tmp, 2);
+
+        // Output the content based on the variables in the collection
+        .#{$weather-icons-prefix}-#{$name}:before {
+
+            // Output the unicode character through the unicode function.
+            // For more information see the partials/_functions.scss
+            content:unicode($val);
+        }
+
+    }
+
+}
+
+// Output all the rotation classes based on the step and how long we should go.
+// $step – How big of a step should we take between each degree
+// $max – How far should we go about this degree
+@mixin wind-rotations($step,$max) {
+
+    // Get how many classes we should make based on the input
+    $length: $max/$step;
+
+    // Loop through all the steps to output the classes
+    @for $i from 0 to $length+1 {
+
+        // Calculate what is the next step based on the step and how many times the loop has run
+        $currStep: $i*$step;
+
+        // Print out the echo
+        .#{$weather-icons-prefix}-wind-default._#{$currStep}-deg {
+            // We use the wind rotate mixin for this
+            @include wind-rotate(#{$currStep}deg);
+        }
+
+    }
+    
+}
