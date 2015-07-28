@@ -1,0 +1,250 @@
+body {
+  font-family: @copy;
+  font-weight: @normal;
+  font-size: 14px;
+  color: hsl(0, 0%, 20%);
+}
+
+  .reference {
+    font-family: "Helvetica", Arial, sans-serif;
+    font-size: 22px;
+  }
+
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: @copy;
+}
+
+header {
+  position: relative;
+  height: 100px;
+  padding-top: 0px;
+  background: url("img/sky.jpg") top center no-repeat fixed;
+  border-bottom: 5px solid hsl(0, 0%, 25%);
+  @media (min-width: @screen-tablet) {
+    height: 300px;
+  }
+  h1 {
+    float: left;
+    font-family: "proxima nova", @copy;
+    font-weight: 100;
+    font-size: 30px;
+    margin-top: 40px;
+    margin-left: 0px;
+    color: hsl(0, 0%, 100%);
+    text-shadow: 0px 2px 2px hsla(0, 0%, 0%, .9);
+    @media (min-width: @screen-tablet) {
+      font-size: 60px;
+      margin-top: 180px;
+    }
+  }
+  .icon {
+    position: absolute;
+    right: 20px;
+    top: 40px;
+    //bottom: 10px;
+    color: hsl(0, 0%, 100%);
+    font-size: 55px;
+    margin-left: 100px;
+    //margin-top: 120px;
+    float: left;
+    line-height: .65em;
+    text-shadow: 0px 2px 2px hsla(0, 0%, 0%, .5);
+    @media (min-width: @screen-tablet) {
+      font-size: 200px;
+      top: 100px;
+    }
+  }
+}
+
+footer {
+  height: 200px;
+  background-color: hsl(0, 0%, 20%);
+  margin-top: 30px;
+  color: hsl(0, 0%, 100%);
+  padding-top: 15px;
+  font-weight: @normal;
+  a {
+    color: hsl(0, 0%, 70%);
+  }
+}
+
+.buttons {
+  font-size: 100px;
+}
+
+.follow {
+  text-align: center;
+}
+
+.intro-icons {
+  font-size: 15px;
+  color: hsl(208, 56%, 47%);
+    i {
+      margin-right: 10px;
+    }
+  @media (min-width: @screen-tablet) {  
+    font-size: 25px;
+    i {
+      margin-right: 10px;
+    }
+  }
+  @media (min-width: @screen-desktop) {
+    font-size: 45px;
+    i {
+      margin-right: 10px;
+    }
+  }
+}
+
+.headline {
+  font-size: 25px;
+  line-height: 1.3em;
+  margin-bottom: 30px;
+}
+
+.social {
+  margin-top: 15px;
+  p {
+    margin-bottom: 0px;
+    text-align: center;
+  }
+}
+
+
+.download-here {
+  margin-top: 20px;
+
+}
+
+.download {
+  display: block;
+
+}
+
+.intro {
+  font-size: 18px;
+  margin-top: 30px;
+  font-weight: @normal;
+}
+.beta {
+  margin-top: 20px;
+  color: hsl(0, 0%, 50%);
+  .title {
+    color: hsl(0, 0%, 50%);
+     font-weight: @semibold;
+     font-size: 20px;
+  }
+  p {
+    font-weight: @normal;
+    font-size: 15px;
+  }
+}
+.download-button {
+  .make-column(4);
+  .make-column-offset(4);
+}
+
+.banner {
+  background-color: hsl(0, 0%, 90%);
+  background-image: url("img/large-bg2.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: fixed;
+  height: 250px;
+  h1 {
+    color: hsl(0, 0%, 100%);
+    font-weight: @normal;
+  }
+
+  a {
+    display: block;
+    text-decoration: none;
+  }
+
+  .tweet {
+    //font-size: 25px;
+    //float: left;
+    .icon-circle {
+      color: hsl(200, 100%, 60%);
+    }
+    .icon-twitter {
+      color: hsl(0, 0%, 100%);
+    }
+    &:hover {
+      .icon-circle {
+        color: hsl(200, 100%, 40%);
+      }
+    }
+  }
+  .icon-stack {
+    display: inline-block;
+  }
+  .tweeter {
+    display: inline-block;
+    font-weight: @bold;
+    color: hsl(0, 0%, 100%);
+  }
+
+
+  .github {
+    font-size: 25px;
+    float: left;
+    .icon-circle {
+      color: hsl(200, 0%, 60%);
+    }
+    .icon-github-alt {
+      color: hsl(0, 0%, 100%);
+    }
+
+  }
+}
+
+.iconExamples {
+  .clearfix;
+  h2 {
+    font-family: @copy;
+    font-weight: @ultraLight;
+    color: hsl(217, 51%, 47%);
+  }
+  .example {
+    @fontsize: 28px;
+    .clearfix;
+    text-align: center;
+    margin: 10px 3px;
+    .icon {
+      font-size: @fontsize;
+      float: left;
+      width: 35px;
+      i {
+        //background-color: hsl(120, 100%, 70%);
+      }
+    }
+    .class {
+      text-align: center;
+      font-size: 14px;
+      float: left;
+      margin-top: 6px;
+      font-weight: 400;
+      margin-left: 10px;
+      color: hsl(0, 0%, 20%);
+    }
+  }
+}
+
+
+
+
+.download-share {
+  padding: 20px 0px 30px 0px;
+  border-top: 1px solid hsl(0, 0%, 90%);
+  border-bottom: 1px solid hsl(0, 0%, 90%);        
+  background-color: hsl(0, 0%, 95%);
+  margin-top: 30px;
+
+  .box-shadow(inset 0px 0px 15px hsla(0, 0%, 0%, .1))
+}
+
+  
+
+
