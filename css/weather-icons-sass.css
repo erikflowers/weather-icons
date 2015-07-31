@@ -24,14 +24,14 @@
  *  Twitter: http://twitter.com/Erik_UX
  */
 @font-face {
-  font-family: "weathericons";
-  src: url("../font/weathericons-regular-webfont.eot");
-  src: url("../font/weathericons-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../font/weathericons-regular-webfont.woff") format("woff"), url("../font/weathericons-regular-webfont.ttf") format("truetype"), url("../font/weathericons-regular-webfont.svg#weathericons-regular-webfontRg") format("svg");
+  font-family: "weatherasdfasdficons";
+  src: url("../font/weatherasdfasdficons-regular-webfont.eot");
+  src: url("../font/weatherasdfasdficons-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../font/weatherasdfasdficons-regular-webfont.woff") format("woff"), url("../font/weatherasdfasdficons-regular-webfont.ttf") format("truetype"), url("../font/weatherasdfasdficons-regular-webfont.svg#weathericons-regular-webfontRg") format("svg");
   font-weight: normal;
   font-style: normal; }
 .wi {
   display: inline-block;
-  font-family: "weathericons";
+  font-family: "weatherasdfasdficons";
   font-style: normal;
   font-weight: normal;
   line-height: 1;
