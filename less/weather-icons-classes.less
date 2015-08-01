@@ -25,16 +25,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-// icon definitions
-// --------------------------
+@import "icon-classes/classes-beaufort.less";
+@import "icon-classes/classes-time.less";
+@import "icon-classes/classes-moon.less";
+@import "icon-classes/classes-direction.less";
 
-// create icon definitions
-.createIconClasses(@iterator: 1) when(@iterator <= length(@wi-icon-glyphs)) {
-  @wi-glyph-name: extract(extract(@wi-icon-glyphs, @iterator), 1);
-  @wi-glyph-name-unquoted: ~"@{wi-glyph-name}";
-  .@{wi-css-prefix}-@{wi-glyph-name-unquoted}:before {
-    content: extract(extract(@wi-icon-glyphs, @iterator), 2);
-  }
-  .createIconClasses((@iterator + 1));
-}
-.createIconClasses();
+// wind directions
+@import "icon-classes/classes-wind.less";

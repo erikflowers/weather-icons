@@ -1,0 +1,9 @@
+{:columns [label code]
+ :outputs
+ [{:name   "../less/icon-classes/classes-wind-degrees.less"
+   :before ".@{wi-css-prefix}-wind-default { \n"
+   :join   "}\n"
+   :row    [\ \ \& ".point-" label "-deg {.wind-rotate(" code "deg);"]
+   :after  "} \n}"}
+
+   ]}

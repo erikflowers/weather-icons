@@ -1,0 +1,20 @@
+{:columns [label code degree]
+ :outputs
+ [{:name   "../less/icon-variables/variables-wind-names.less"
+   :before ""
+   :join   ";\n"
+   :row    [\@ label \: " " \" \\ code \"]
+   :after  ";"}
+
+
+ {:name   "../_docs/jade/icon-list-wind.jade"
+   :before ""
+   :join   "\n"
+   :row    [".icon-wrap" "\n"
+            "  .icon &#x" code \; "\n"
+            "  .icon_name wi-" label "\n"
+            "  .icon_unicode " code \ ""]
+   :after  ""}
+
+
+   ]}

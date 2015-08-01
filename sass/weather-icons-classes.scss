@@ -2,7 +2,7 @@
 $wi-path:                        "../font";
 $wi-version:                     "2.0";
 $wi-css-prefix:                  wi;
-$wi-font-family:                 weatherasdfasdficons;
+$wi-font-family:                 weathericons;
 
 @font-face {
     font-family: '#{$wi-font-family}';
@@ -25,12 +25,8 @@ $wi-font-family:                 weatherasdfasdficons;
   -moz-osx-font-smoothing: grayscale;
 }
 
-// icon definitions
-// --------------------------
+@import "icon-classes/classes-beaufort.scss";
+@import "icon-classes/classes-time.scss";
+@import "icon-classes/classes-moon.scss";
+@import "icon-classes/classes-direction.scss";
 
-// create icon definitions
-@each $wi-glyph-name, $wi-glyph-content in $wi-icon-glyphs {
-  .#{$wi-css-prefix}-#{$wi-glyph-name}:before {
-    content: $wi-glyph-content;
-  }
-}
