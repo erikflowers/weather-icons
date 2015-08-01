@@ -142,8 +142,8 @@ footer {
   }
 }
 .download-button {
-  .make-column(4);
-  .make-column-offset(4);
+  .make-sm-column(4);
+  //.make-column-offset(4);
 }
 
 .banner {
@@ -308,15 +308,16 @@ h2 {
 }
 
 .icon-wrap {
+  .make-sm-column(3);
   float: left;
-  width: 50px;
-  height: 120px;
-  font-size: 20px;
+  //width: 50px;
+  //height: 120px;
+  font-size: 30px;
 
   .icon-name {
     font-size: 10px;
   }
-  .icon {
+  .icon, .wi {
     display: inline-block;
     font-family: 'weathericons';
     font-style: normal;
@@ -324,6 +325,11 @@ h2 {
     line-height: 1;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
   }
-
+  .icon_unicode {
+    font-size: 10px;
+  }
 }

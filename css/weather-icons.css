@@ -80,15 +80,6 @@
 .wi-time-1:before {
   content: "\f08a";
 }
-.wi-time-10:before {
-  content: "\f093";
-}
-.wi-time-11:before {
-  content: "\f094";
-}
-.wi-time-12:before {
-  content: "\f089";
-}
 .wi-time-2:before {
   content: "\f08b";
 }
@@ -113,47 +104,17 @@
 .wi-time-9:before {
   content: "\f092";
 }
-.wi-moon-full:before {
-  content: "\f0a3";
+.wi-time-10:before {
+  content: "\f093";
+}
+.wi-time-11:before {
+  content: "\f094";
+}
+.wi-time-12:before {
+  content: "\f089";
 }
 .wi-moon-new:before {
   content: "\f095";
-}
-.wi-moon-waning-crescent-1:before {
-  content: "\f0ab";
-}
-.wi-moon-waning-crescent-2:before {
-  content: "\f0ac";
-}
-.wi-moon-waning-crescent-3:before {
-  content: "\f0ad";
-}
-.wi-moon-waning-crescent-4:before {
-  content: "\f0ae";
-}
-.wi-moon-waning-crescent-5:before {
-  content: "\f0af";
-}
-.wi-moon-waning-crescent-6:before {
-  content: "\f0b0";
-}
-.wi-moon-waning-gibbous-1:before {
-  content: "\f0a4";
-}
-.wi-moon-waning-gibbous-2:before {
-  content: "\f0a5";
-}
-.wi-moon-waning-gibbous-3:before {
-  content: "\f0a6";
-}
-.wi-moon-waning-gibbous-4:before {
-  content: "\f0a7";
-}
-.wi-moon-waning-gibbous-5:before {
-  content: "\f0a8";
-}
-.wi-moon-waning-gibbous-6:before {
-  content: "\f0a9";
 }
 .wi-moon-waxing-cresent-1:before {
   content: "\f096";
@@ -191,29 +152,68 @@
 .wi-moon-waxing-gibbous-6:before {
   content: "\f0a2";
 }
+.wi-moon-full:before {
+  content: "\f0a3";
+}
+.wi-moon-waning-gibbous-1:before {
+  content: "\f0a4";
+}
+.wi-moon-waning-gibbous-2:before {
+  content: "\f0a5";
+}
+.wi-moon-waning-gibbous-3:before {
+  content: "\f0a6";
+}
+.wi-moon-waning-gibbous-4:before {
+  content: "\f0a7";
+}
+.wi-moon-waning-gibbous-5:before {
+  content: "\f0a8";
+}
+.wi-moon-waning-gibbous-6:before {
+  content: "\f0a9";
+}
+.wi-moon-waning-crescent-1:before {
+  content: "\f0ab";
+}
+.wi-moon-waning-crescent-2:before {
+  content: "\f0ac";
+}
+.wi-moon-waning-crescent-3:before {
+  content: "\f0ad";
+}
+.wi-moon-waning-crescent-4:before {
+  content: "\f0ae";
+}
+.wi-moon-waning-crescent-5:before {
+  content: "\f0af";
+}
+.wi-moon-waning-crescent-6:before {
+  content: "\f0b0";
+}
+.wi-direction-up:before {
+  content: "\f058";
+}
+.wi-direction-up-right:before {
+  content: "\f057";
+}
+.wi-direction-right:before {
+  content: "\f04d";
+}
+.wi-direction-down-right:before {
+  content: "\f088";
+}
 .wi-direction-down:before {
   content: "\f044";
 }
 .wi-direction-down-left:before {
   content: "\f043";
 }
-.wi-direction-down-right:before {
-  content: "\f088";
-}
 .wi-direction-left:before {
   content: "\f048";
 }
-.wi-direction-right:before {
-  content: "\f04d";
-}
-.wi-direction-up:before {
-  content: "\f058";
-}
 .wi-direction-up-left:before {
   content: "\f087";
-}
-.wi-direction-up-right:before {
-  content: "\f057";
 }
 .wi-wind-default:before {
   content: "\f0b1";

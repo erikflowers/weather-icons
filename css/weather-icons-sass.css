@@ -41,15 +41,6 @@
 .wi-time-1:before {
   content: ""; }
 
-.wi-time-10:before {
-  content: ""; }
-
-.wi-time-11:before {
-  content: ""; }
-
-.wi-time-12:before {
-  content: ""; }
-
 .wi-time-2:before {
   content: ""; }
 
@@ -74,47 +65,17 @@
 .wi-time-9:before {
   content: ""; }
 
-.wi-moon-full:before {
-  content: ""; }
+.wi-time-10:before {
+  content: ""; }
+
+.wi-time-11:before {
+  content: ""; }
+
+.wi-time-12:before {
+  content: ""; }
 
 .wi-moon-new:before {
   content: ""; }
-
-.wi-moon-waning-crescent-1:before {
-  content: ""; }
-
-.wi-moon-waning-crescent-2:before {
-  content: ""; }
-
-.wi-moon-waning-crescent-3:before {
-  content: ""; }
-
-.wi-moon-waning-crescent-4:before {
-  content: ""; }
-
-.wi-moon-waning-crescent-5:before {
-  content: ""; }
-
-.wi-moon-waning-crescent-6:before {
-  content: ""; }
-
-.wi-moon-waning-gibbous-1:before {
-  content: ""; }
-
-.wi-moon-waning-gibbous-2:before {
-  content: ""; }
-
-.wi-moon-waning-gibbous-3:before {
-  content: ""; }
-
-.wi-moon-waning-gibbous-4:before {
-  content: ""; }
-
-.wi-moon-waning-gibbous-5:before {
-  content: ""; }
-
-.wi-moon-waning-gibbous-6:before {
-  content: ""; }
 
 .wi-moon-waxing-cresent-1:before {
   content: ""; }
@@ -152,29 +113,68 @@
 .wi-moon-waxing-gibbous-6:before {
   content: ""; }
 
+.wi-moon-full:before {
+  content: ""; }
+
+.wi-moon-waning-gibbous-1:before {
+  content: ""; }
+
+.wi-moon-waning-gibbous-2:before {
+  content: ""; }
+
+.wi-moon-waning-gibbous-3:before {
+  content: ""; }
+
+.wi-moon-waning-gibbous-4:before {
+  content: ""; }
+
+.wi-moon-waning-gibbous-5:before {
+  content: ""; }
+
+.wi-moon-waning-gibbous-6:before {
+  content: ""; }
+
+.wi-moon-waning-crescent-1:before {
+  content: ""; }
+
+.wi-moon-waning-crescent-2:before {
+  content: ""; }
+
+.wi-moon-waning-crescent-3:before {
+  content: ""; }
+
+.wi-moon-waning-crescent-4:before {
+  content: ""; }
+
+.wi-moon-waning-crescent-5:before {
+  content: ""; }
+
+.wi-moon-waning-crescent-6:before {
+  content: ""; }
+
+.wi-direction-up:before {
+  content: ""; }
+
+.wi-direction-up-right:before {
+  content: ""; }
+
+.wi-direction-right:before {
+  content: ""; }
+
+.wi-direction-down-right:before {
+  content: ""; }
+
 .wi-direction-down:before {
   content: ""; }
 
 .wi-direction-down-left:before {
   content: ""; }
 
-.wi-direction-down-right:before {
-  content: ""; }
-
 .wi-direction-left:before {
   content: ""; }
 
-.wi-direction-right:before {
-  content: ""; }
-
-.wi-direction-up:before {
-  content: ""; }
-
 .wi-direction-up-left:before {
   content: ""; }
-
-.wi-direction-up-right:before {
-  content: ""; }
 
 .wi-wind-default:before {
   content: ""; }
