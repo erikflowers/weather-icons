@@ -17,9 +17,9 @@
    :before ""
    :join   "\n"
    :row    [".icon-wrap" "\n"
-            "  .wi.wi-wind-default.point-" degree "-deg\n"
-            "  .icon-name wi-wind-default.point-" degree "-deg\n"
-            "  .icon-name " direction "\n"
+            "  .wi.wi-wind-default." direction "-" degree "-deg\n"
+            "  .icon-name wi-wind-default." direction "-" degree "-deg\n"
+            ; "  .icon-name " direction "\n"
             "  .icon_unicode " code \ ""]
    :after  ""}
    ]}
