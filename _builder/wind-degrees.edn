@@ -6,4 +6,13 @@
    :row    [\ \ \& ".point-" label "-deg {.wind-rotate(" code "deg);"]
    :after  "} \n}"}
 
+  {:name   "../sass/icon-classes/classes-wind-degrees.scss"
+   :before ".#{$wi-css-prefix}-wind-default { \n"
+   :join   "}\n"
+   :row    [\ \ \& ".point-" label "-deg {.wind-rotate(" code "deg);"]
+   :after  "} \n}"}
+
+
+
+
    ]}

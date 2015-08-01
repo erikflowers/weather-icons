@@ -17,6 +17,6 @@
    :join   "\n"
    :row    [".icon-wrap" "\n"
             "  .icon &#x" code \; "\n"
-            "  .icon_name wi-" label "\n"
+            "  .icon-name wi-" label "\n"
             "  .icon_unicode " code \ ""]
    :after  ""}]}

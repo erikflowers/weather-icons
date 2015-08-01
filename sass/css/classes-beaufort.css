@@ -1,0 +1,57 @@
+/*
+Error: Undefined variable: "$wind-beaufort-0".
+        on line 1 of /Users/erikflowers/Repositories/weather-icons/sass/icon-classes/classes-beaufort.scss
+
+1: .wi-wind-beaufort-0:before {content: $wind-beaufort-0;}
+2: .wi-wind-beaufort-1:before {content: $wind-beaufort-1;}
+3: .wi-wind-beaufort-2:before {content: $wind-beaufort-2;}
+4: .wi-wind-beaufort-3:before {content: $wind-beaufort-3;}
+5: .wi-wind-beaufort-4:before {content: $wind-beaufort-4;}
+6: .wi-wind-beaufort-5:before {content: $wind-beaufort-5;}
+
+Backtrace:
+/Users/erikflowers/Repositories/weather-icons/sass/icon-classes/classes-beaufort.scss:1
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/script/tree/variable.rb:49:in `_perform'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/script/tree/node.rb:50:in `perform'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:394:in `visit_prop'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `block in with_base'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:115:in `with_frame'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `with_base'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:430:in `block (2 levels) in visit_rule'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:430:in `map'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:430:in `block in visit_rule'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:428:in `visit_rule'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `block in with_base'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:115:in `with_frame'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `with_base'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:52:in `map'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/root_node.rb:20:in `render'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:268:in `render'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/sass_scss.rb:415:in `run'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/base.rb:52:in `parse'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/base.rb:19:in `parse!'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/scss:13:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$wind-beaufort-0\".\A         on line 1 of /Users/erikflowers/Repositories/weather-icons/sass/icon-classes/classes-beaufort.scss\A \A 1: .wi-wind-beaufort-0:before {content: $wind-beaufort-0;}\A 2: .wi-wind-beaufort-1:before {content: $wind-beaufort-1;}\A 3: .wi-wind-beaufort-2:before {content: $wind-beaufort-2;}\A 4: .wi-wind-beaufort-3:before {content: $wind-beaufort-3;}\A 5: .wi-wind-beaufort-4:before {content: $wind-beaufort-4;}\A 6: .wi-wind-beaufort-5:before {content: $wind-beaufort-5;}"; }

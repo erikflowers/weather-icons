@@ -25,8 +25,11 @@ $wi-font-family:                 weathericons;
   -moz-osx-font-smoothing: grayscale;
 }
 
-@import "icon-classes/classes-beaufort.scss";
+//@import "icon-classes/classes-beaufort.scss";
 @import "icon-classes/classes-time.scss";
 @import "icon-classes/classes-moon.scss";
 @import "icon-classes/classes-direction.scss";
+
+// wind directions
+@import "icon-classes/classes-wind.scss";
 
