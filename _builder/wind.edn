@@ -13,10 +13,6 @@
    :row    [\$ label \: " " \" \\ code \"]
    :after  ";"}
 
-
-
-
-
  {:name   "../_docs/jade/icon-list-wind.jade"
    :before ""
    :join   "\n"
@@ -26,6 +22,4 @@
             "  .icon-name " direction "\n"
             "  .icon_unicode " code \ ""]
    :after  ""}
-
-
    ]}
