@@ -326,6 +326,30 @@
 .wi-earthquake:before {
   content: ""; }
 
+.wi-volcano:before {
+  content: ""; }
+
+.wi-flood:before {
+  content: ""; }
+
+.wi-tsunami:before {
+  content: ""; }
+
+.wi-fire:before {
+  content: ""; }
+
+.wi-small-craft-advisory:before {
+  content: ""; }
+
+.wi-gale-warning:before {
+  content: ""; }
+
+.wi-storm-warning:before {
+  content: ""; }
+
+.wi-hurricane-warning:before {
+  content: ""; }
+
 .wi-_reserved_:before {
   content: ""; }
 
@@ -355,12 +379,6 @@
 
 .wi-horizon-alt:before {
   content: ""; }
-
-.wi-moon-3rd-quarter:before {
-  content: ""; }
-
-.wi-moon-first-quarter:before {
-  content: ""; }
 
 .wi-refresh:before {
   content: ""; }

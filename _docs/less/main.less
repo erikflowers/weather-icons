@@ -4,17 +4,19 @@
   .make-xs-column(6);
   .make-sm-column(4);
   .make-md-column(3);
-
+  min-height: 60px;
 
   float: left;
   //width: 50px;
   //height: 120px;
-  font-size: 30px;
 
   .icon-name {
-    font-size: 10px;
+    font-size: 12px;
+    color: hsl(0,0%,30%);
   }
   .icon, .wi {
+    font-size: 40px;
+    //outline: 1px solid magenta;
     display: inline-block;
     font-family: 'weathericons';
     font-style: normal;
@@ -25,8 +27,13 @@
     float: left;
     margin-right: 15px;
     margin-bottom: 15px;
+    min-width: 40px;
+    text-align: center;
+    color: hsl(203, 62%, 53%);
   }
   .icon_unicode {
     font-size: 10px;
+    font-style: italic;
+    color: hsl(193, 43%, 71%);
   }
 }
