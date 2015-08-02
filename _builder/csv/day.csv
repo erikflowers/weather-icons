@@ -20,3 +20,7 @@ day-sunny, f00d
 day-sunny-overcast, f00c
 day-thunderstorm, f010
 day-windy, f085
+solar-eclipse, f06e
+hot, f072
+day-cloudy-high,f07d
+day-light-wind,f0c4

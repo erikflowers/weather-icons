@@ -359,6 +359,7 @@
   &.towards-357-deg {@include wind-rotate(357deg);}
   &.towards-358-deg {@include wind-rotate(358deg);}
   &.towards-359-deg {@include wind-rotate(359deg);}
+  &.towards-360-deg {@include wind-rotate(0deg);}
   &.from-0-deg {@include wind-rotate(180deg);}
   &.from-1-deg {@include wind-rotate(181deg);}
   &.from-2-deg {@include wind-rotate(182deg);}
@@ -718,5 +719,6 @@
   &.from-356-deg {@include wind-rotate(176deg);}
   &.from-357-deg {@include wind-rotate(177deg);}
   &.from-358-deg {@include wind-rotate(178deg);}
-  &.from-359-deg {@include wind-rotate(179deg);} 
+  &.from-359-deg {@include wind-rotate(179deg);}
+  &.from-360-deg {@include wind-rotate(180deg);} 
 }
