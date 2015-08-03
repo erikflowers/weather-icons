@@ -1,27 +1,24 @@
 @charset "UTF-8";
 /*!
  *  Weather Icons 2.0
- *  Updated July 28th 2015
+ *  Updated August 1, 2015
  *  Weather themed icons for Bootstrap
+ *  Author - Erik Flowers - erik@helloerik.com
+ *  Email: erik@helloerik.com
+ *  Twitter: http://twitter.com/Erik_UX
  *  ------------------------------------------------------------------------------
-* Maintained at http://erikflowers.github.io/weather-icons
- *  http://twitter.com/Erik_UX
+ *  Maintained at http://erikflowers.github.io/weather-icons
  *
  *  License
  *  ------------------------------------------------------------------------------
  *  - Font licensed under SIL OFL 1.1 -
  *    http://scripts.sil.org/OFL
- *  - CSS and LESS are licensed under MIT License -
+ *  - CSS, LESS and SCSS are licensed under MIT License -
  *    http://opensource.org/licenses/mit-license.html
  *  - Documentation licensed under CC BY 3.0 -
  *    http://creativecommons.org/licenses/by/3.0/
  *  - Inspired by and works great as a companion with Font Awesome
  *    "Font Awesome by Dave Gandy - http://fontawesome.io"
- *
- *  Weather Icons Bootstrap Package Author - Erik Flowers - erik@helloerik.com
- *  ------------------------------------------------------------------------------
- *  Email: erik@helloerik.com
- *  Twitter: http://twitter.com/Erik_UX
  */
 @font-face {
   font-family: "weathericons";
@@ -613,3 +610,966 @@
 
 .wi-wind-beaufort-12:before {
   content: ""; }
+
+.wi-yahoo-0 {
+  content: ""; }
+
+.wi-yahoo-1 {
+  content: ""; }
+
+.wi-yahoo-2 {
+  content: ""; }
+
+.wi-yahoo-3 {
+  content: ""; }
+
+.wi-yahoo-4 {
+  content: ""; }
+
+.wi-yahoo-5 {
+  content: ""; }
+
+.wi-yahoo-6 {
+  content: ""; }
+
+.wi-yahoo-7 {
+  content: ""; }
+
+.wi-yahoo-8 {
+  content: ""; }
+
+.wi-yahoo-9 {
+  content: ""; }
+
+.wi-yahoo-10 {
+  content: ""; }
+
+.wi-yahoo-11 {
+  content: ""; }
+
+.wi-yahoo-12 {
+  content: ""; }
+
+.wi-yahoo-13 {
+  content: ""; }
+
+.wi-yahoo-14 {
+  content: ""; }
+
+.wi-yahoo-15 {
+  content: ""; }
+
+.wi-yahoo-16 {
+  content: ""; }
+
+.wi-yahoo-17 {
+  content: ""; }
+
+.wi-yahoo-18 {
+  content: ""; }
+
+.wi-yahoo-19 {
+  content: ""; }
+
+.wi-yahoo-20 {
+  content: ""; }
+
+.wi-yahoo-21 {
+  content: ""; }
+
+.wi-yahoo-22 {
+  content: ""; }
+
+.wi-yahoo-23 {
+  content: ""; }
+
+.wi-yahoo-24 {
+  content: ""; }
+
+.wi-yahoo-25 {
+  content: ""; }
+
+.wi-yahoo-26 {
+  content: ""; }
+
+.wi-yahoo-27 {
+  content: ""; }
+
+.wi-yahoo-28 {
+  content: ""; }
+
+.wi-yahoo-29 {
+  content: ""; }
+
+.wi-yahoo-30 {
+  content: ""; }
+
+.wi-yahoo-31 {
+  content: ""; }
+
+.wi-yahoo-32 {
+  content: ""; }
+
+.wi-yahoo-33 {
+  content: ""; }
+
+.wi-yahoo-34 {
+  content: ""; }
+
+.wi-yahoo-35 {
+  content: ""; }
+
+.wi-yahoo-36 {
+  content: ""; }
+
+.wi-yahoo-37 {
+  content: ""; }
+
+.wi-yahoo-38 {
+  content: ""; }
+
+.wi-yahoo-39 {
+  content: ""; }
+
+.wi-yahoo-40 {
+  content: ""; }
+
+.wi-yahoo-41 {
+  content: ""; }
+
+.wi-yahoo-42 {
+  content: ""; }
+
+.wi-yahoo-43 {
+  content: ""; }
+
+.wi-yahoo-44 {
+  content: ""; }
+
+.wi-yahoo-45 {
+  content: ""; }
+
+.wi-yahoo-46 {
+  content: ""; }
+
+.wi-yahoo-47 {
+  content: ""; }
+
+.wi-yahoo-3200 {
+  content: ""; }
+
+.wi-forecast-io-clear-day:before {
+  content: ""; }
+
+.wi-forecast-io-clear-night:before {
+  content: ""; }
+
+.wi-forecast-io-rain:before {
+  content: ""; }
+
+.wi-forecast-io-snow:before {
+  content: ""; }
+
+.wi-forecast-io-sleet:before {
+  content: ""; }
+
+.wi-forecast-io-wind:before {
+  content: ""; }
+
+.wi-forecast-io-fog:before {
+  content: ""; }
+
+.wi-forecast-io-cloudy:before {
+  content: ""; }
+
+.wi-forecast-io-partly-cloudy-day:before {
+  content: ""; }
+
+.wi-forecast-io-partly-cloudy-night:before {
+  content: ""; }
+
+.wi-forecast-io-hail:before {
+  content: ""; }
+
+.wi-forecast-io-thunderstorm:before {
+  content: ""; }
+
+.wi-forecast-io-tornado:before {
+  content: ""; }
+
+.wi-wmo4680-0:before,
+.wi-wmo4680-00:before {
+  content: ""; }
+
+.wi-wmo4680-1:before,
+.wi-wmo4680-01:before {
+  content: ""; }
+
+.wi-wmo4680-2:before,
+.wi-wmo4680-02:before {
+  content: ""; }
+
+.wi-wmo4680-3:before,
+.wi-wmo4680-03:before {
+  content: ""; }
+
+.wi-wmo4680-4:before,
+.wi-wmo4680-04:before {
+  content: ""; }
+
+.wi-wmo4680-5:before,
+.wi-wmo4680-05:before {
+  content: ""; }
+
+.wi-wmo4680-10:before {
+  content: ""; }
+
+.wi-wmo4680-11:before {
+  content: ""; }
+
+.wi-wmo4680-12:before {
+  content: ""; }
+
+.wi-wmo4680-18:before {
+  content: ""; }
+
+.wi-wmo4680-20:before {
+  content: ""; }
+
+.wi-wmo4680-21:before {
+  content: ""; }
+
+.wi-wmo4680-22:before {
+  content: ""; }
+
+.wi-wmo4680-23:before {
+  content: ""; }
+
+.wi-wmo4680-24:before {
+  content: ""; }
+
+.wi-wmo4680-25:before {
+  content: ""; }
+
+.wi-wmo4680-26:before {
+  content: ""; }
+
+.wi-wmo4680-27:before {
+  content: ""; }
+
+.wi-wmo4680-28:before {
+  content: ""; }
+
+.wi-wmo4680-29:before {
+  content: ""; }
+
+.wi-wmo4680-30:before {
+  content: ""; }
+
+.wi-wmo4680-31:before {
+  content: ""; }
+
+.wi-wmo4680-32:before {
+  content: ""; }
+
+.wi-wmo4680-33:before {
+  content: ""; }
+
+.wi-wmo4680-34:before {
+  content: ""; }
+
+.wi-wmo4680-35:before {
+  content: ""; }
+
+.wi-wmo4680-40:before {
+  content: ""; }
+
+.wi-wmo4680-41:before {
+  content: ""; }
+
+.wi-wmo4680-42:before {
+  content: ""; }
+
+.wi-wmo4680-43:before {
+  content: ""; }
+
+.wi-wmo4680-44:before {
+  content: ""; }
+
+.wi-wmo4680-45:before {
+  content: ""; }
+
+.wi-wmo4680-46:before {
+  content: ""; }
+
+.wi-wmo4680-47:before {
+  content: ""; }
+
+.wi-wmo4680-48:before {
+  content: ""; }
+
+.wi-wmo4680-50:before {
+  content: ""; }
+
+.wi-wmo4680-51:before {
+  content: ""; }
+
+.wi-wmo4680-52:before {
+  content: ""; }
+
+.wi-wmo4680-53:before {
+  content: ""; }
+
+.wi-wmo4680-54:before {
+  content: ""; }
+
+.wi-wmo4680-55:before {
+  content: ""; }
+
+.wi-wmo4680-56:before {
+  content: ""; }
+
+.wi-wmo4680-57:before {
+  content: ""; }
+
+.wi-wmo4680-58:before {
+  content: ""; }
+
+.wi-wmo4680-60:before {
+  content: ""; }
+
+.wi-wmo4680-61:before {
+  content: ""; }
+
+.wi-wmo4680-62:before {
+  content: ""; }
+
+.wi-wmo4680-63:before {
+  content: ""; }
+
+.wi-wmo4680-64:before {
+  content: ""; }
+
+.wi-wmo4680-65:before {
+  content: ""; }
+
+.wi-wmo4680-66:before {
+  content: ""; }
+
+.wi-wmo4680-67:before {
+  content: ""; }
+
+.wi-wmo4680-68:before {
+  content: ""; }
+
+.wi-wmo4680-70:before {
+  content: ""; }
+
+.wi-wmo4680-71:before {
+  content: ""; }
+
+.wi-wmo4680-72:before {
+  content: ""; }
+
+.wi-wmo4680-73:before {
+  content: ""; }
+
+.wi-wmo4680-74:before {
+  content: ""; }
+
+.wi-wmo4680-75:before {
+  content: ""; }
+
+.wi-wmo4680-76:before {
+  content: ""; }
+
+.wi-wmo4680-77:before {
+  content: ""; }
+
+.wi-wmo4680-78:before {
+  content: ""; }
+
+.wi-wmo4680-80:before {
+  content: ""; }
+
+.wi-wmo4680-81:before {
+  content: ""; }
+
+.wi-wmo4680-82:before {
+  content: ""; }
+
+.wi-wmo4680-83:before {
+  content: ""; }
+
+.wi-wmo4680-84:before {
+  content: ""; }
+
+.wi-wmo4680-85:before {
+  content: ""; }
+
+.wi-wmo4680-86:before {
+  content: ""; }
+
+.wi-wmo4680-87:before {
+  content: ""; }
+
+.wi-wmo4680-89:before {
+  content: ""; }
+
+.wi-wmo4680-90:before {
+  content: ""; }
+
+.wi-wmo4680-91:before {
+  content: ""; }
+
+.wi-wmo4680-92:before {
+  content: ""; }
+
+.wi-wmo4680-93:before {
+  content: ""; }
+
+.wi-wmo4680-94:before {
+  content: ""; }
+
+.wi-wmo4680-95:before {
+  content: ""; }
+
+.wi-wmo4680-96:before {
+  content: ""; }
+
+.wi-wmo4680-99:before {
+  content: ""; }
+
+.wi-owm-200:before {
+  content: ""; }
+
+.wi-owm-201:before {
+  content: ""; }
+
+.wi-owm-202:before {
+  content: ""; }
+
+.wi-owm-210:before {
+  content: ""; }
+
+.wi-owm-211:before {
+  content: ""; }
+
+.wi-owm-212:before {
+  content: ""; }
+
+.wi-owm-221:before {
+  content: ""; }
+
+.wi-owm-230:before {
+  content: ""; }
+
+.wi-owm-231:before {
+  content: ""; }
+
+.wi-owm-232:before {
+  content: ""; }
+
+.wi-owm-300:before {
+  content: ""; }
+
+.wi-owm-301:before {
+  content: ""; }
+
+.wi-owm-302:before {
+  content: ""; }
+
+.wi-owm-310:before {
+  content: ""; }
+
+.wi-owm-311:before {
+  content: ""; }
+
+.wi-owm-312:before {
+  content: ""; }
+
+.wi-owm-313:before {
+  content: ""; }
+
+.wi-owm-314:before {
+  content: ""; }
+
+.wi-owm-321:before {
+  content: ""; }
+
+.wi-owm-500:before {
+  content: ""; }
+
+.wi-owm-501:before {
+  content: ""; }
+
+.wi-owm-502:before {
+  content: ""; }
+
+.wi-owm-503:before {
+  content: ""; }
+
+.wi-owm-504:before {
+  content: ""; }
+
+.wi-owm-511:before {
+  content: ""; }
+
+.wi-owm-520:before {
+  content: ""; }
+
+.wi-owm-521:before {
+  content: ""; }
+
+.wi-owm-522:before {
+  content: ""; }
+
+.wi-owm-531:before {
+  content: ""; }
+
+.wi-owm-600:before {
+  content: ""; }
+
+.wi-owm-601:before {
+  content: ""; }
+
+.wi-owm-602:before {
+  content: ""; }
+
+.wi-owm-611:before {
+  content: ""; }
+
+.wi-owm-612:before {
+  content: ""; }
+
+.wi-owm-615:before {
+  content: ""; }
+
+.wi-owm-616:before {
+  content: ""; }
+
+.wi-owm-620:before {
+  content: ""; }
+
+.wi-owm-621:before {
+  content: ""; }
+
+.wi-owm-622:before {
+  content: ""; }
+
+.wi-owm-701:before {
+  content: ""; }
+
+.wi-owm-711:before {
+  content: ""; }
+
+.wi-owm-721:before {
+  content: ""; }
+
+.wi-owm-731:before {
+  content: ""; }
+
+.wi-owm-741:before {
+  content: ""; }
+
+.wi-owm-761:before {
+  content: ""; }
+
+.wi-owm-762:before {
+  content: ""; }
+
+.wi-owm-771:before {
+  content: ""; }
+
+.wi-owm-781:before {
+  content: ""; }
+
+.wi-owm-800:before {
+  content: ""; }
+
+.wi-owm-801:before {
+  content: ""; }
+
+.wi-owm-802:before {
+  content: ""; }
+
+.wi-owm-803:before {
+  content: ""; }
+
+.wi-owm-803:before {
+  content: ""; }
+
+.wi-owm-804:before {
+  content: ""; }
+
+.wi-owm-900:before {
+  content: ""; }
+
+.wi-owm-901:before {
+  content: ""; }
+
+.wi-owm-902:before {
+  content: ""; }
+
+.wi-owm-903:before {
+  content: ""; }
+
+.wi-owm-904:before {
+  content: ""; }
+
+.wi-owm-905:before {
+  content: ""; }
+
+.wi-owm-906:before {
+  content: ""; }
+
+.wi-owm-957:before {
+  content: ""; }
+
+.wi-owm-day-200:before {
+  content: ""; }
+
+.wi-owm-day-201:before {
+  content: ""; }
+
+.wi-owm-day-202:before {
+  content: ""; }
+
+.wi-owm-day-210:before {
+  content: ""; }
+
+.wi-owm-day-211:before {
+  content: ""; }
+
+.wi-owm-day-212:before {
+  content: ""; }
+
+.wi-owm-day-221:before {
+  content: ""; }
+
+.wi-owm-day-230:before {
+  content: ""; }
+
+.wi-owm-day-231:before {
+  content: ""; }
+
+.wi-owm-day-232:before {
+  content: ""; }
+
+.wi-owm-day-300:before {
+  content: ""; }
+
+.wi-owm-day-301:before {
+  content: ""; }
+
+.wi-owm-day-302:before {
+  content: ""; }
+
+.wi-owm-day-310:before {
+  content: ""; }
+
+.wi-owm-day-311:before {
+  content: ""; }
+
+.wi-owm-day-312:before {
+  content: ""; }
+
+.wi-owm-day-313:before {
+  content: ""; }
+
+.wi-owm-day-314:before {
+  content: ""; }
+
+.wi-owm-day-321:before {
+  content: ""; }
+
+.wi-owm-day-500:before {
+  content: ""; }
+
+.wi-owm-day-501:before {
+  content: ""; }
+
+.wi-owm-day-502:before {
+  content: ""; }
+
+.wi-owm-day-503:before {
+  content: ""; }
+
+.wi-owm-day-504:before {
+  content: ""; }
+
+.wi-owm-day-511:before {
+  content: ""; }
+
+.wi-owm-day-520:before {
+  content: ""; }
+
+.wi-owm-day-521:before {
+  content: ""; }
+
+.wi-owm-day-522:before {
+  content: ""; }
+
+.wi-owm-day-531:before {
+  content: ""; }
+
+.wi-owm-day-600:before {
+  content: ""; }
+
+.wi-owm-day-601:before {
+  content: ""; }
+
+.wi-owm-day-602:before {
+  content: ""; }
+
+.wi-owm-day-611:before {
+  content: ""; }
+
+.wi-owm-day-612:before {
+  content: ""; }
+
+.wi-owm-day-615:before {
+  content: ""; }
+
+.wi-owm-day-616:before {
+  content: ""; }
+
+.wi-owm-day-620:before {
+  content: ""; }
+
+.wi-owm-day-621:before {
+  content: ""; }
+
+.wi-owm-day-622:before {
+  content: ""; }
+
+.wi-owm-day-701:before {
+  content: ""; }
+
+.wi-owm-day-711:before {
+  content: ""; }
+
+.wi-owm-day-721:before {
+  content: ""; }
+
+.wi-owm-day-731:before {
+  content: ""; }
+
+.wi-owm-day-741:before {
+  content: ""; }
+
+.wi-owm-day-761:before {
+  content: ""; }
+
+.wi-owm-day-762:before {
+  content: ""; }
+
+.wi-owm-day-781:before {
+  content: ""; }
+
+.wi-owm-day-800:before {
+  content: ""; }
+
+.wi-owm-day-801:before {
+  content: ""; }
+
+.wi-owm-day-802:before {
+  content: ""; }
+
+.wi-owm-day-803:before {
+  content: ""; }
+
+.wi-owm-day-804:before {
+  content: ""; }
+
+.wi-owm-day-900:before {
+  content: ""; }
+
+.wi-owm-day-902:before {
+  content: ""; }
+
+.wi-owm-day-903:before {
+  content: ""; }
+
+.wi-owm-day-904:before {
+  content: ""; }
+
+.wi-owm-day-906:before {
+  content: ""; }
+
+.wi-owm-day-957:before {
+  content: ""; }
+
+.wi-owm-night-200:before {
+  content: ""; }
+
+.wi-owm-night-201:before {
+  content: ""; }
+
+.wi-owm-night-202:before {
+  content: ""; }
+
+.wi-owm-night-210:before {
+  content: ""; }
+
+.wi-owm-night-211:before {
+  content: ""; }
+
+.wi-owm-night-212:before {
+  content: ""; }
+
+.wi-owm-night-221:before {
+  content: ""; }
+
+.wi-owm-night-230:before {
+  content: ""; }
+
+.wi-owm-night-231:before {
+  content: ""; }
+
+.wi-owm-night-232:before {
+  content: ""; }
+
+.wi-owm-night-300:before {
+  content: ""; }
+
+.wi-owm-night-301:before {
+  content: ""; }
+
+.wi-owm-night-302:before {
+  content: ""; }
+
+.wi-owm-night-310:before {
+  content: ""; }
+
+.wi-owm-night-311:before {
+  content: ""; }
+
+.wi-owm-night-312:before {
+  content: ""; }
+
+.wi-owm-night-313:before {
+  content: ""; }
+
+.wi-owm-night-314:before {
+  content: ""; }
+
+.wi-owm-night-321:before {
+  content: ""; }
+
+.wi-owm-night-500:before {
+  content: ""; }
+
+.wi-owm-night-501:before {
+  content: ""; }
+
+.wi-owm-night-502:before {
+  content: ""; }
+
+.wi-owm-night-503:before {
+  content: ""; }
+
+.wi-owm-night-504:before {
+  content: ""; }
+
+.wi-owm-night-511:before {
+  content: ""; }
+
+.wi-owm-night-520:before {
+  content: ""; }
+
+.wi-owm-night-521:before {
+  content: ""; }
+
+.wi-owm-night-522:before {
+  content: ""; }
+
+.wi-owm-night-531:before {
+  content: ""; }
+
+.wi-owm-night-600:before {
+  content: ""; }
+
+.wi-owm-night-601:before {
+  content: ""; }
+
+.wi-owm-night-602:before {
+  content: ""; }
+
+.wi-owm-night-611:before {
+  content: ""; }
+
+.wi-owm-night-612:before {
+  content: ""; }
+
+.wi-owm-night-615:before {
+  content: ""; }
+
+.wi-owm-night-616:before {
+  content: ""; }
+
+.wi-owm-night-620:before {
+  content: ""; }
+
+.wi-owm-night-621:before {
+  content: ""; }
+
+.wi-owm-night-622:before {
+  content: ""; }
+
+.wi-owm-night-701:before {
+  content: ""; }
+
+.wi-owm-night-711:before {
+  content: ""; }
+
+.wi-owm-night-721:before {
+  content: ""; }
+
+.wi-owm-night-731:before {
+  content: ""; }
+
+.wi-owm-night-741:before {
+  content: ""; }
+
+.wi-owm-night-761:before {
+  content: ""; }
+
+.wi-owm-night-762:before {
+  content: ""; }
+
+.wi-owm-night-781:before {
+  content: ""; }
+
+.wi-owm-night-800:before {
+  content: ""; }
+
+.wi-owm-night-801:before {
+  content: ""; }
+
+.wi-owm-night-802:before {
+  content: ""; }
+
+.wi-owm-night-803:before {
+  content: ""; }
+
+.wi-owm-night-804:before {
+  content: ""; }
+
+.wi-owm-night-900:before {
+  content: ""; }
+
+.wi-owm-night-902:before {
+  content: ""; }
+
+.wi-owm-night-903:before {
+  content: ""; }
+
+.wi-owm-night-904:before {
+  content: ""; }
+
+.wi-owm-night-906:before {
+  content: ""; }
+
+.wi-owm-night-957:before {
+  content: ""; }
