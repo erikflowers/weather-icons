@@ -1,5 +1,7 @@
 // Wind Variables 2.0
 
+@wind-default: "\f0b1";
+
 .@{wi-css-prefix}-wind-default:before { content: @wind-default; }
 .wind-rotate(@degrees) {
   -webkit-transform: rotate(@degrees);
@@ -9,8 +11,4 @@
   transform: rotate(@degrees);
 }
 
-@wind-default: "\f0b1";
-
 @import "classes-wind-degrees.less";
-
-
