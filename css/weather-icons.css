@@ -296,6 +296,9 @@
 .wi-sprinkle:before {
   content: "\f01c";
 }
+.wi-raindrops:before {
+  content: "\f04e";
+}
 .wi-storm-showers:before {
   content: "\f01d";
 }

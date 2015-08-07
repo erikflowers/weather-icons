@@ -2,6 +2,13 @@ doctype
 html
   head
     title Weather Icons - 219 font icons inspired by Font Awesome and designed for Bootstrap
+    // favicons
+    link(rel='apple-touch-icon', sizes='57x57', href='/apple-touch-icon-57x57.png')
+    link(rel='apple-touch-icon', sizes='60x60', href='/apple-touch-icon-60x60.png')
+    link(rel='icon', type='image/png', href='/favicon-16x16.png', sizes='16x16')
+    link(rel='icon', type='image/png', href='/favicon-32x32.png', sizes='32x32')
+    meta(name='msapplication-TileColor', content='#da532c')
+    //favicons
 
     meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no')
 
@@ -9,11 +16,56 @@ html
     link(rel='stylesheet', href='../css/weather-icons.css')
     link(rel='stylesheet', href='../css/weather-icons-wind.css')
 
-
+    script(src='//use.typekit.net/hse2lqc.js')
+    script.
+      try{Typekit.load();}catch(e){}    script(src='js/bootstrap.min.js')
+    script.
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-547519-12', 'erikflowers.github.io');
+      ga('send', 'pageview');
 
   body
 
-    section
+    header
+      .container
+        .row-fluid
+          .col-sm-12
+            h1 Weather Icons
+            .icon
+              i.wi.wi-day-cloudy
+
+     section.content.container.intro
+      .row
+        .col-sm-12
+          p.intro-icons
+            i.wi.wi-day-lightning
+            i.wi.wi-night-thunderstorm
+            i.wi.wi-day-snow
+            i.wi.wi-sprinkle
+            i.wi.wi-day-sunny
+            i.wi.wi-cloudy
+            i.wi.wi-night-rain-mix
+            i.wi.wi-sunset
+            i.wi.wi-sunrise
+            i.wi.wi-day-cloudy-windy
+            i.wi.wi-night-rain
+            i.wi.wi-night-alt-snow
+          p.headline Weather Icons is a font of 189 weather themed icons, ready to be dropped right into
+            a(href="http://getbootstrap.com") Bootstrap
+            |  or any other project.
+            i.wi.wi-cloudy
+          p Inspired by
+            a(href="http://fontawesome.io/")  Font Awesome
+            |, they work in essentially the same way. They are infinitley scalable and any CSS that can be applied to text can be applied to them. All you need to do to insert an icon is add the class to an "i" element:
+            code &lt;i class="wi wi-day-lightning"&gt;&lt;/i&gt;
+
+          p Please make requests or report any issues to the
+              a(href="https://github.com/erikflowers/weather-icons/issues") main repository.
+
+
 
     .container
       .row
@@ -26,4 +78,23 @@ html
 
 
 
+
+    footer
+        .container
+          .row
+            .col-sm-12
+              p The Weather Icons project created and maintained by
+                a(href="http://www.twitter.com/Erik_UX") Erik Flowers
+                |. v1.0 artwork by
+                a(href="http://www.twitter.com/artill") Lukas Bischoff
+                |. v1.1, 1.2, 1.3 artwork by
+                a(href="http://www.twitter.com/Erik_UX") Erik Flowers
+              p LESS/HTML implementation inspired and heavily influenced by
+                a(href="http://fortawesome.github.io/Font-Awesome/") Font Awesome.
+              p Weather Icons licensed under
+                a(href="http://scripts.sil.org/OFL") SIL OFL 1.1
+                |  &mdash; Code licensed under
+                a(href="http://opensource.org/licenses/mit-license.html") MIT License
+                |   &mdash; Documentation licensed under
+                a(href="http://creativecommons.org/licenses/by/3.0/") CC BY 3.0
 

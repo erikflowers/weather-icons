@@ -1,4 +1,93 @@
+header {
+  position: relative;
+  height: 100px;
+  padding-top: 0px;
+  background: url("img/sky.jpg") top center no-repeat fixed;
+  .background-cover;
+  border-bottom: 5px solid hsl(0, 0%, 25%);
+  @media (min-width: @screen-tablet) {
+    //height: 300px;
+    min-height: 100%;
+    height: 100vh;
+    POSITION: RELATIVE;
+  }
+  h1 {
+    float: left;
+    font-family: "proxima nova", @copy;
+    font-weight: 100;
+    font-size: 30px;
+    margin-top: 40px;
+    margin-left: 0px;
+    color: hsl(0, 0%, 100%);
+    text-shadow: 0px 2px 2px hsla(0, 0%, 0%, .9);
+    @media (min-width: @screen-tablet) {
+      font-size: 60px;
+      margin-top: 180px;
+    }
+  }
+  .icon {
+    position: absolute;
+    right: 20px;
+    top: 40px;
+    //bottom: 10px;
+    color: hsl(0, 0%, 100%);
+    font-size: 55px;
+    margin-left: 100px;
+    //margin-top: 120px;
+    float: left;
+    line-height: .65em;
+    text-shadow: 0px 2px 2px hsla(0, 0%, 0%, .5);
+    @media (min-width: @screen-tablet) {
+      font-size: 200px;
+      top: 100px;
+    }
+  }
+}
 
+.headline {
+  font-size: 25px;
+  line-height: 1.3em;
+  margin-bottom: 30px;
+}
+
+.intro {
+  font-size: 18px;
+  margin-top: 30px;
+  font-weight: @normal;
+}
+
+.intro-icons {
+  font-size: 15px;
+  color: hsl(208, 56%, 47%);
+    i {
+      margin-right: 10px;
+    }
+  @media (min-width: @screen-tablet) {
+    font-size: 25px;
+    i {
+      margin-right: 10px;
+    }
+  }
+  @media (min-width: @screen-desktop) {
+    font-size: 45px;
+    i {
+      margin-right: 10px;
+    }
+  }
+}
+
+
+footer {
+  height: 200px;
+  background-color: hsl(0, 0%, 20%);
+  margin-top: 30px;
+  color: hsl(0, 0%, 100%);
+  padding-top: 15px;
+  font-weight: @normal;
+  a {
+    color: hsl(0, 0%, 70%);
+  }
+}
 
 .icon-wrap {
   .make-xs-column(6);

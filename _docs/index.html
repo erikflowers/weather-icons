@@ -2,13 +2,50 @@
 <html>
   <head>
     <title>Weather Icons - 219 font icons inspired by Font Awesome and designed for Bootstrap</title>
+    <!-- favicons-->
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <!--favicons-->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="../css/weather-icons.css">
     <link rel="stylesheet" href="../css/weather-icons-wind.css">
+    <script src="//use.typekit.net/hse2lqc.js"></script>
+    <script>try{Typekit.load();}catch(e){}    script(src='js/bootstrap.min.js')</script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-547519-12', 'erikflowers.github.io');
+      ga('send', 'pageview');
+      
+    </script>
   </head>
   <body>
-    <section></section>
+    <header>
+      <div class="container">
+        <div class="row-fluid">
+          <div class="col-sm-12">
+            <h1>Weather Icons</h1>
+            <div class="icon"><i class="wi wi-day-cloudy"></i></div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="content container intro">
+      <div class="row">
+        <div class="col-sm-12">
+          <p class="intro-icons"><i class="wi wi-day-lightning"></i><i class="wi wi-night-thunderstorm"></i><i class="wi wi-day-snow"></i><i class="wi wi-sprinkle"></i><i class="wi wi-day-sunny"></i><i class="wi wi-cloudy"></i><i class="wi wi-night-rain-mix"></i><i class="wi wi-sunset"></i><i class="wi wi-sunrise"></i><i class="wi wi-day-cloudy-windy"></i><i class="wi wi-night-rain"></i><i class="wi wi-night-alt-snow"></i></p>
+          <p class="headline">Weather Icons is a font of 189 weather themed icons, ready to be dropped right into<a href="http://getbootstrap.com">Bootstrap</a> or any other project.<i class="wi wi-cloudy"></i></p>
+          <p>Inspired by<a href="http://fontawesome.io/"> Font Awesome</a>, they work in essentially the same way. They are infinitley scalable and any CSS that can be applied to text can be applied to them. All you need to do to insert an icon is add the class to an "i" element:<code>&lt;i class="wi wi-day-lightning"&gt;&lt;/i&gt;</code></p>
+          <p>Please make requests or report any issues to the<a href="https://github.com/erikflowers/weather-icons/issues">main repository.</a></p>
+        </div>
+      </div>
+    </section>
     <div class="container">
       <div class="row">
         <div class="col-sm-12">
@@ -458,6 +495,11 @@
               <div class="icon">&#xf01c;</div>
               <div class="icon-name">wi-sprinkle</div>
               <div class="icon_unicode">f01c </div>
+            </div>
+            <div class="icon-wrap">
+              <div class="icon">&#xf04e;</div>
+              <div class="icon-name">wi-raindrops</div>
+              <div class="icon_unicode">f04e </div>
             </div>
             <div class="icon-wrap">
               <div class="icon">&#xf01d;</div>
@@ -1279,5 +1321,16 @@
         </div>
       </div>
     </div>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <p>The Weather Icons project created and maintained by<a href="http://www.twitter.com/Erik_UX">Erik Flowers</a>. v1.0 artwork by<a href="http://www.twitter.com/artill">Lukas Bischoff</a>. v1.1, 1.2, 1.3 artwork by<a href="http://www.twitter.com/Erik_UX">Erik Flowers</a></p>
+            <p>LESS/HTML implementation inspired and heavily influenced by<a href="http://fortawesome.github.io/Font-Awesome/">Font Awesome.</a></p>
+            <p>Weather Icons licensed under<a href="http://scripts.sil.org/OFL">SIL OFL 1.1</a> &mdash; Code licensed under<a href="http://opensource.org/licenses/mit-license.html">MIT License</a>  &mdash; Documentation licensed under<a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a></p>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
