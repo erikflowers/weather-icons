@@ -113,6 +113,9 @@
 .wi-day-light-wind:before {
   content: "\f0c4";
 }
+.wi-night-clear:before {
+  content: "\f02e";
+}
 .wi-night-alt-cloudy:before {
   content: "\f086";
 }
@@ -163,9 +166,6 @@
 }
 .wi-night-alt-thunderstorm:before {
   content: "\f02d";
-}
-.wi-night-clear:before {
-  content: "\f02e";
 }
 .wi-night-cloudy:before {
   content: "\f031";
@@ -233,17 +233,8 @@
 .wi-storm-showers:before {
   content: "\f01d";
 }
-.wi-strong-wind:before {
-  content: "\f050";
-}
 .wi-thunderstorm:before {
   content: "\f01e";
-}
-.wi-tornado:before {
-  content: "\f056";
-}
-.wi-windy:before {
-  content: "\f021";
 }
 .wi-night-alt-cloudy-high:before {
   content: "\f07e";
@@ -272,9 +263,6 @@
 .wi-hail:before {
   content: "\f015";
 }
-.wi-lightning:before {
-  content: "\f016";
-}
 .wi-rain:before {
   content: "\f019";
 }
@@ -296,9 +284,6 @@
 .wi-sprinkle:before {
   content: "\f01c";
 }
-.wi-raindrops:before {
-  content: "\f04e";
-}
 .wi-storm-showers:before {
   content: "\f01d";
 }
@@ -308,11 +293,8 @@
 .wi-snow-wind:before {
   content: "\f064";
 }
-.wi-meteor:before {
-  content: "\f071";
-}
-.wi-hurricane:before {
-  content: "\f073";
+.wi-snow:before {
+  content: "\f01b";
 }
 .wi-smog:before {
   content: "\f074";
@@ -323,17 +305,23 @@
 .wi-lightning:before {
   content: "\f016";
 }
+.wi-raindrops:before {
+  content: "\f04e";
+}
+.wi-raindrop:before {
+  content: "\f078";
+}
 .wi-dust:before {
   content: "\f063";
-}
-.wi-snow:before {
-  content: "\f01b";
 }
 .wi-snowflake-cold:before {
   content: "\f076";
 }
-.wi-raindrop:before {
-  content: "\f078";
+.wi-windy:before {
+  content: "\f021";
+}
+.wi-strong-wind:before {
+  content: "\f050";
 }
 .wi-sandstorm:before {
   content: "\f082";
@@ -341,17 +329,26 @@
 .wi-earthquake:before {
   content: "\f0c6";
 }
-.wi-volcano:before {
-  content: "\f0c8";
+.wi-fire:before {
+  content: "\f0c7";
 }
 .wi-flood:before {
   content: "\f07c";
 }
+.wi-meteor:before {
+  content: "\f071";
+}
 .wi-tsunami:before {
   content: "\f0c5";
 }
-.wi-fire:before {
-  content: "\f0c7";
+.wi-volcano:before {
+  content: "\f0c8";
+}
+.wi-hurricane:before {
+  content: "\f073";
+}
+.wi-tornado:before {
+  content: "\f056";
 }
 .wi-small-craft-advisory:before {
   content: "\f0cc";
@@ -365,47 +362,17 @@
 .wi-hurricane-warning:before {
   content: "\f0cf";
 }
-.wi-_reserved_:before {
-  content: "\f049";
-}
 .wi-alien:before {
   content: "\f075";
 }
 .wi-celsius:before {
   content: "\f03c";
 }
-.wi-cloud-down:before {
-  content: "\f03d";
-}
-.wi-cloud-refresh:before {
-  content: "\f03e";
-}
-.wi-cloud-up:before {
-  content: "\f040";
-}
-.wi-degrees:before {
-  content: "\f042";
-}
 .wi-fahrenheit:before {
   content: "\f045";
 }
-.wi-horizon:before {
-  content: "\f047";
-}
-.wi-horizon-alt:before {
-  content: "\f046";
-}
-.wi-refresh:before {
-  content: "\f04c";
-}
-.wi-refresh-alt:before {
-  content: "\f04b";
-}
-.wi-sunrise:before {
-  content: "\f051";
-}
-.wi-sunset:before {
-  content: "\f052";
+.wi-degrees:before {
+  content: "\f042";
 }
 .wi-thermometer:before {
   content: "\f055";
@@ -415,6 +382,39 @@
 }
 .wi-thermometer-internal:before {
   content: "\f054";
+}
+.wi-cloud-down:before {
+  content: "\f03d";
+}
+.wi-cloud-up:before {
+  content: "\f040";
+}
+.wi-cloud-refresh:before {
+  content: "\f03e";
+}
+.wi-horizon:before {
+  content: "\f047";
+}
+.wi-horizon-alt:before {
+  content: "\f046";
+}
+.wi-sunrise:before {
+  content: "\f051";
+}
+.wi-sunset:before {
+  content: "\f052";
+}
+.wi-moonrise:before {
+  content: "\f0c9";
+}
+.wi-mooonset:before {
+  content: "\f0ca";
+}
+.wi-refresh:before {
+  content: "\f04c";
+}
+.wi-refresh-alt:before {
+  content: "\f04b";
 }
 .wi-umbrella:before {
   content: "\f084";
@@ -427,12 +427,6 @@
 }
 .wi-na:before {
   content: "\f07b";
-}
-.wi-moonrise:before {
-  content: "\f0c9";
-}
-.wi-moonset:before {
-  content: "\f0ca";
 }
 .wi-train:before {
   content: "\f0cb";
