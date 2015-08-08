@@ -23,6 +23,9 @@
  *  Email: erik@helloerik.com
  *  Twitter: http://twitter.com/Erik_UX
  */
+.wi-day-sunny:before {
+  content: ""; }
+
 .wi-day-cloudy:before {
   content: ""; }
 
@@ -76,9 +79,6 @@
 
 .wi-day-storm-showers:before {
   content: ""; }
-
-.wi-day-sunny:before {
-  content: ""; }
 
 .wi-day-sunny-overcast:before {
   content: ""; }

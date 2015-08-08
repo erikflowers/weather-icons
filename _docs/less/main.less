@@ -7,6 +7,31 @@ a {
   color: hsl(288, 43%, 52%);
 }
 
+p {
+  font-size: 14px;
+  line-height: 1.6em;
+}
+
+h3 {
+  .hreset;
+  color: @purple;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.features {
+  margin-top: 40px;
+  .col-sm-4 {
+    margin-bottom: 20px;
+  }
+  i {
+    margin-right: 5px;
+  }
+  p {
+    font-size: 17px;
+  }
+}
+
 header {
   position: relative;
   height: 100px;
@@ -29,7 +54,7 @@ header {
     color: hsl(0, 0%, 100%);
     text-shadow: 0px 2px 2px hsla(0, 0%, 0%, .9);
     text-align: center;
-      
+
     @media (min-width: @screen-tablet) {
       font-size: 80px;
     }
@@ -67,12 +92,16 @@ header {
   }
 }
 
+.purple {
+  color: @purple;
+}
+
 .download-now {
   text-decoration: none;
   display: block;
   padding: 20px 40px;
   background-color: hsl(0, 0%, 100%);
-  color: hsl(288, 64%, 22%);
+  color: @purple;
   border-radius: 10px;
   width: 300px;
   margin-right: auto;
@@ -82,7 +111,7 @@ header {
   font-size: 20px;
   .box-shadow(0px 2px 2px hsla(0,0%,0%,.3));
   .box-shadow(inset 0px -2px 2px hsla(0,0%,0%,.2));
-  border: 3px solid hsl(288, 64%, 22%);
+  border: 3px solid @purple;
   &:hover {
     background-color: hsl(0, 0%, 95%);
     text-decoration: none;
@@ -99,9 +128,14 @@ header {
 
 .headline {
   font-size: 25px;
-  line-height: 1.3em;
+  line-height: 1.5em;
   margin-bottom: 10px;
-  
+
+}
+
+.social {
+  background-color: hsl(0,0%, 95%);
+  height: 100px;
 }
 
 .meta {
@@ -111,7 +145,7 @@ header {
   a {
     color: hsl(0, 0%, 100%);
     width: 290px;
-    background-color: hsl(288, 64%, 22%);
+    background-color: @purple;
     text-decoration: none;
     display: inline-block;
     padding: 10px;
@@ -128,7 +162,9 @@ header {
 }
 
 .instructions {
-  margin-bottom: 30px;
+  margin-bottom: 40px;
+  border-left: 10px solid fade(@purple, 50%);
+  padding-left: 20px;
 }
 
 .intro {
@@ -139,7 +175,7 @@ header {
 
 .intro-icons {
   font-size: 25px;
-  color: hsl(288, 64%, 22%);
+  color: @purple;
   text-align: center;
   padding: 50px 0px 40px 0px;
     i {
@@ -164,7 +200,7 @@ header {
 
 footer {
   height: 200px;
-  background-color: hsl(288, 64%, 22%);
+  background-color: darken(@purple, 20%);
   margin-top: 30px;
   color: hsl(0, 0%, 100%);
   padding-top: 15px;
@@ -205,7 +241,7 @@ footer {
     margin-bottom: 15px;
     min-width: 54px;
     text-align: center;
-    color: hsl(288, 64%, 22%);
+    color: @purple;
   }
   .icon_unicode {
     font-size: 10px;

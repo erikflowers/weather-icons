@@ -1,0 +1,223 @@
+.wi-wind-towards-n {
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg); }
+
+.wi-wind-towards-nne {
+  -webkit-transform: rotate(23deg);
+  -moz-transform: rotate(23deg);
+  -ms-transform: rotate(23deg);
+  -o-transform: rotate(23deg);
+  transform: rotate(23deg); }
+
+.wi-wind-towards-ne {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg); }
+
+.wi-wind-towards-ene {
+  -webkit-transform: rotate(68deg);
+  -moz-transform: rotate(68deg);
+  -ms-transform: rotate(68deg);
+  -o-transform: rotate(68deg);
+  transform: rotate(68deg); }
+
+.wi-wind-towards-e {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg); }
+
+.wi-wind-towards-ese {
+  -webkit-transform: rotate(113deg);
+  -moz-transform: rotate(113deg);
+  -ms-transform: rotate(113deg);
+  -o-transform: rotate(113deg);
+  transform: rotate(113deg); }
+
+.wi-wind-towards-se {
+  -webkit-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -ms-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+  transform: rotate(135deg); }
+
+.wi-wind-towards-sse {
+  -webkit-transform: rotate(158deg);
+  -moz-transform: rotate(158deg);
+  -ms-transform: rotate(158deg);
+  -o-transform: rotate(158deg);
+  transform: rotate(158deg); }
+
+.wi-wind-towards-s {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg); }
+
+.wi-wind-towards-ssw {
+  -webkit-transform: rotate(203deg);
+  -moz-transform: rotate(203deg);
+  -ms-transform: rotate(203deg);
+  -o-transform: rotate(203deg);
+  transform: rotate(203deg); }
+
+.wi-wind-towards-sw {
+  -webkit-transform: rotate(225deg);
+  -moz-transform: rotate(225deg);
+  -ms-transform: rotate(225deg);
+  -o-transform: rotate(225deg);
+  transform: rotate(225deg); }
+
+.wi-wind-towards-wsw {
+  -webkit-transform: rotate(248deg);
+  -moz-transform: rotate(248deg);
+  -ms-transform: rotate(248deg);
+  -o-transform: rotate(248deg);
+  transform: rotate(248deg); }
+
+.wi-wind-towards-w {
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  transform: rotate(270deg); }
+
+.wi-wind-towards-wnw {
+  -webkit-transform: rotate(293deg);
+  -moz-transform: rotate(293deg);
+  -ms-transform: rotate(293deg);
+  -o-transform: rotate(293deg);
+  transform: rotate(293deg); }
+
+.wi-wind-towards-nw {
+  -webkit-transform: rotate(313deg);
+  -moz-transform: rotate(313deg);
+  -ms-transform: rotate(313deg);
+  -o-transform: rotate(313deg);
+  transform: rotate(313deg); }
+
+.wi-wind-towards-nnw {
+  -webkit-transform: rotate(336deg);
+  -moz-transform: rotate(336deg);
+  -ms-transform: rotate(336deg);
+  -o-transform: rotate(336deg);
+  transform: rotate(336deg); }
+
+.wi-wind-from-n {
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg); }
+
+.wi-wind-from-nne {
+  -webkit-transform: rotate(23deg);
+  -moz-transform: rotate(23deg);
+  -ms-transform: rotate(23deg);
+  -o-transform: rotate(23deg);
+  transform: rotate(23deg); }
+
+.wi-wind-from-ne {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg); }
+
+.wi-wind-from-ene {
+  -webkit-transform: rotate(68deg);
+  -moz-transform: rotate(68deg);
+  -ms-transform: rotate(68deg);
+  -o-transform: rotate(68deg);
+  transform: rotate(68deg); }
+
+.wi-wind-from-e {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg); }
+
+.wi-wind-from-ese {
+  -webkit-transform: rotate(113deg);
+  -moz-transform: rotate(113deg);
+  -ms-transform: rotate(113deg);
+  -o-transform: rotate(113deg);
+  transform: rotate(113deg); }
+
+.wi-wind-from-se {
+  -webkit-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -ms-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+  transform: rotate(135deg); }
+
+.wi-wind-from-sse {
+  -webkit-transform: rotate(158deg);
+  -moz-transform: rotate(158deg);
+  -ms-transform: rotate(158deg);
+  -o-transform: rotate(158deg);
+  transform: rotate(158deg); }
+
+.wi-wind-from-s {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg); }
+
+.wi-wind-from-ssw {
+  -webkit-transform: rotate(203deg);
+  -moz-transform: rotate(203deg);
+  -ms-transform: rotate(203deg);
+  -o-transform: rotate(203deg);
+  transform: rotate(203deg); }
+
+.wi-wind-from-sw {
+  -webkit-transform: rotate(225deg);
+  -moz-transform: rotate(225deg);
+  -ms-transform: rotate(225deg);
+  -o-transform: rotate(225deg);
+  transform: rotate(225deg); }
+
+.wi-wind-from-wsw {
+  -webkit-transform: rotate(248deg);
+  -moz-transform: rotate(248deg);
+  -ms-transform: rotate(248deg);
+  -o-transform: rotate(248deg);
+  transform: rotate(248deg); }
+
+.wi-wind-from-w {
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  transform: rotate(270deg); }
+
+.wi-wind-from-wnw {
+  -webkit-transform: rotate(293deg);
+  -moz-transform: rotate(293deg);
+  -ms-transform: rotate(293deg);
+  -o-transform: rotate(293deg);
+  transform: rotate(293deg); }
+
+.wi-wind-from-nw {
+  -webkit-transform: rotate(313deg);
+  -moz-transform: rotate(313deg);
+  -ms-transform: rotate(313deg);
+  -o-transform: rotate(313deg);
+  transform: rotate(313deg); }
+
+.wi-wind-from-nnw {
+  -webkit-transform: rotate(336deg);
+  -moz-transform: rotate(336deg);
+  -ms-transform: rotate(336deg);
+  -o-transform: rotate(336deg);
+  transform: rotate(336deg); }

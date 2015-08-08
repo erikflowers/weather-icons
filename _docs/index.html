@@ -36,19 +36,55 @@
               </div>
             </div>
             <h1>Weather Icons</h1>
-            <h2>215 Weather Themed Icons and CSS</h2><a href="#" class="download-now">Download Now  <i class="wi wi-sunset"></i></a>
+            <h2>215 Weather Themed Icons and CSS</h2><a href="#" class="download-now">Download Now<i class="wi wi-sunset"></i></a>
           </div>
         </div>
       </div>
     </header>
+    <section class="social">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12"></div>
+        </div>
+      </div>
+    </section>
     <section class="content container intro">
       <div class="row">
         <div class="col-sm-12">
           <div class="intro-icons"><i class="wi wi-day-lightning"></i><i class="wi wi-night-thunderstorm"></i><i class="wi wi-day-snow"></i><i class="wi wi-sprinkle"></i><i class="wi wi-day-sunny"></i><i class="wi wi-cloudy"></i><i class="wi wi-night-rain-mix"></i><i class="wi wi-sunset"></i><i class="wi wi-sunrise"></i><i class="wi wi-day-cloudy-windy"></i><i class="wi wi-night-rain"></i><i class="wi wi-night-alt-snow"></i></div>
-          <p class="headline">Icon font and CSS for 219 weather themed icons, ready to be dropped right into  <a href="http://getbootstrap.com">Bootstrap,</a> or any project!  <i class="wi wi-cloudy"></i></p>
-          <p>Infinitley scalable, any CSS that can be applied to text can be applied to the icons. All you need to do to insert an icon is add the class to an "i" element:<code>&lt;i class="wi wi-day-lightning"&gt;&lt;/i&gt;</code></p>
-          <p>Please make requests or report any issues to the  <a href="https://github.com/erikflowers/weather-icons/issues">main repository on GitHub.</a></p>
-          <div class="meta"><a href="http://github.com/erikflowers/weather-icons">View the project on GitHub  <i class="fa fa-github"></i></a></div>
+          <p class="headline">Weather Icons is the only icon font and CSS with 219 weather themed icons, ready to be dropped right into <a href="http://getbootstrap.com">Bootstrap,</a> or any project that needs high quality weather, maritime, and meteorological based icons!</p>
+          <div class="features">
+            <div class="row">
+              <div class="col-sm-4">
+                <h3><i class="wi wi-day-sunny"></i>The Freedom of CSS</h3>
+                <p>Anthing you can do to text, you can do to the icons. Scale, rotate, flip, change color, add shadows... and more!  <i class="wi wi-night-thunderstorm wi-flip-vertical purple"></i><i class="wi wi-night-thunderstorm wi-flip-horizontal purple"></i><i class="wi wi-night-thunderstorm wi-rotate-90 purple"></i><i class="wi wi-night-thunderstorm wi-rotate-180 purple"></i><i class="wi wi-night-thunderstorm wi-rotate-270 purple"></i></p>
+              </div>
+              <div class="col-sm-4">
+                <h3><i class="wi wi-lightning"></i>Use In Graphic Apps</h3>
+                <p>Weather Icons come with OTF and TTF files, so using the cheatsheet to copy and paste right into your favorite design apps like Photoshop, Illustrator, Sketch!</p>
+              </div>
+              <div class="col-sm-4">
+                <h3><i class="wi wi-night-rain"></i>Flip, Scale, Transform</h3>
+                <p>Easily modify the icon look with built-in classes that make it easy.</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-4">
+                <h3><i class="wi wi-earthquake"></i>Built-in Popular Weather API Alias Classes</h3>
+                <p>Using popular API such as Yahoo Weather, OpenWeatherMaps, Forecast.io, or World Meteorological Organization? There are built-in class aliases that you can use right away.</p>
+              </div>
+              <div class="col-sm-4">
+                <h3><i class="wi wi-thunderstorm"></i>Specialty Icons</h3>
+                <p>Included are 28 moon phases, 12 hours of clock, the Beaufort wind force scale, maritime wind warnings,</p>
+              </div>
+              <div class="col-sm-4">
+                <h3><i class="wi wi-wind-default from-270-deg"></i>360 Degrees of Wind Direction</h3>
+                <p>Get wind direction down to 1 degree increments for maximum precision in your UI.</p>
+              </div>
+            </div>
+          </div>
+          <p>Please make requests or report any issues to the <a href="https://github.com/erikflowers/weather-icons/issues">main repository on GitHub.</a></p>
+          <div class="meta"><a href="http://github.com/erikflowers/weather-icons">View the project on GitHub<i class="fa fa-github"></i></a></div>
         </div>
       </div>
     </section>
@@ -57,6 +93,11 @@
         <div class="col-sm-12">
           <div class="section-title">Daytime</div>
           <div class="row">
+            <div class="icon-wrap">
+              <div class="icon">&#xf00d;</div>
+              <div class="icon-name">wi-day-sunny</div>
+              <div class="icon_unicode">f00d </div>
+            </div>
             <div class="icon-wrap">
               <div class="icon">&#xf002;</div>
               <div class="icon-name">wi-day-cloudy</div>
@@ -146,11 +187,6 @@
               <div class="icon">&#xf00e;</div>
               <div class="icon-name">wi-day-storm-showers</div>
               <div class="icon_unicode">f00e </div>
-            </div>
-            <div class="icon-wrap">
-              <div class="icon">&#xf00d;</div>
-              <div class="icon-name">wi-day-sunny</div>
-              <div class="icon_unicode">f00d </div>
             </div>
             <div class="icon-wrap">
               <div class="icon">&#xf00c;</div>
@@ -415,7 +451,7 @@
           </div>
         </div>
         <div class="col-sm-12">
-          <div class="section-title">Neutral and Cloudy</div>
+          <div class="section-title">Neutral</div>
           <div class="row">
             <div class="icon-wrap">
               <div class="icon">&#xf041;</div>
@@ -983,8 +1019,8 @@
           <div class="section-title">Wind Degree Examples</div>
           <div class="instructions">
             <p>The classes for the wind direction indicator is split into 2 options. You can choose towards or from. Towards points to the degree, zero at the top. From points directly away from the degree. This means, if you want the indicator to represent "wind is coming from the south", you can use the <code>towards-0-deg</code> class, or if you prefer to use from, then you would use <code>from-180-deg</code>.</p>
-            <p>There are 360 classes for each in 1 degree increments for maximum precision. </p>
-            <p> </p>
+            <p>There are 360 classes for each in 1 degree increments for maximum precision.</p>
+            <p></p>
           </div>
           <div class="row">
             <div class="icon-wrap"><i class="wi wi-wind-default towards-0-deg"></i>
@@ -1122,8 +1158,8 @@
           <div class="instructions">
             <p>The classes for the cardinal wind direction indicator is split into 2 options. You can choose towards or from. Towards points to the direction in the class, north at the top. From points directly away from the direction in the class. This means, if you want the indicator to represent "wind is coming from the south", you can use the <code>towards-n</code> class, or if you prefer to use from, then you would use <code>from-s</code>.</p>
             <p>The purpose of this is to accommodate applications that prefer to point to where the wind is originating from (arrow points against the wind), or pointing where the wind is blowing (arrow points in direction of wind). You can decide which fits your application best and use the class that matches.</p>
-            <p>There are 16 classes each for precision when using cardinal directions. </p>
-            <p> </p>
+            <p>There are 16 classes each for precision when using cardinal directions.</p>
+            <p></p>
           </div>
           <div class="row">
             <div class="icon-wrap"><i class="wi wi-wind-default wi-wind-towards-n"></i>
@@ -1332,9 +1368,9 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
-            <p>The Weather Icons project created and maintained by  <a href="http://www.twitter.com/Erik_UX">Erik Flowers</a>. v1.0 artwork by  <a href="http://www.twitter.com/artill">Lukas Bischoff</a>. v1.1 - 2.0 artwork by  <a href="http://www.twitter.com/Erik_UX">Erik Flowers  </a></p>
-            <p>LESS/HTML implementation inspired and heavily influenced by  <a href="http://fortawesome.github.io/Font-Awesome/">Font Awesome.  </a></p>
-            <p>Weather Icons licensed under  <a href="http://scripts.sil.org/OFL">SIL OFL 1.1  </a> &mdash; Code licensed under  <a href="http://opensource.org/licenses/mit-license.html">MIT License  </a>  &mdash; Documentation licensed under  <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a></p>
+            <p>The Weather Icons project created and maintained by<a href="http://www.twitter.com/Erik_UX">Erik Flowers</a>. v1.0 artwork by<a href="http://www.twitter.com/artill">Lukas Bischoff</a>. v1.1 - 2.0 artwork by<a href="http://www.twitter.com/Erik_UX">Erik Flowers</a></p>
+            <p>LESS/HTML implementation inspired and heavily influenced by<a href="http://fortawesome.github.io/Font-Awesome/">Font Awesome.</a></p>
+            <p>Weather Icons licensed under<a href="http://scripts.sil.org/OFL">SIL OFL 1.1</a> &mdash; Code licensed under<a href="http://opensource.org/licenses/mit-license.html">MIT License</a>  &mdash; Documentation licensed under<a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a></p>
           </div>
         </div>
         <div class="row">

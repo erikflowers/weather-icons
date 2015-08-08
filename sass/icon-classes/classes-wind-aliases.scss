@@ -1,0 +1,104 @@
+@mixin wind-rotate( $val: 0deg ) {
+  -webkit-transform: rotate($val);
+  -moz-transform: rotate($val);
+  -ms-transform: rotate($val);
+  -o-transform: rotate($val);
+  transform: rotate($val);
+}
+
+.wi-wind-towards-n    {
+  @include wind-rotate(0deg);
+}
+.wi-wind-towards-nne   {
+  @include wind-rotate(23deg);
+}
+.wi-wind-towards-ne    {
+  @include wind-rotate(45deg);
+}
+.wi-wind-towards-ene   {
+  @include wind-rotate(68deg);
+}
+.wi-wind-towards-e    {
+  @include wind-rotate(90deg);
+}
+.wi-wind-towards-ese   {
+  @include wind-rotate(113deg);
+}
+.wi-wind-towards-se    {
+  @include wind-rotate(135deg);
+}
+.wi-wind-towards-sse   {
+  @include wind-rotate(158deg);
+}
+.wi-wind-towards-s    {
+  @include wind-rotate(180deg);
+}
+.wi-wind-towards-ssw   {
+  @include wind-rotate(203deg);
+}
+.wi-wind-towards-sw    {
+  @include wind-rotate(225deg);
+}
+.wi-wind-towards-wsw   {
+  @include wind-rotate(248deg);
+}
+.wi-wind-towards-w    {
+  @include wind-rotate(270deg);
+}
+.wi-wind-towards-wnw   {
+  @include wind-rotate(293deg);
+}
+.wi-wind-towards-nw    {
+  @include wind-rotate(313deg);
+}
+.wi-wind-towards-nnw   {
+  @include wind-rotate(336deg);
+}
+.wi-wind-from-n    {
+  @include wind-rotate(0deg);
+}
+.wi-wind-from-nne   {
+  @include wind-rotate(23deg);
+}
+.wi-wind-from-ne    {
+  @include wind-rotate(45deg);
+}
+.wi-wind-from-ene   {
+  @include wind-rotate(68deg);
+}
+.wi-wind-from-e    {
+  @include wind-rotate(90deg);
+}
+.wi-wind-from-ese   {
+  @include wind-rotate(113deg);
+}
+.wi-wind-from-se    {
+  @include wind-rotate(135deg);
+}
+.wi-wind-from-sse   {
+  @include wind-rotate(158deg);
+}
+.wi-wind-from-s    {
+  @include wind-rotate(180deg);
+}
+.wi-wind-from-ssw   {
+  @include wind-rotate(203deg);
+}
+.wi-wind-from-sw    {
+  @include wind-rotate(225deg);
+}
+.wi-wind-from-wsw   {
+  @include wind-rotate(248deg);
+}
+.wi-wind-from-w    {
+  @include wind-rotate(270deg);
+}
+.wi-wind-from-wnw   {
+  @include wind-rotate(293deg);
+}
+.wi-wind-from-nw    {
+  @include wind-rotate(313deg);
+}
+.wi-wind-from-nnw   {
+  @include wind-rotate(336deg);
+}

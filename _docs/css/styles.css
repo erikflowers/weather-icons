@@ -8866,6 +8866,29 @@ body {
 a {
   color: #a450b9;
 }
+p {
+  font-size: 14px;
+  line-height: 1.6em;
+}
+h3 {
+  margin: 0;
+  padding: 0;
+  color: #924da3;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.features {
+  margin-top: 40px;
+}
+.features .col-sm-4 {
+  margin-bottom: 20px;
+}
+.features i {
+  margin-right: 5px;
+}
+.features p {
+  font-size: 17px;
+}
 header {
   position: relative;
   height: 100px;
@@ -8921,12 +8944,15 @@ header .icon .icon-box {
   text-align: center;
   padding: 50px 20px 0px 20px;
 }
+.purple {
+  color: #924da3;
+}
 .download-now {
   text-decoration: none;
   display: block;
   padding: 20px 40px;
   background-color: #ffffff;
-  color: #4e145c;
+  color: #924da3;
   border-radius: 10px;
   width: 300px;
   margin-right: auto;
@@ -8938,7 +8964,7 @@ header .icon .icon-box {
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
   -webkit-box-shadow: inset 0px -2px 2px rgba(0, 0, 0, 0.2);
   box-shadow: inset 0px -2px 2px rgba(0, 0, 0, 0.2);
-  border: 3px solid #4e145c;
+  border: 3px solid #924da3;
 }
 .download-now:hover {
   background-color: #f2f2f2;
@@ -8953,8 +8979,12 @@ header .icon .icon-box {
 }
 .headline {
   font-size: 25px;
-  line-height: 1.3em;
+  line-height: 1.5em;
   margin-bottom: 10px;
+}
+.social {
+  background-color: #f2f2f2;
+  height: 100px;
 }
 .meta {
   padding-top: 10px;
@@ -8964,7 +8994,7 @@ header .icon .icon-box {
 .meta a {
   color: #ffffff;
   width: 290px;
-  background-color: #4e145c;
+  background-color: #924da3;
   text-decoration: none;
   display: inline-block;
   padding: 10px;
@@ -8979,7 +9009,9 @@ header .icon .icon-box {
   color: #9667a2;
 }
 .instructions {
-  margin-bottom: 30px;
+  margin-bottom: 40px;
+  border-left: 10px solid rgba(146, 77, 163, 0.5);
+  padding-left: 20px;
 }
 .intro {
   font-size: 18px;
@@ -8987,7 +9019,7 @@ header .icon .icon-box {
 }
 .intro-icons {
   font-size: 25px;
-  color: #4e145c;
+  color: #924da3;
   text-align: center;
   padding: 50px 0px 40px 0px;
 }
@@ -9016,7 +9048,7 @@ header .icon .icon-box {
 }
 footer {
   height: 200px;
-  background-color: #4e145c;
+  background-color: #542c5e;
   margin-top: 30px;
   color: #ffffff;
   padding-top: 15px;
@@ -9067,7 +9099,7 @@ footer a {
   margin-bottom: 15px;
   min-width: 54px;
   text-align: center;
-  color: #4e145c;
+  color: #924da3;
 }
 .icon-wrap .icon_unicode {
   font-size: 10px;

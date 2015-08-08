@@ -25,3 +25,29 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.@{wi-css-prefix}-fw {
+  text-align: center;
+  width: 1.4em;
+}
+
+.wi-icon-rotate(@degrees, @rotation) {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=@rotation);
+  -webkit-transform: rotate(@degrees);
+      -ms-transform: rotate(@degrees);
+          transform: rotate(@degrees);
+}
+
+.wi-icon-flip(@horiz, @vert, @rotation) {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=@rotation, mirror=1);
+  -webkit-transform: scale(@horiz, @vert);
+      -ms-transform: scale(@horiz, @vert);
+          transform: scale(@horiz, @vert);
+}
+
+.@{wi-css-prefix}-rotate-90  { .wi-icon-rotate(90deg, 1);  }
+.@{wi-css-prefix}-rotate-180 { .wi-icon-rotate(180deg, 2); }
+.@{wi-css-prefix}-rotate-270 { .wi-icon-rotate(270deg, 3); }
+
+.@{wi-css-prefix}-flip-horizontal { .wi-icon-flip(-1, 1, 0); }
+.@{wi-css-prefix}-flip-vertical   { .wi-icon-flip(1, -1, 2); }
