@@ -44,7 +44,20 @@ html
       .container
         .row
           .col-sm-12
+            .social-wrapper
+              ul
+                li
+                  iframe.github-btn(src='https://ghbtns.com/github-btn.html?user=erikflowers&repo=weather-icons&type=watch&count=true', allowtransparency='true', frameborder='0', scrolling='0', width='100px', height='20px')
+                li
+                  iframe.github-btn(src='https://ghbtns.com/github-btn.html?user=erikflowers&repo=weather-icons&type=fork&count=true', allowtransparency='true', frameborder='0', scrolling='0', width='90px', height='20px')
+                li
+                  a.twitter-share-button(href='https://twitter.com/share', data-lang='en', data-text='Weather Icons - 215 weather themed font icons!', data-via='Erik_UX', data-count='none') Tweet
+                li 
+                  a.twitter-follow-button(href='https://twitter.com/Erik_UX', data-show-count='false', data-lang='en') Follow @Erik_UX
+                  script.
+                    !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
 
+             
     section.content.container.intro
       .row
         .col-sm-12
@@ -61,7 +74,7 @@ html
             i.wi.wi-day-cloudy-windy
             i.wi.wi-night-rain
             i.wi.wi-night-alt-snow
-          p.headline Weather Icons is the only icon font and CSS with 219 weather themed icons, ready to be dropped right into 
+          p.headline Weather Icons is the only icon font and CSS with 215 weather themed icons, ready to be dropped right into 
             a(href="http://getbootstrap.com") Bootstrap,
             |  or any project that needs high quality weather, maritime, and meteorological based icons!
 
@@ -93,8 +106,8 @@ html
               .col-sm-4
                 h3
                   i.wi.wi-earthquake
-                  | Built-in Popular Weather API Alias Classes
-                p Using popular API such as Yahoo Weather, OpenWeatherMaps, Forecast.io, or World Meteorological Organization? There are built-in class aliases that you can use right away.
+                  | Popular Weather API Classes
+                p Build in API compatibility with Yahoo Weather, OpenWeatherMaps, Forecast.io, and World Meteorological Organization.
               .col-sm-4
                 h3
                   i.wi.wi-thunderstorm
@@ -102,38 +115,155 @@ html
                 p Included are 28 moon phases, 12 hours of clock, the Beaufort wind force scale, maritime wind warnings,
               .col-sm-4
                 h3
-                  i.wi.wi-wind-default.from-270-deg
-                  |360 Degrees of Wind Direction
-                p Get wind direction down to 1 degree increments for maximum precision in your UI.
+                  i.wi.wi-volcano.from-270-deg
+                  | Less and Sass Support
+                p Use Less or Sass preprocessors to integrate the Weather Icons right into your existing builds.
+            .row.new-icons
+              .col-sm-12
+                h3 25 New 2.0 Icons!
+                .row
+                  .col-sm-3
+                    ul
+                      li
+                        i.wi.wi-day-cloudy-high
+                        | day-cloudy-high
+                      li
+                        i.wi.wi-day-light-wind
+                        | day-light-wind
+                      li
+                        i.wi.wi-day-sleet
+                        | day-sleet
+                      li
+                        i.wi.wi-day-haze
+                        | day-haze
+                      li
+                        i.wi.wi-night-cloudy-high
+                        | night-cloud-high
+                      li
+                        i.wi.wi-night-alt-partly-cloudy
+                        | night-alt-partly-cloudy
+                      li
+                        i.wi.wi-sleet
+                        | sleet
+                  .col-sm-3
+                    ul
+                      li
+                        i.wi.wi-moonrise
+                        | moonrise
+                      li
+                        i.wi.wi-moonset 
+                        | moonset 
+                      li
+                        i.wi.wi-night-sleet
+                        | night-sleet
+                      li
+                        i.wi.wi-night-alt-sleet
+                        | night-alt-sleet
+                      li
+                        i.wi.wi-raindrop
+                        | raindrop
+                      li
+                        i.wi.wi-barometer
+                        | barometer
+                      li
+                        i.wi.wi-humidity
+                        | humidity
+                  .col-sm-3
+                    ul
+                      li
+                        i.wi.wi-na
+                        | na (no report)
+                      li
+                        i.wi.wi-flood 
+                        | flood 
+                      li
+                        i.wi.wi-sandstorm
+                        | sandstorm
+                      li
+                        i.wi.wi-tsunami
+                        | tsunami
+                      li
+                        i.wi.wi-earthquake
+                        | earthquake
+                      li
+                        i.wi.wi-fire
+                        | fire
+                  .col-sm-3
+                    ul
+                      li
+                        i.wi.wi-volcano
+                        | volcano
+                      li
+                        i.wi.wi-train
+                        | train
+                      li
+                        i.wi.wi-small-craft-advisory
+                        | small-craft-advisory
+                      li
+                        i.wi.wi-gale-warning
+                        | gale-warning
+                      li
+                        i.wi.wi-storm-warning
+                        | storm-warning
+                      li
+                        i.wi.wi-hurricane-warning
+                        | hurricane-warning
 
-
-          p Please make requests or report any issues to the 
-              a(href="https://github.com/erikflowers/weather-icons/issues") main repository on GitHub.
+          
           .meta
-            a(href="http://github.com/erikflowers/weather-icons") View the project on GitHub
+            a.github-button(href="http://github.com/erikflowers/weather-icons") View the project on GitHub
               i.fa.fa-github
+            p Please make requests or report any issues to the 
+              a(href="https://github.com/erikflowers/weather-icons/issues") main repository on GitHub.
 
-    .container
       .row
         include icon-list
+
+      .row-
+        .col-sm-12
+          .section-title Utility Classes
+          .instructions
+            p Use these special, built-in utility classes to flip, rotate, or assign a fixed width to any icon.
+          .row
+            .col-sm-4
+              h3 Flip
+              p 
+                code wi-flip-horizontal
+              p 
+                code wi-flip-vertical
+            .col-sm-4
+              h3 Rotate
+              p 
+                code wi-rotate-90
+              p 
+                code wi-rotate-180
+              p 
+                code wi-rotate-270
+            .col-sm-4
+              h3 Fixed Width
+              p 
+                code wi-fw
+
+
 
     footer
         .container
           .row
-            .col-sm-12
-              p The Weather Icons project created and maintained by
+            .col-sm-6
+              p The Weather Icons project created and maintained by  
                 a(href="http://www.twitter.com/Erik_UX") Erik Flowers
-                |. v1.0 artwork by
+                |. v1.0 artwork by  
                 a(href="http://www.twitter.com/artill") Lukas Bischoff
-                |. v1.1 - 2.0 artwork by
+                |. v1.1 - 2.0 artwork by  
                 a(href="http://www.twitter.com/Erik_UX") Erik Flowers
-              p LESS/HTML implementation inspired and heavily influenced by
+              p LESS/HTML implementation inspired and heavily influenced by  
                 a(href="http://fortawesome.github.io/Font-Awesome/") Font Awesome.
-              p Weather Icons licensed under
-                a(href="http://scripts.sil.org/OFL") SIL OFL 1.1
-                |  &mdash; Code licensed under
-                a(href="http://opensource.org/licenses/mit-license.html") MIT License
-                |   &mdash; Documentation licensed under
+            .col-sm-6
+              p Weather Icons licensed under  
+                a(href="http://scripts.sil.org/OFL") SIL OFL 1.1, 
+                |  Code licensed under   
+                a(href="http://opensource.org/licenses/mit-license.html") MIT License, 
+                |  Documentation licensed under  
                 a(href="http://creativecommons.org/licenses/by/3.0/") CC BY 3.0
           .row
             .col-sm-12

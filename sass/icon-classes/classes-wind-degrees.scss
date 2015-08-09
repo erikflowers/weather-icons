@@ -1,4 +1,4 @@
-.#{$wi-css-prefix}-wind-default {
+.#{$wi-css-prefix}-wind {
   &.towards-0-deg {@include wind-rotate(0deg);}
   &.towards-1-deg {@include wind-rotate(1deg);}
   &.towards-2-deg {@include wind-rotate(2deg);}
@@ -724,5 +724,5 @@
 }
 
 .wi-wind-towards-n    {
-  @extend .wi-wind-default.towards-0-deg;
+  @extend .wi-wind.towards-0-deg;
 }

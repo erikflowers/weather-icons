@@ -17,8 +17,8 @@
    :before ""
    :join   "\n"
    :row    [".icon-wrap" "\n"
-            "  i.wi.wi-wind-default." direction "-" degree "-deg\n"
-            "  .icon-name wi-wind-default." direction "-" degree "-deg\n"
+            "  i.wi.wi-wind." direction "-" degree "-deg\n"
+            "  .icon-name wi-wind." direction "-" degree "-deg\n"
             "  .icon_unicode " code \ ""]
    :after  ""}
 
@@ -26,7 +26,7 @@
    :before ""
    :join   "\n"
    :row    [".icon-wrap" "\n"
-            "  i.wi.wi-wind-default.wi-wind-" direction "-" label "\n"
+            "  i.wi.wi-wind.wi-" direction "-" label "\n"
             "  .icon-name wi-" direction "-" label "\n"
             "  .icon_unicode " code \ ""]
    :after  ""}

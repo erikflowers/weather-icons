@@ -1,8 +1,8 @@
 // Wind Variables 2.0
 
-$wind-default: "\f0b1";
+$wind: "\f0b1";
 
-.#{$wi-css-prefix}-wind-default:before { content: $wind-default; }
+.#{$wi-css-prefix}-wind:before { content: $wind; }
 
 @mixin wind-rotate( $val: 0deg ) {
   -webkit-transform: rotate($val);

@@ -350,6 +350,9 @@
 .wi-hurricane-warning:before {
   content: ""; }
 
+.wi-wind-direction:before {
+  content: ""; }
+
 .wi-alien:before {
   content: ""; }
 
@@ -395,7 +398,7 @@
 .wi-moonrise:before {
   content: ""; }
 
-.wi-mooonset:before {
+.wi-moonset:before {
   content: ""; }
 
 .wi-refresh:before {
