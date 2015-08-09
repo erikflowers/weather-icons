@@ -25,6 +25,13 @@ It is best to download the [repo](http://www.github.com/erikflowers/weather-icon
 #### CSS Only Method
 If you just want to add a css file to your project with no Less compiling, you just need to reference the `weather-icons.css` included in the css folder. *If you are not familiar with using Bootstrap, or using Bootstrap in the precompiled Less mode, I would recommend you give it a try)*
 
+### Bower
+`bower install weather-icons`
+
+Be sure to reference css when using the icons:
+
+`<link rel="stylesheet" type="text/css" href="bower_components/weather-icons/css/weather-icons.min.css">`
+
 ## New in version 1.3
 Umbrella, day-windy, night-alt-cloudy, up-left, down-right, day-sleet, night-sleet, night-alt-sleet, sleet, day-haze.
 
