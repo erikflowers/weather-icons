@@ -1,25 +1,12 @@
 # Weather Icons
 *Version 2.0 - August 2015*
 
-## A free, open source icon-font of Weather icons
+## 215 Weather Themed Icons and CSS
 
 Weather Icons is the only icon font and CSS with 215 weather themed icons, ready to be dropped right into [Bootstrap](http://www.getbootstrap.com), or any project that needs high quality weather, maritime, and meteorological based icons!
 
-Inspired by [Font Awesome](http://fontawesome.io/), they work in essentially the same way. They are infinitley scalable and any CSS that can be applied to text can be applied to them. All you need to do to insert an icon is add the base class and the specific icon class to an "i" element, like this:
+Get started at [http://weathericons.io](http://weathericons.io)!
 
-``<i class="wi wi-day-lightning"></i>``
-
-![Icon Preview](http://wes.io/WeM5/preview.png)
-
-####[View demo and full icon reference](http://erikflowers.github.io/weather-icons/)
-
-## Getting Started
-Getting started is easy. First, add the weather-icons.css to your project. Second, put the font files in a `font` directory on the same level as your `css` directory. By default, the fonts are referencing a ../font/ folder that is on the same level as /css. This can be changed via the `wi-path` variable in `weather-icons-core.less/scss`.
-
-#### CSS Only Method
-If you just want to add a css file to your project with no Less compiling, you just need to reference the `weather-icons.css` included in the css folder.
-
-## New in version 1.3
 
 
 ### Collaboration
