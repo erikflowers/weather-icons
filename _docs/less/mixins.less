@@ -1,0 +1,101 @@
+.gray(@percent) {
+  color: hsl(0,0%,(@percent));
+}
+
+.ul-inline-no-style() {
+  margin: 0px;
+  list-style: none;
+  .clearfix;
+  li {
+    float: left;
+    display: block;
+  }
+}
+
+.ul-block-no-style() {
+  margin: 0px;
+  list-style: none;
+  .clearfix;
+}
+
+// 1 pixel black and white text shadows
+.textShadowBlack(@shadow) {
+  text-shadow: 0 1px 1px hsla(0,0%,0%,@shadow);
+}
+.textShadowWhite(@shadow: 0 1px 0px hsla(0,0%,100%,0.8)) {
+  text-shadow: @shadow;
+}
+
+
+// easy background image mixin
+.bgi(@src, @xpos: 0, @ypos: 0, @repeat: no-repeat) {
+  background-image: url(@src);
+  background-position: @xpos @ypos;
+  background-attachment: scroll;
+  background-repeat: @repeat;
+}
+
+
+// Background-cover mixin yay
+.background-cover(@cover: cover) {
+  -webkit-background-size: @cover;
+  -moz-background-size: @cover;
+  -o-background-size: @cover;
+  background-size: @cover;
+}
+
+
+// CSS3 modern box sizing - padding is included in sum
+.box-sizing(@type: border-box) {
+  -webkit-box-sizing: @type;
+  -moz-box-sizing:    @type;
+  box-sizing:         @type;
+}
+
+// H Rest - resets H tags margin and padding
+.hreset() {
+  margin: 0;
+  padding: 0;
+}
+
+
+// the retina mixin. An example goes: .at2x(img/header@2x.png, 650px, 150px, top, left, no-repeat, scroll)
+// Put the size that the image appears on a non-retina, e.g. if it's a 200px x 200px non-retina, that is the effective size. The @2x 400px x 400px is calculated automatically. The order to type it is width then height.
+// A modification of the retina.js less mixin - https://github.com/imulus/retinajs
+
+
+@highdpi: ~"(-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-resolution: 1.5dppx)";
+.at2x(@path, @w: auto, @h: auto, @xpos: 0, @ypos: 0, @repeat: no-repeat, @attachment: scroll) {
+  background-image: url(@path);
+  background-position: @xpos @ypos;
+  background-repeat: @repeat;
+  background-attachment: @attachment;
+  @at2x_path: ~`"@{path}".split('.').slice(0, "@{path}".split('.').length - 1).join(".") + "@2x" + "." + "@{path}".split('.')["@{path}".split('.').length - 1]`;
+  @media @highdpi {
+    background-image: url(@at2x_path);
+    background-size: @w @h;
+    background-position: @xpos @ypos;
+    background-repeat: @repeat;
+    background-attachment: @attachment;
+  }
+}
+
+
+// the highlight color for the page
+.highlight(@backgroundColor, @textColor) {
+  ::selection, -moz::selection {
+    background: @backgroundColor;
+    color: @textColor;
+  }
+}
+.highlight(hsl(207, 100%, 52%), @white);
+
+.noselect() {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+

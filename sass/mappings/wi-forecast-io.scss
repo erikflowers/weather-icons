@@ -1,0 +1,13 @@
+.#{$wi-css-prefix}-forecast-io-clear-day:before            { content: $day-sunny     ; }
+.#{$wi-css-prefix}-forecast-io-clear-night:before          { content: $night-clear   ; }
+.#{$wi-css-prefix}-forecast-io-rain:before                 { content: $rain          ; }
+.#{$wi-css-prefix}-forecast-io-snow:before                 { content: $snow          ; }
+.#{$wi-css-prefix}-forecast-io-sleet:before                { content: $sleet         ; }
+.#{$wi-css-prefix}-forecast-io-wind:before                 { content: $strong-wind   ; }
+.#{$wi-css-prefix}-forecast-io-fog:before                  { content: $fog           ; }
+.#{$wi-css-prefix}-forecast-io-cloudy:before               { content: $cloudy        ; }
+.#{$wi-css-prefix}-forecast-io-partly-cloudy-day:before    { content: $day-cloudy    ; }
+.#{$wi-css-prefix}-forecast-io-partly-cloudy-night:before  { content: $night-cloudy  ; }
+.#{$wi-css-prefix}-forecast-io-hail:before                 { content: $hail          ; }
+.#{$wi-css-prefix}-forecast-io-thunderstorm:before         { content: $thunderstorm  ; }
+.#{$wi-css-prefix}-forecast-io-tornado:before              { content: $tornado       ; }

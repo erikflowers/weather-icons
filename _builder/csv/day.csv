@@ -1,0 +1,26 @@
+day-sunny, f00d
+day-cloudy, f002
+day-cloudy-gusts, f000
+day-cloudy-windy, f001
+day-fog, f003
+day-hail, f004
+day-haze, f0b6
+day-lightning, f005
+day-rain, f008
+day-rain-mix, f006
+day-rain-wind, f007
+day-showers, f009
+day-sleet, f0b2
+day-sleet-storm, f068
+day-snow, f00a
+day-snow-thunderstorm, f06b
+day-snow-wind, f065
+day-sprinkle, f00b
+day-storm-showers, f00e
+day-sunny-overcast, f00c
+day-thunderstorm, f010
+day-windy, f085
+solar-eclipse, f06e
+hot, f072
+day-cloudy-high,f07d
+day-light-wind,f0c4

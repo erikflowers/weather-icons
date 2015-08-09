@@ -1,0 +1,53 @@
+// Base Variables
+@wi-path:                        "../font";
+@wi-version:                     "2.0";
+@wi-css-prefix:                  wi;
+@wi-font-family:                 weathericons;
+
+@font-face {
+    font-family: '@{wi-font-family}';
+    src: url('@{wi-path}/@{wi-font-family}-regular-webfont.eot');
+    src: url('@{wi-path}/@{wi-font-family}-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('@{wi-path}/@{wi-font-family}-regular-webfont.woff2') format('woff2'),
+         url('@{wi-path}/@{wi-font-family}-regular-webfont.woff') format('woff'),
+         url('@{wi-path}/@{wi-font-family}-regular-webfont.ttf') format('truetype'),
+         url('@{wi-path}/@{wi-font-family}-regular-webfont.svg#weather_iconsregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.@{wi-css-prefix} {
+  display: inline-block;
+  font-family: '@{wi-font-family}';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.@{wi-css-prefix}-fw {
+  text-align: center;
+  width: 1.4em;
+}
+
+.wi-icon-rotate(@degrees, @rotation) {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=@rotation);
+  -webkit-transform: rotate(@degrees);
+      -ms-transform: rotate(@degrees);
+          transform: rotate(@degrees);
+}
+
+.wi-icon-flip(@horiz, @vert, @rotation) {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=@rotation, mirror=1);
+  -webkit-transform: scale(@horiz, @vert);
+      -ms-transform: scale(@horiz, @vert);
+          transform: scale(@horiz, @vert);
+}
+
+.@{wi-css-prefix}-rotate-90  { .wi-icon-rotate(90deg, 1);  }
+.@{wi-css-prefix}-rotate-180 { .wi-icon-rotate(180deg, 2); }
+.@{wi-css-prefix}-rotate-270 { .wi-icon-rotate(270deg, 3); }
+
+.@{wi-css-prefix}-flip-horizontal { .wi-icon-flip(-1, 1, 0); }
+.@{wi-css-prefix}-flip-vertical   { .wi-icon-flip(1, -1, 2); }

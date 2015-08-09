@@ -1,0 +1,39 @@
+{:columns [label code]
+ :outputs
+ [{:name   "../less/icon-variables/variables-day.less"
+   :before ""
+   :join   ";\n"
+   :row    [\@ label \: " " \" \\ code \"]
+   :after  ";"}
+
+
+  {:name   "../sass/icon-variables/variables-day.scss"
+   :before ""
+   :join   ";\n"
+   :row    [\$ label \: " " \" \\ code \"]
+   :after  "\n"}
+
+
+   {:name   "../less/icon-classes/classes-day.less"
+   :before ""
+   :join   "\n"
+   :row    [".wi-" label ":before {content: @" label ";}"]
+   :after  ""}
+
+
+   {:name   "../sass/icon-classes/classes-day.scss"
+   :before ""
+   :join   "\n"
+   :row    [".wi-" label ":before {content: $" label ";}"]
+   :after  ""}
+
+
+  {:name   "../_docs/jade/icon-list-day.jade"
+   :before ""
+   :join   "\n"
+   :row    [".icon-wrap" "\n"
+            "  .icon &#x" code \; "\n"
+            "  .icon-name wi-" label "\n"
+            "  .icon_unicode " code \ ""]
+   :after  ""}
+   ]}

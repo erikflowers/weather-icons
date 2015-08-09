@@ -1,0 +1,36 @@
+{:columns [direction label code degree]
+ :outputs
+ [{:name   "../less/icon-variables/variables-wind-names.less"
+   :before ""
+   :join   ";\n"
+   :row    [\@ label \: " " \" \\ code \"]
+   :after  ";"}
+
+
+  {:name   "../sass/icon-variables/variables-wind-names.scss"
+   :before ""
+   :join   ";\n"
+   :row    [\$ label \: " " \" \\ code \"]
+   :after  ";"}
+
+ {:name   "../_docs/jade/icon-list-wind.jade"
+   :before ""
+   :join   "\n"
+   :row    [".icon-wrap" "\n"
+            "  i.wi.wi-wind." direction "-" degree "-deg\n"
+            "  .icon-name wi-wind." direction "-" degree "-deg\n"
+            "  .icon_unicode " code \ ""]
+   :after  ""}
+
+{:name   "../_docs/jade/icon-list-wind-cardinal.jade"
+   :before ""
+   :join   "\n"
+   :row    [".icon-wrap" "\n"
+            "  i.wi.wi-wind.wi-" direction "-" label "\n"
+            "  .icon-name wi-" direction "-" label "\n"
+            "  .icon_unicode " code \ ""]
+   :after  ""}
+
+
+
+   ]}

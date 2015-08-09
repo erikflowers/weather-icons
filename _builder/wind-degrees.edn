@@ -1,0 +1,15 @@
+{:columns [direction label code]
+ :outputs
+ [{:name   "../less/icon-classes/classes-wind-degrees.less"
+   :before ".@{wi-css-prefix}-wind-default { \n"
+   :join   "}\n"
+   :row    [\ \ \& "." direction "-" label "-deg {.wind-rotate(" code "deg);"]
+   :after  "} \n}"}
+
+  {:name   "../sass/icon-classes/classes-wind-degrees.scss"
+   :before ".#{$wi-css-prefix}-wind-default { \n"
+   :join   "}\n"
+   :row    [\ \ \& "." direction "-" label "-deg {@include wind-rotate(" code "deg);"]
+   :after  "} \n}"}
+
+   ]}

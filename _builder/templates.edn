@@ -1,0 +1,22 @@
+{:columns [label code]
+ :outputs
+ [{:name   "weather-icons-variables.less"
+   :before "@wi-icon-glyphs:\n"
+   :join   ",\n"
+   :row    [\" label \" " " \" \\ code \"]
+   :after  ";"}
+
+  {:name   "weather-icons-variables.scss"
+   :before "$wi-icon-glyphs: (\n"
+   :join   ",\n"
+   :row    [\" label \" \: " " \" \\ code \"]
+   :after  "\n)"}
+
+  {:name   "../icon-list.jade"
+   :before ""
+   :join   "\n"
+   :row    [".icon-wrap" "\n"
+            "  .icon &#x" code \; "\n"
+            "  .icon-name wi-" label "\n"
+            "  .icon_unicode " code \ ""]
+   :after  ""}]}

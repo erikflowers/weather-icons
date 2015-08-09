@@ -1,0 +1,30 @@
+/*!
+ *  Weather Icons 2.0
+ *  Updated August 1, 2015
+ *  Weather themed icons for Bootstrap
+ *  Author - Erik Flowers - erik@helloerik.com
+ *  Email: erik@helloerik.com
+ *  Twitter: http://twitter.com/Erik_UX
+ *  ------------------------------------------------------------------------------
+ *  Maintained at http://erikflowers.github.io/weather-icons
+ *
+ *  License
+ *  ------------------------------------------------------------------------------
+ *  - Font licensed under SIL OFL 1.1 -
+ *    http://scripts.sil.org/OFL
+ *  - CSS, LESS and SCSS are licensed under MIT License -
+ *    http://opensource.org/licenses/mit-license.html
+ *  - Documentation licensed under CC BY 3.0 -
+ *    http://creativecommons.org/licenses/by/3.0/
+ *  - Inspired by and works great as a companion with Font Awesome
+ *    "Font Awesome by Dave Gandy - http://fontawesome.io"
+ */
+
+@import 'weather-icons-core.scss';
+@import 'weather-icons-variables.scss';
+@import 'weather-icons-classes.scss';
+// Mappings to various APIs
+@import "mappings/wi-yahoo.scss";
+@import "mappings/wi-forecast-io.scss";
+@import "mappings/wi-wmo4680.scss";
+@import "mappings/wi-owm.scss";
