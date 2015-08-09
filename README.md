@@ -7,17 +7,31 @@ Weather Icons is the only icon font and CSS with 215 weather themed icons, ready
 
 Get started at [http://weathericons.io](http://weathericons.io)!
 
+![Icon Preview](http://i.imgur.com/XmZW2q3.png)
 
+## Basic Usage
 
-### Collaboration
-If you feel so inclined to add icon ideas, icon art, or other fixes/changes to how the package works, feel free to help! I'd also love it if someone wanted to make this a component as well for bower, npm, component, etc. No idea how to do that myself (yet).
+Place the 5 font files and the main `weather-icons.min.css` file in your project, with the assumption that the fonts are located up `../` from your CSS directory.
+
+The icons are displayed by using an `i` element and adding the base class `wi` and then the icon class you want, such as `day-sunny`. This then looks like `<i class="wi wi-day-sunny"></i>`.
+
+To add a modifier, include the class you want after the icon name, which looks like `<i class="wi wi-day-sunny wi-flip-vertical"></i>`. You can flip, rotate, or add a fixed with. See it all at [http://weathericons.io](http://weathericons.io).
+
+## Wind Usage
+
+To use the wind indicators, you must also use `weather-icons-wind.min.css` along with the default CSS file.
+
+## Contributing
+If you feel so inclined to add icon ideas, icon art, or other fixes/changes to how the package works, feel free to help!
 
 ## Credit
 The icon designs are originally by [Lukas Bischoff](http://www.twitter.com/artill). Icon art for v1.1 forward, HTML, Less, and CSS are by [me (Erik)](http://www.helloerik.com).
 
-None of this would be  possible without [Bootstrap](http://www.getbootstrap.com), [Font Awesome](http://fontawesome.io/) and [Lukas Bischoff](http://www.twitter.com/artill). I just put it all together into a neat package. Cheatsheet provided by Michael Woywod.
+## Licensing
 
-Weather Icons licensed under [SIL OFL 1.1](http://scripts.sil.org/OFL) &mdash; Code licensed under [MIT License](http://opensource.org/licenses/mit-license.html)  &mdash; Documentation licensed under [CC BY 3.0](http://creativecommons.org/licenses/by/3.0)
+* Weather Icons licensed under [SIL OFL 1.1](http://scripts.sil.org/OFL)
+* Code licensed under [MIT License](http://opensource.org/licenses/mit-license.html)
+* Documentation licensed under [CC BY 3.0](http://creativecommons.org/licenses/by/3.0)
 
 ## Contact
 Weather Icons is maintained by Erik Flowers. Reach me at [@Erik_UX](http://www.twitter.com/Erik_UX) or at [http://www.helloerik.com](http://www.helloerik.com).
