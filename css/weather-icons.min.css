@@ -349,6 +349,9 @@
 .wi-hurricane-warning:before {
   content: "\f0cf";
 }
+.wi-wind-direction:before {
+  content: "\f0b1";
+}
 .wi-alien:before {
   content: "\f075";
 }
