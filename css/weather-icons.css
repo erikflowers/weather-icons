@@ -552,6 +552,90 @@
 .wi-moon-waning-crescent-6:before {
   content: "\f0b0";
 }
+.wi-moon-alt-new:before {
+  content: "\f0cf";
+}
+.wi-moon-alt-waxing-cresent-1:before {
+  content: "\f0d0";
+}
+.wi-moon-alt-waxing-cresent-2:before {
+  content: "\f0d1";
+}
+.wi-moon-alt-waxing-cresent-3:before {
+  content: "\f0d2";
+}
+.wi-moon-alt-waxing-cresent-4:before {
+  content: "\f0d3";
+}
+.wi-moon-alt-waxing-cresent-5:before {
+  content: "\f0d4";
+}
+.wi-moon-alt-waxing-cresent-6:before {
+  content: "\f0d5";
+}
+.wi-moon-alt-first-quarter:before {
+  content: "\f0d6";
+}
+.wi-moon-alt-waxing-gibbous-1:before {
+  content: "\f0d7";
+}
+.wi-moon-alt-waxing-gibbous-2:before {
+  content: "\f0d8";
+}
+.wi-moon-alt-waxing-gibbous-3:before {
+  content: "\f0d9";
+}
+.wi-moon-alt-waxing-gibbous-4:before {
+  content: "\f0da";
+}
+.wi-moon-alt-waxing-gibbous-5:before {
+  content: "\f0db";
+}
+.wi-moon-alt-waxing-gibbous-6:before {
+  content: "\f0dc";
+}
+.wi-moon-alt-full:before {
+  content: "\f0dd";
+}
+.wi-moon-alt-waning-gibbous-1:before {
+  content: "\f0de";
+}
+.wi-moon-alt-waning-gibbous-2:before {
+  content: "\f0df";
+}
+.wi-moon-alt-waning-gibbous-3:before {
+  content: "\f0e0";
+}
+.wi-moon-alt-waning-gibbous-4:before {
+  content: "\f0e1";
+}
+.wi-moon-alt-waning-gibbous-5:before {
+  content: "\f0e2";
+}
+.wi-moon-alt-waning-gibbous-6:before {
+  content: "\f0e3";
+}
+.wi-moon-alt-third-quarter:before {
+  content: "\f0e4";
+}
+.wi-moon-alt-waning-crescent-1:before {
+  content: "\f0e5";
+}
+.wi-moon-alt-waning-crescent-2:before {
+  content: "\f0e6";
+}
+.wi-moon-alt-waning-crescent-3:before {
+  content: "\f0e7";
+}
+.wi-moon-alt-waning-crescent-4:before {
+  content: "\f0e8";
+}
+.wi-moon-alt-waning-crescent-5:before {
+  content: "\f0e9";
+}
+.wi-moon-alt-waning-crescent-6:before {
+  content: "\f0ea";
+}
 .wi-moon-0:before {
   content: "\f095";
 }
