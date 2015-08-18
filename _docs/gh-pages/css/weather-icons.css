@@ -396,6 +396,9 @@
 .wi-hurricane-warning:before {
   content: "\f0cf";
 }
+.wi-wind-direction:before {
+  content: "\f0b1";
+}
 .wi-alien:before {
   content: "\f075";
 }
@@ -486,6 +489,9 @@
 .wi-moon-waxing-cresent-6:before {
   content: "\f09b";
 }
+.wi-moon-first-quarter:before {
+  content: "\f09c";
+}
 .wi-moon-waxing-gibbous-1:before {
   content: "\f09d";
 }
@@ -525,6 +531,9 @@
 .wi-moon-waning-gibbous-6:before {
   content: "\f0a9";
 }
+.wi-moon-third-quarter:before {
+  content: "\f0aa";
+}
 .wi-moon-waning-crescent-1:before {
   content: "\f0ab";
 }
@@ -541,6 +550,90 @@
   content: "\f0af";
 }
 .wi-moon-waning-crescent-6:before {
+  content: "\f0b0";
+}
+.wi-moon-0:before {
+  content: "\f095";
+}
+.wi-moon-1:before {
+  content: "\f096";
+}
+.wi-moon-2:before {
+  content: "\f097";
+}
+.wi-moon-3:before {
+  content: "\f098";
+}
+.wi-moon-4:before {
+  content: "\f099";
+}
+.wi-moon-5:before {
+  content: "\f09a";
+}
+.wi-moon-6:before {
+  content: "\f09b";
+}
+.wi-moon-7:before {
+  content: "\f09c";
+}
+.wi-moon-8:before {
+  content: "\f09d";
+}
+.wi-moon-9:before {
+  content: "\f09e";
+}
+.wi-moon-10:before {
+  content: "\f09f";
+}
+.wi-moon-11:before {
+  content: "\f0a0";
+}
+.wi-moon-12:before {
+  content: "\f0a1";
+}
+.wi-moon-13:before {
+  content: "\f0a2";
+}
+.wi-moon-14:before {
+  content: "\f0a3";
+}
+.wi-moon-15:before {
+  content: "\f0a4";
+}
+.wi-moon-16:before {
+  content: "\f0a5";
+}
+.wi-moon-17:before {
+  content: "\f0a6";
+}
+.wi-moon-18:before {
+  content: "\f0a7";
+}
+.wi-moon-19:before {
+  content: "\f0a8";
+}
+.wi-moon-20:before {
+  content: "\f0a9";
+}
+.wi-moon-21:before {
+  content: "\f0aa";
+}
+.wi-moon-22:before {
+  content: "\f0ab";
+}
+.wi-moon-23:before {
+  content: "\f0ac";
+}
+.wi-moon-24:before {
+  content: "\f0ad";
+}
+.wi-moon-25:before {
+  content: "\f0ae";
+}
+.wi-moon-26:before {
+  content: "\f0af";
+}
+.wi-moon-27:before {
   content: "\f0b0";
 }
 .wi-time-1:before {
