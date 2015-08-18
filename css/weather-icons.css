@@ -489,6 +489,9 @@
 .wi-moon-waxing-cresent-6:before {
   content: "\f09b";
 }
+.wi-moon-first-quarter:before {
+  content: "\f09c";
+}
 .wi-moon-waxing-gibbous-1:before {
   content: "\f09d";
 }
@@ -527,6 +530,9 @@
 }
 .wi-moon-waning-gibbous-6:before {
   content: "\f0a9";
+}
+.wi-moon-third-quarter:before {
+  content: "\f0aa";
 }
 .wi-moon-waning-crescent-1:before {
   content: "\f0ab";
