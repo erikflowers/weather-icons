@@ -1,9 +1,9 @@
 # Weather Icons
 *Version 2.0.5 - August 26, 2015*
 
-## 215 Weather Themed Icons and CSS
+## 222 Weather Themed Icons and CSS
 
-Weather Icons is the only icon font and CSS with 215 weather themed icons, ready to be dropped right into [Bootstrap](http://www.getbootstrap.com), or any project that needs high quality weather, maritime, and meteorological based icons!
+Weather Icons is the only icon font and CSS with 222 weather themed icons, ready to be dropped right into [Bootstrap](http://www.getbootstrap.com), or any project that needs high quality weather, maritime, and meteorological based icons!
 
 Get started at [http://weathericons.io](http://weathericons.io)!
 
