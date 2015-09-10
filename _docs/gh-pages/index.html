@@ -106,7 +106,7 @@
               <div class="col-sm-12">
                 <div class="section-title">Getting Started</div>
                 <p>To use the Weather Icons, place the main CSS files in your CSS directory, and the font files in a "font" directory on the same folder level as the CSS director. Once you've done that, all you need to do to reference an icon in your HTML is type  <code>&lt;i class="wi wi-night-sleet"&gt;&lt;/i&gt;</code></p>
-                <p>Weather icons is also hosted on cdn.js, to use the CSS from there, just include:<br><code>https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.5/css/weather-icons.min.css</code></p>
+                <p>Weather icons is also hosted on cdn.js, to use the CSS from there, just include:<br><code>https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.1/css/weather-icons.min.css</code></p>
               </div>
             </div>
           </div>
@@ -1256,6 +1256,7 @@
             <p>The classes for the wind direction indicator is split into 2 options. You can choose towards or from. Towards points to the degree, zero at the top. From points directly away from the degree. This means, if you want the indicator to represent "wind is coming from the south", you can use the <code>towards-0-deg</code> class, or if you prefer to use from, then you would use <code>from-180-deg</code>.</p>
             <p>There are 360 classes for each in 1 degree increments for maximum precision.</p>
             <p></p>
+            <p>NOTE: You must include the additional stylesheeet, <code>weather-icons-wind.css</code> to use the wind icons and API mappings.</p>
           </div>
           <div class="row">
             <div class="icon-wrap"><i class="wi wi-wind towards-0-deg"></i>
@@ -1396,6 +1397,7 @@
             <p>The purpose of this is to accommodate applications that prefer to point to where the wind is originating from (arrow points against the wind), or pointing where the wind is blowing (arrow points in direction of wind). You can decide which fits your application best and use the class that matches.</p>
             <p>There are 16 classes each for precision when using cardinal directions.</p>
             <p></p>
+            <p>NOTE: You must include the additional stylesheeet, <code>weather-icons-wind.css</code> to use the wind icons and API mappings.</p>
           </div>
           <div class="row">
             <div class="icon-wrap"><i class="wi wi-wind wi-towards-n"></i>
