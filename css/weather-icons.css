@@ -819,151 +819,151 @@
 .wi-wind-beaufort-12:before {
   content: "\f0c3";
 }
-.wi-yahoo-0 {
+.wi-yahoo-0:before {
   content: "\f056";
 }
-.wi-yahoo-1 {
+.wi-yahoo-1:before {
   content: "\f00e";
 }
-.wi-yahoo-2 {
+.wi-yahoo-2:before {
   content: "\f073";
 }
-.wi-yahoo-3 {
+.wi-yahoo-3:before {
   content: "\f01e";
 }
-.wi-yahoo-4 {
+.wi-yahoo-4:before {
   content: "\f01e";
 }
-.wi-yahoo-5 {
+.wi-yahoo-5:before {
   content: "\f017";
 }
-.wi-yahoo-6 {
+.wi-yahoo-6:before {
   content: "\f017";
 }
-.wi-yahoo-7 {
+.wi-yahoo-7:before {
   content: "\f017";
 }
-.wi-yahoo-8 {
+.wi-yahoo-8:before {
   content: "\f015";
 }
-.wi-yahoo-9 {
+.wi-yahoo-9:before {
   content: "\f01a";
 }
-.wi-yahoo-10 {
+.wi-yahoo-10:before {
   content: "\f015";
 }
-.wi-yahoo-11 {
+.wi-yahoo-11:before {
   content: "\f01a";
 }
-.wi-yahoo-12 {
+.wi-yahoo-12:before {
   content: "\f01a";
 }
-.wi-yahoo-13 {
+.wi-yahoo-13:before {
   content: "\f01b";
 }
-.wi-yahoo-14 {
+.wi-yahoo-14:before {
   content: "\f00a";
 }
-.wi-yahoo-15 {
+.wi-yahoo-15:before {
   content: "\f064";
 }
-.wi-yahoo-16 {
+.wi-yahoo-16:before {
   content: "\f01b";
 }
-.wi-yahoo-17 {
+.wi-yahoo-17:before {
   content: "\f015";
 }
-.wi-yahoo-18 {
+.wi-yahoo-18:before {
   content: "\f017";
 }
-.wi-yahoo-19 {
+.wi-yahoo-19:before {
   content: "\f063";
 }
-.wi-yahoo-20 {
+.wi-yahoo-20:before {
   content: "\f014";
 }
-.wi-yahoo-21 {
+.wi-yahoo-21:before {
   content: "\f021";
 }
-.wi-yahoo-22 {
+.wi-yahoo-22:before {
   content: "\f062";
 }
-.wi-yahoo-23 {
+.wi-yahoo-23:before {
   content: "\f050";
 }
-.wi-yahoo-24 {
+.wi-yahoo-24:before {
   content: "\f050";
 }
-.wi-yahoo-25 {
+.wi-yahoo-25:before {
   content: "\f076";
 }
-.wi-yahoo-26 {
+.wi-yahoo-26:before {
   content: "\f013";
 }
-.wi-yahoo-27 {
+.wi-yahoo-27:before {
   content: "\f031";
 }
-.wi-yahoo-28 {
+.wi-yahoo-28:before {
   content: "\f002";
 }
-.wi-yahoo-29 {
+.wi-yahoo-29:before {
   content: "\f031";
 }
-.wi-yahoo-30 {
+.wi-yahoo-30:before {
   content: "\f002";
 }
-.wi-yahoo-31 {
+.wi-yahoo-31:before {
   content: "\f02e";
 }
-.wi-yahoo-32 {
+.wi-yahoo-32:before {
   content: "\f00d";
 }
-.wi-yahoo-33 {
+.wi-yahoo-33:before {
   content: "\f083";
 }
-.wi-yahoo-34 {
+.wi-yahoo-34:before {
   content: "\f00c";
 }
-.wi-yahoo-35 {
+.wi-yahoo-35:before {
   content: "\f017";
 }
-.wi-yahoo-36 {
+.wi-yahoo-36:before {
   content: "\f072";
 }
-.wi-yahoo-37 {
+.wi-yahoo-37:before {
   content: "\f00e";
 }
-.wi-yahoo-38 {
+.wi-yahoo-38:before {
   content: "\f00e";
 }
-.wi-yahoo-39 {
+.wi-yahoo-39:before {
   content: "\f00e";
 }
-.wi-yahoo-40 {
+.wi-yahoo-40:before {
   content: "\f01a";
 }
-.wi-yahoo-41 {
+.wi-yahoo-41:before {
   content: "\f064";
 }
-.wi-yahoo-42 {
+.wi-yahoo-42:before {
   content: "\f01b";
 }
-.wi-yahoo-43 {
+.wi-yahoo-43:before {
   content: "\f064";
 }
-.wi-yahoo-44 {
+.wi-yahoo-44:before {
   content: "\f00c";
 }
-.wi-yahoo-45 {
+.wi-yahoo-45:before {
   content: "\f00e";
 }
-.wi-yahoo-46 {
+.wi-yahoo-46:before {
   content: "\f01b";
 }
-.wi-yahoo-47 {
+.wi-yahoo-47:before {
   content: "\f00e";
 }
-.wi-yahoo-3200 {
+.wi-yahoo-3200:before {
   content: "\f077";
 }
 .wi-forecast-io-clear-day:before {
@@ -1402,9 +1402,6 @@
   content: "\f011";
 }
 .wi-owm-803:before {
-  content: "\f011";
-}
-.wi-owm-803:before {
   content: "\f012";
 }
 .wi-owm-804:before {
@@ -1781,4 +1778,61 @@
 }
 .wi-owm-night-957:before {
   content: "\f050";
+}
+.wi-wu-chanceflurries:before {
+  content: "\f064";
+}
+.wi-wu-chancerain:before {
+  content: "\f019";
+}
+.wi-wu-chancesleat:before {
+  content: "\f0b5";
+}
+.wi-wu-chancesnow:before {
+  content: "\f01b";
+}
+.wi-wu-chancetstorms:before {
+  content: "\f01e";
+}
+.wi-wu-clear:before {
+  content: "\f00d";
+}
+.wi-wu-cloudy:before {
+  content: "\f002";
+}
+.wi-wu-flurries:before {
+  content: "\f064";
+}
+.wi-wu-hazy:before {
+  content: "\f0b6";
+}
+.wi-wu-mostlycloudy:before {
+  content: "\f002";
+}
+.wi-wu-mostlysunny:before {
+  content: "\f00d";
+}
+.wi-wu-partlycloudy:before {
+  content: "\f002";
+}
+.wi-wu-partlysunny:before {
+  content: "\f00d";
+}
+.wi-wu-rain:before {
+  content: "\f01a";
+}
+.wi-wu-sleat:before {
+  content: "\f0b5";
+}
+.wi-wu-snow:before {
+  content: "\f01b";
+}
+.wi-wu-sunny:before {
+  content: "\f00d";
+}
+.wi-wu-tstorms:before {
+  content: "\f01e";
+}
+.wi-wu-unknown:before {
+  content: "\f00d";
 }
