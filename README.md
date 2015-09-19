@@ -1,5 +1,5 @@
 # Weather Icons
-*Version 2.0.7 - September 14th, 2015*
+*Version 2.0.8 - September 19th, 2015*
 
 ## 222 Weather Themed Icons and CSS
 
