@@ -1785,7 +1785,7 @@
 .wi-wu-chancerain:before {
   content: "\f019";
 }
-.wi-wu-chancesleat:before {
+.wi-wu-chancesleet:before {
   content: "\f0b5";
 }
 .wi-wu-chancesnow:before {
@@ -1802,6 +1802,9 @@
 }
 .wi-wu-flurries:before {
   content: "\f064";
+}
+.wi-wu-fog:before {
+  content: "\f003";
 }
 .wi-wu-hazy:before {
   content: "\f0b6";
@@ -1821,7 +1824,7 @@
 .wi-wu-rain:before {
   content: "\f01a";
 }
-.wi-wu-sleat:before {
+.wi-wu-sleet:before {
   content: "\f0b5";
 }
 .wi-wu-snow:before {
