@@ -3,6 +3,7 @@
 	"version": "2.0.10",
   "description": "215 weather themed icons inspired by Font Awesome and ready for Bootstrap",
   "scripts": {},
+  "style": "css/weather-icons.css",
   "authors": [
     "Erik Flowers <erik@helloerik.com>"
   ],
