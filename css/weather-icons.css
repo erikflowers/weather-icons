@@ -1,6 +1,6 @@
 /*!
- *  Weather Icons 2.0.8
- *  Updated September 19, 2015
+ *  Weather Icons 2.0
+ *  Updated August 1, 2015
  *  Weather themed icons for Bootstrap
  *  Author - Erik Flowers - erik@helloerik.com
  *  Email: erik@helloerik.com
@@ -818,6 +818,150 @@
 }
 .wi-wind-beaufort-12:before {
   content: "\f0c3";
+}
+.wi-weather-channel-0:before {
+  content: "\f056";
+}
+.wi-weather-channel-1:before {
+  content: "\f01d";
+}
+.wi-weather-channel-2:before {
+  content: "\f073";
+}
+.wi-weather-channel-3:before {
+  content: "\f01e";
+}
+.wi-weather-channel-4:before {
+  content: "\f01d";
+}
+.wi-weather-channel-5:before {
+  content: "\f017";
+}
+.wi-weather-channel-6:before {
+  content: "\f017";
+}
+.wi-weather-channel-7:before {
+  content: "\f017";
+}
+.wi-weather-channel-8:before {
+  content: "\f015";
+}
+.wi-weather-channel-9:before {
+  content: "\f01a";
+}
+.wi-weather-channel-10:before {
+  content: "\f015";
+}
+.wi-weather-channel-11:before {
+  content: "\f01a";
+}
+.wi-weather-channel-12:before {
+  content: "\f019";
+}
+.wi-weather-channel-13:before {
+  content: "\f01b";
+}
+.wi-weather-channel-14:before {
+  content: "\f01b";
+}
+.wi-weather-channel-15:before {
+  content: "\f064";
+}
+.wi-weather-channel-16:before {
+  content: "\f01b";
+}
+.wi-weather-channel-17:before {
+  content: "\f015";
+}
+.wi-weather-channel-18:before {
+  content: "\f017";
+}
+.wi-weather-channel-19:before {
+  content: "\f063";
+}
+.wi-weather-channel-20:before {
+  content: "\f014";
+}
+.wi-weather-channel-21:before {
+  content: "\f012";
+}
+.wi-weather-channel-22:before {
+  content: "\f062";
+}
+.wi-weather-channel-23:before {
+  content: "\f021";
+}
+.wi-weather-channel-24:before {
+  content: "\f050";
+}
+.wi-weather-channel-25:before {
+  content: "\f076";
+}
+.wi-weather-channel-26:before {
+  content: "\f013";
+}
+.wi-weather-channel-27:before {
+  content: "\f031";
+}
+.wi-weather-channel-28:before {
+  content: "\f002";
+}
+.wi-weather-channel-29:before {
+  content: "\f031";
+}
+.wi-weather-channel-30:before {
+  content: "\f002";
+}
+.wi-weather-channel-31:before {
+  content: "\f02e";
+}
+.wi-weather-channel-32:before {
+  content: "\f00d";
+}
+.wi-weather-channel-33:before {
+  content: "\f083";
+}
+.wi-weather-channel-34:before {
+  content: "\f00c";
+}
+.wi-weather-channel-35:before {
+  content: "\f006";
+}
+.wi-weather-channel-36:before {
+  content: "\f072";
+}
+.wi-weather-channel-37:before {
+  content: "\f00e";
+}
+.wi-weather-channel-38:before {
+  content: "\f01d";
+}
+.wi-weather-channel-39:before {
+  content: "\f00e";
+}
+.wi-weather-channel-40:before {
+  content: "\f01a";
+}
+.wi-weather-channel-41:before {
+  content: "\f065";
+}
+.wi-weather-channel-42:before {
+  content: "\f01b";
+}
+.wi-weather-channel-43:before {
+  content: "\f064";
+}
+.wi-weather-channel-44:before {
+  content: "\f00c";
+}
+.wi-weather-channel-45:before {
+  content: "\f03a";
+}
+.wi-weather-channel-46:before {
+  content: "\f038";
+}
+.wi-weather-channel-47:before {
+  content: "\f01d";
 }
 .wi-yahoo-0:before {
   content: "\f056";
