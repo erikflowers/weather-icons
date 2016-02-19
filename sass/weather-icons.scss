@@ -24,6 +24,7 @@
 @import 'weather-icons-variables.scss';
 @import 'weather-icons-classes.scss';
 // Mappings to various APIs
+@import "mappings/wi-wchannel.scss";
 @import "mappings/wi-yahoo.scss";
 @import "mappings/wi-forecast-io.scss";
 @import "mappings/wi-wmo4680.scss";
