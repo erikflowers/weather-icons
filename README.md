@@ -40,4 +40,4 @@ The icon designs are originally by [Lukas Bischoff](http://www.twitter.com/artil
 * Documentation licensed under [CC BY 3.0](http://creativecommons.org/licenses/by/3.0)
 
 ## Contact
-Weather Icons is maintained by Erik Flowers. Reach me at [@Erik_UX](http://www.twitter.com/Erik_UX) or at [http://www.helloerik.com](http://www.helloerik.com).
+Weather Icons is maintained by Erik Flowers. Reach me at [@Erik_UX](http://www.twitter.com/erik_flowers) or at [http://www.helloerik.com](http://www.helloerik.com).
