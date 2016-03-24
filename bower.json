@@ -8,7 +8,7 @@
 	"authors": [
 		"Erik Flowers <erik@helloerik.com>"
 	],
-	"description": "215 weather themed icons inspired by Font Awesome and ready for Bootstrap",
+	"description": "222 weather themed icons inspired by Font Awesome and ready for Bootstrap",
 	"license": "MIT",
 	"main": [
 		"./css/weather-icons.css",
