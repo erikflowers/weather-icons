@@ -1,6 +1,6 @@
 /*!
- *  Weather Icons 2.0.8
- *  Updated September 19, 2015
+ *  Weather Icons 2.0
+ *  Updated August 1, 2015
  *  Weather themed icons for Bootstrap
  *  Author - Erik Flowers - erik@helloerik.com
  *  Email: erik@helloerik.com
@@ -1003,6 +1003,45 @@
   content: "\f01e";
 }
 .wi-forecast-io-tornado:before {
+  content: "\f056";
+}
+.wi-dark-sky-clear-day:before {
+  content: "\f00d";
+}
+.wi-dark-sky-clear-night:before {
+  content: "\f02e";
+}
+.wi-dark-sky-rain:before {
+  content: "\f019";
+}
+.wi-dark-sky-snow:before {
+  content: "\f01b";
+}
+.wi-dark-sky-sleet:before {
+  content: "\f0b5";
+}
+.wi-dark-sky-wind:before {
+  content: "\f050";
+}
+.wi-dark-sky-fog:before {
+  content: "\f014";
+}
+.wi-dark-sky-cloudy:before {
+  content: "\f013";
+}
+.wi-dark-sky-partly-cloudy-day:before {
+  content: "\f002";
+}
+.wi-dark-sky-partly-cloudy-night:before {
+  content: "\f031";
+}
+.wi-dark-sky-hail:before {
+  content: "\f015";
+}
+.wi-dark-sky-thunderstorm:before {
+  content: "\f01e";
+}
+.wi-dark-sky-tornado:before {
   content: "\f056";
 }
 .wi-wmo4680-0:before,
