@@ -1,6 +1,6 @@
 /*!
- *  Weather Icons 2.0.8
- *  Updated September 19, 2015
+ *  Weather Icons 2.0
+ *  Updated August 1, 2015
  *  Weather themed icons for Bootstrap
  *  Author - Erik Flowers - erik@helloerik.com
  *  Email: erik@helloerik.com
@@ -818,6 +818,38 @@
 }
 .wi-wind-beaufort-12:before {
   content: "\f0c3";
+}
+.wi-lg {
+  font-size: 1.33333333em;
+  line-height: 0.75em;
+  vertical-align: -15%;
+}
+.wi-2x {
+  font-size: 2em;
+}
+.wi-3x {
+  font-size: 3em;
+}
+.wi-4x {
+  font-size: 4em;
+}
+.wi-5x {
+  font-size: 5em;
+}
+.wi-6x {
+  font-size: 6em;
+}
+.wi-7x {
+  font-size: 7em;
+}
+.wi-8x {
+  font-size: 8em;
+}
+.wi-9x {
+  font-size: 9em;
+}
+.wi-10x {
+  font-size: 10em;
 }
 .wi-yahoo-0:before {
   content: "\f056";
