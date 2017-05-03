@@ -1,0 +1,99 @@
+/*!
+ *  Weather Icons for Yahoo Weather API.
+ *  Weather themed icons for Bootstrap, using Yahoo Condition Codes:
+ *
+ *      https://developer.yahoo.com/weather/#codes
+ *
+ *  ------------------------------------------------------------------------------
+ * Maintained at http://erikflowers.github.io/weather-icons
+ *  http://twitter.com/Erik_UX
+ *
+ *  License
+ *  ------------------------------------------------------------------------------
+ *  - Fpmt licensed under SIL OFL 1.1 -
+ *    http://scripts.sil.org/OFL
+ *  - CSS and LESS are licensed under MIT License -
+ *    http://opensource.org/licenses/mit-license.html
+ *  - Documentation licensed under CC BY 3.0 -
+ *    http://creativecommons.org/licenses/by/3.0/
+ *  - Inspired by and works great as a companion with Font Aweosme
+ *    "Font Awesome by Dave Gandy - http://fontawesome.io"
+ *
+ *  Weather Icons Bootstrap Package Author - Erik Flowers - erik@helloerik.com
+ *  ------------------------------------------------------------------------------
+ *  Email: erik@helloerik.com
+ *  Twitter: http://twitter.com/Erik_UX
+ */
+
+@import "variables.less";
+
+@font-face {
+    font-family: '@{weather-icons-font-family}';
+    src: url('@{weather-icons-path}/@{weather-icons-font-family}-regular-webfont.eot');
+    src: url('@{weather-icons-path}/@{weather-icons-font-family}-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('@{weather-icons-path}/@{weather-icons-font-family}-regular-webfont.woff') format('woff'),
+         url('@{weather-icons-path}/@{weather-icons-font-family}-regular-webfont.ttf') format('truetype'),
+         url('@{weather-icons-path}/@{weather-icons-font-family}-regular-webfont.svg#weathericons-regular-webfontRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.@{weather-icons-prefix} {
+  display: inline-block;
+  font-family: '@{weather-icons-font-family}';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.@{weather-icons-prefix}-condition-0 { content: @tornado; };
+.@{weather-icons-prefix}-condition-1 { content: @day-storm-showers; };
+.@{weather-icons-prefix}-condition-2 { content: @hurricane; };
+.@{weather-icons-prefix}-condition-3 { content: @thunderstorm; };
+.@{weather-icons-prefix}-condition-4 { content: @thunderstorm; };
+.@{weather-icons-prefix}-condition-5 { content: @rain-mix; };
+.@{weather-icons-prefix}-condition-6 { content: @rain-mix; };
+.@{weather-icons-prefix}-condition-7 { content: @rain-mix; };
+.@{weather-icons-prefix}-condition-8 { content: @hail; };
+.@{weather-icons-prefix}-condition-9 { content: @showers; };
+.@{weather-icons-prefix}-condition-10 { content: @hail; };
+.@{weather-icons-prefix}-condition-11 { content: @showers; };
+.@{weather-icons-prefix}-condition-12 { content: @showers; };
+.@{weather-icons-prefix}-condition-13 { content: @snow; };
+.@{weather-icons-prefix}-condition-14 { content: @day-snow; };
+.@{weather-icons-prefix}-condition-15 { content: @snow-wind; };
+.@{weather-icons-prefix}-condition-16 { content: @snow; };
+.@{weather-icons-prefix}-condition-17 { content: @hail; };
+.@{weather-icons-prefix}-condition-18 { content: @rain-mix; };
+.@{weather-icons-prefix}-condition-19 { content: @dust; };
+.@{weather-icons-prefix}-condition-20 { content: @fog; };
+.@{weather-icons-prefix}-condition-21 { content: @windy; };
+.@{weather-icons-prefix}-condition-22 { content: @smoke; };
+.@{weather-icons-prefix}-condition-23 { content: @strong-wind; };
+.@{weather-icons-prefix}-condition-24 { content: @strong-wind; };
+.@{weather-icons-prefix}-condition-25 { content: @snowflake-cold; };
+.@{weather-icons-prefix}-condition-26 { content: @cloudy; };
+.@{weather-icons-prefix}-condition-27 { content: @night-cloudy; };
+.@{weather-icons-prefix}-condition-28 { content: @day-cloudy; };
+.@{weather-icons-prefix}-condition-29 { content: @night-cloudy; };
+.@{weather-icons-prefix}-condition-30 { content: @day-cloudy; };
+.@{weather-icons-prefix}-condition-31 { content: @night-clear; };
+.@{weather-icons-prefix}-condition-32 { content: @day-sunny; };
+.@{weather-icons-prefix}-condition-33 { content: @night-partly-cloudy; };
+.@{weather-icons-prefix}-condition-34 { content: @day-sunny-overcast; };
+.@{weather-icons-prefix}-condition-35 { content: @rain-mix; };
+.@{weather-icons-prefix}-condition-36 { content: @hot; };
+.@{weather-icons-prefix}-condition-37 { content: @day-storm-showers; };
+.@{weather-icons-prefix}-condition-38 { content: @day-storm-showers; };
+.@{weather-icons-prefix}-condition-39 { content: @day-storm-showers; };
+.@{weather-icons-prefix}-condition-40 { content: @showers; };
+.@{weather-icons-prefix}-condition-41 { content: @snow-wind; };
+.@{weather-icons-prefix}-condition-42 { content: @snow; };
+.@{weather-icons-prefix}-condition-43 { content: @snow-wind; };
+.@{weather-icons-prefix}-condition-44 { content: @day-sunny-overcast; };
+.@{weather-icons-prefix}-condition-45 { content: @day-storm-showers; };
+.@{weather-icons-prefix}-condition-46 { content: @snow; };
+.@{weather-icons-prefix}-condition-47 { content: @day-storm-showers; };
+.@{weather-icons-prefix}-condition-3200 { content: @stars; };
