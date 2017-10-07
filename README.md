@@ -1,23 +1,4 @@
-# PROJECT NO LONGER MAINTAINED
-Please note: Weather Icons is no longer maintained or updated here. the project is currently looking for a new owner who wants to bear the responsibility. Feel free to let me know.
-
----------------------------------------------------------------------------
-
-.
-.
-.
-.
-.
-.
-.
-
-
-
-
-
-
 # Weather Icons
-*No longer maintained*
 
 ## 222 Weather Themed Icons and CSS
 
@@ -56,6 +37,3 @@ The icon designs are originally by [Lukas Bischoff](http://www.twitter.com/artil
 * Weather Icons licensed under [SIL OFL 1.1](http://scripts.sil.org/OFL)
 * Code licensed under [MIT License](http://opensource.org/licenses/mit-license.html)
 * Documentation licensed under [CC BY 3.0](http://creativecommons.org/licenses/by/3.0)
-
-## Contact
-Weather Icons is maintained by Erik Flowers. Reach me at [@Erik_UX](http://www.twitter.com/erik_flowers) or at [http://www.helloerik.com](http://www.helloerik.com).
