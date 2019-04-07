@@ -1,5 +1,4 @@
 # Weather Icons
-*Version 2.0.10 - September 19th, 2015*
 
 ## 222 Weather Themed Icons and CSS
 
@@ -15,7 +14,7 @@ Place the 5 font files and the main `weather-icons.min.css` file in your project
 
 The icons are displayed by using an `i` element and adding the base class `wi` and then the icon class you want, such as `day-sunny`. This then looks like `<i class="wi wi-day-sunny"></i>`.
 
-To add a modifier, include the class you want after the icon name, which looks like `<i class="wi wi-day-sunny wi-flip-vertical"></i>`. You can flip, rotate, or add a fixed with. See it all at [http://weathericons.io](http://weathericons.io).
+To add a modifier, include the class you want after the icon name, which looks like `<i class="wi wi-day-sunny wi-flip-vertical"></i>`. You can flip, rotate, or add a fixed width. See it all at [http://weathericons.io](http://weathericons.io).
 
 ## API Usage
 
@@ -23,7 +22,7 @@ This set includes companion CSS files for popular weather service API. Presently
 
 ## Wind Usage
 
-To use the wind indicators, you must also use `weather-icons-wind.min.css` along with the default CSS file. To dispay a wind indicator, you must use the base class `wi` and `wi-wind`, and then include the towards/from direction you want, like `from-293-deg`. This ends up looking like . You can use any degree from 0 to 359 in this manner. **Note:** A "from" class has the point of the arrow at the opposite end of the degree. For example, a "from 90 degrees" icon would point to the 270 degree mark, wheras a "towards 270 degrees" would point at the same 270 degree mark.
+To use the wind indicators, you must also use `weather-icons-wind.min.css` along with the default CSS file. To display a wind indicator, you must use the base class `wi` and `wi-wind`, and then include the towards/from direction you want, like `from-293-deg`. This ends up looking like . You can use any degree from 0 to 359 in this manner. **Note:** A "from" class has the point of the arrow at the opposite end of the degree. For example, a "from 90 degrees" icon would point to the 270 degree mark, wheras a "towards 270 degrees" would point at the same 270 degree mark.
 
 Included in the set as well are aliases to point to cardinal directions. They work the same as degrees, for example `<i class="wi wi-wind towards-sse"></i>` would be an arrow pointing to the South by Southeast (roughly 158 degrees). 
 
@@ -38,6 +37,3 @@ The icon designs are originally by [Lukas Bischoff](http://www.twitter.com/artil
 * Weather Icons licensed under [SIL OFL 1.1](http://scripts.sil.org/OFL)
 * Code licensed under [MIT License](http://opensource.org/licenses/mit-license.html)
 * Documentation licensed under [CC BY 3.0](http://creativecommons.org/licenses/by/3.0)
-
-## Contact
-Weather Icons is maintained by Erik Flowers. Reach me at [@Erik_UX](http://www.twitter.com/Erik_UX) or at [http://www.helloerik.com](http://www.helloerik.com).
