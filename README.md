@@ -1,4 +1,6 @@
-# Weather Icons
+# This is an abandonded project 😞. It probably needs a new home and owner, if anyone is interested. Thanks for the support over the years!
+
+## Weather Icons
 
 ## 222 Weather Themed Icons and CSS
 
