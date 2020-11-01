@@ -1,6 +1,6 @@
 /*!
- *  Weather Icons 2.0.8
- *  Updated September 19, 2015
+ *  Weather Icons 2.0.10
+ *  Updated November 1, 2020
  *  Weather themed icons for Bootstrap
  *  Author - Erik Flowers - erik@helloerik.com
  *  Email: erik@helloerik.com
@@ -1396,13 +1396,13 @@
   content: "\f00d";
 }
 .wi-owm-801:before {
-  content: "\f011";
+  content: "\f041";
 }
 .wi-owm-802:before {
-  content: "\f011";
+  content: "\f041";
 }
 .wi-owm-803:before {
-  content: "\f012";
+  content: "\f013";
 }
 .wi-owm-804:before {
   content: "\f013";
@@ -1576,16 +1576,16 @@
   content: "\f00d";
 }
 .wi-owm-day-801:before {
-  content: "\f000";
+  content: "\f002";
 }
 .wi-owm-day-802:before {
-  content: "\f000";
+  content: "\f002";
 }
 .wi-owm-day-803:before {
-  content: "\f000";
+  content: "\f013";
 }
 .wi-owm-day-804:before {
-  content: "\f00c";
+  content: "\f013";
 }
 .wi-owm-day-900:before {
   content: "\f056";
@@ -1750,16 +1750,16 @@
   content: "\f02e";
 }
 .wi-owm-night-801:before {
-  content: "\f022";
+  content: "\f081";
 }
 .wi-owm-night-802:before {
-  content: "\f022";
+  content: "\f086";
 }
 .wi-owm-night-803:before {
-  content: "\f022";
+  content: "\f013";
 }
 .wi-owm-night-804:before {
-  content: "\f086";
+  content: "\f013";
 }
 .wi-owm-night-900:before {
   content: "\f056";
