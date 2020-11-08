@@ -38,7 +38,7 @@
     .#{$wi-css-prefix}-owm-620:before                            { content: $rain-mix                    ; }
     .#{$wi-css-prefix}-owm-621:before                            { content: $snow                        ; }
     .#{$wi-css-prefix}-owm-622:before                            { content: $snow                        ; }
-    .#{$wi-css-prefix}-owm-701:before                            { content: $showers                     ; }
+    .#{$wi-css-prefix}-owm-701:before                            { content: $fog                         ; }
     .#{$wi-css-prefix}-owm-711:before                            { content: $smoke                       ; }
     .#{$wi-css-prefix}-owm-721:before                            { content: $day-haze                    ; }
     .#{$wi-css-prefix}-owm-731:before                            { content: $dust                        ; }
@@ -48,9 +48,9 @@
     .#{$wi-css-prefix}-owm-771:before                            { content: $cloudy-gusts                ; }
     .#{$wi-css-prefix}-owm-781:before                            { content: $tornado                     ; }
     .#{$wi-css-prefix}-owm-800:before                            { content: $day-sunny                   ; }
-    .#{$wi-css-prefix}-owm-801:before                            { content: $cloudy-gusts                ; }
-    .#{$wi-css-prefix}-owm-802:before                            { content: $cloudy-gusts                ; }
-    .#{$wi-css-prefix}-owm-803:before                            { content: $cloudy-windy                ; }
+    .#{$wi-css-prefix}-owm-801:before                            { content: $cloud                       ; }
+    .#{$wi-css-prefix}-owm-802:before                            { content: $cloud                       ; }
+    .#{$wi-css-prefix}-owm-803:before                            { content: $cloudy                      ; }
     .#{$wi-css-prefix}-owm-804:before                            { content: $cloudy                      ; }
     .#{$wi-css-prefix}-owm-900:before                            { content: $tornado                     ; }
     .#{$wi-css-prefix}-owm-901:before                            { content: $storm-showers               ; }
@@ -100,7 +100,7 @@
     .#{$wi-css-prefix}-owm-day-620:before                        { content: $day-rain-mix                ; }
     .#{$wi-css-prefix}-owm-day-621:before                        { content: $day-snow                    ; }
     .#{$wi-css-prefix}-owm-day-622:before                        { content: $day-snow                    ; }
-    .#{$wi-css-prefix}-owm-day-701:before                        { content: $day-showers                 ; }
+    .#{$wi-css-prefix}-owm-day-701:before                        { content: $day-fog                     ; }
     .#{$wi-css-prefix}-owm-day-711:before                        { content: $smoke                       ; }
     .#{$wi-css-prefix}-owm-day-721:before                        { content: $day-haze                    ; }
     .#{$wi-css-prefix}-owm-day-731:before                        { content: $dust                        ; }
@@ -109,10 +109,10 @@
     .#{$wi-css-prefix}-owm-day-762:before                        { content: $dust                        ; }
     .#{$wi-css-prefix}-owm-day-781:before                        { content: $tornado                     ; }
     .#{$wi-css-prefix}-owm-day-800:before                        { content: $day-sunny                   ; }
-    .#{$wi-css-prefix}-owm-day-801:before                        { content: $day-cloudy-gusts            ; }
-    .#{$wi-css-prefix}-owm-day-802:before                        { content: $day-cloudy-gusts            ; }
-    .#{$wi-css-prefix}-owm-day-803:before                        { content: $day-cloudy-gusts            ; }
-    .#{$wi-css-prefix}-owm-day-804:before                        { content: $day-sunny-overcast          ; }
+    .#{$wi-css-prefix}-owm-day-801:before                        { content: $day-cloudy                  ; }
+    .#{$wi-css-prefix}-owm-day-802:before                        { content: $day-cloudy                  ; }
+    .#{$wi-css-prefix}-owm-day-803:before                        { content: $cloudy                      ; }
+    .#{$wi-css-prefix}-owm-day-804:before                        { content: $cloudy                      ; }
     .#{$wi-css-prefix}-owm-day-900:before                        { content: $tornado                     ; }
     .#{$wi-css-prefix}-owm-day-902:before                        { content: $hurricane                   ; }
     .#{$wi-css-prefix}-owm-day-903:before                        { content: $snowflake-cold              ; }
@@ -159,7 +159,7 @@
     .#{$wi-css-prefix}-owm-night-620:before                      { content: $night-alt-rain-mix          ; }
     .#{$wi-css-prefix}-owm-night-621:before                      { content: $night-alt-snow              ; }
     .#{$wi-css-prefix}-owm-night-622:before                      { content: $night-alt-snow              ; }
-    .#{$wi-css-prefix}-owm-night-701:before                      { content: $night-alt-showers           ; }
+    .#{$wi-css-prefix}-owm-night-701:before                      { content: $night-fog                   ; }
     .#{$wi-css-prefix}-owm-night-711:before                      { content: $smoke                       ; }
     .#{$wi-css-prefix}-owm-night-721:before                      { content: $day-haze                    ; }
     .#{$wi-css-prefix}-owm-night-731:before                      { content: $dust                        ; }
@@ -168,10 +168,10 @@
     .#{$wi-css-prefix}-owm-night-762:before                      { content: $dust                        ; }
     .#{$wi-css-prefix}-owm-night-781:before                      { content: $tornado                     ; }
     .#{$wi-css-prefix}-owm-night-800:before                      { content: $night-clear                 ; }
-    .#{$wi-css-prefix}-owm-night-801:before                      { content: $night-alt-cloudy-gusts      ; }
-    .#{$wi-css-prefix}-owm-night-802:before                      { content: $night-alt-cloudy-gusts      ; }
-    .#{$wi-css-prefix}-owm-night-803:before                      { content: $night-alt-cloudy-gusts      ; }
-    .#{$wi-css-prefix}-owm-night-804:before                      { content: $night-alt-cloudy            ; }
+    .#{$wi-css-prefix}-owm-night-801:before                      { content: $night-alt-partly-cloudy     ; }
+    .#{$wi-css-prefix}-owm-night-802:before                      { content: $night-alt-cloudy            ; }
+    .#{$wi-css-prefix}-owm-night-803:before                      { content: $cloudy                      ; }
+    .#{$wi-css-prefix}-owm-night-804:before                      { content: $cloudy                      ; }
     .#{$wi-css-prefix}-owm-night-900:before                      { content: $tornado                     ; }
     .#{$wi-css-prefix}-owm-night-902:before                      { content: $hurricane                   ; }
     .#{$wi-css-prefix}-owm-night-903:before                      { content: $snowflake-cold              ; }
