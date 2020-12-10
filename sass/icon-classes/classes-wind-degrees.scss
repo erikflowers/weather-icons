@@ -724,5 +724,5 @@
 }
 
 .wi-wind-towards-n    {
-  @extend .wi-wind.towards-0-deg;
+  @extend .wi-wind, .towards-0-deg;
 }
