@@ -39,6 +39,7 @@
   text-align: center;
   width: 1.4em;
 }
+/*
 .wi-rotate-90 {
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
   -webkit-transform: rotate(90deg);
@@ -69,6 +70,7 @@
   -ms-transform: scale(1, -1);
   transform: scale(1, -1);
 }
+*/
 .wi-day-sunny:before {
   content: "\f00d";
 }
