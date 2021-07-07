@@ -1,8 +1,8 @@
 // Base Variables
-$wi-path:                        "../font";
-$wi-version:                     "2.0";
-$wi-css-prefix:                  wi;
-$wi-font-family:                 weathericons;
+$wi-path:                        "../font" !default;
+$wi-version:                     "2.0" !default;
+$wi-css-prefix:                  wi !default;
+$wi-font-family:                 weathericons !default;
 
 @font-face {
     font-family: '#{$wi-font-family}';

@@ -11,7 +11,7 @@
    :before ""
    :join   ";\n"
    :row    [\$ label \: " " \" \\ code \"]
-   :after  "\n"}
+   :after  ";"}
 
 
    {:name   "../less/icon-classes/classes-time.less"

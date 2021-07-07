@@ -172,13 +172,16 @@ header {
   font-family: @copy;
   font-weight: 100;
   margin-bottom: 10px;
-  margin-top: 30px;
+  //margin-top: 30px;
   color: hsl(288, 24%, 52%);
   line-height: 1.3em;
   font-size: 25px;
   @media (min-width: @screen-tablet) {
     font-size: 40px;
   }
+}
+.icon-set {
+  margin-bottom: 20px;
 }
 
 .new-icons {
@@ -196,9 +199,24 @@ header {
 }
 
 .instructions {
-  margin-bottom: 10px;
-  border-left: 10px solid fade(@purple, 50%);
-  padding-left: 20px;
+  margin-bottom: 30px;
+  //border-left: 10px solid fade(@purple, 50%);
+  //padding-left: 20px;
+  padding: 15px 20px;
+  border-radius: 10px;
+  color: @purple;
+  text-shadow: 0px 1px 0px hsla(0,0%,100%,1);
+  background-color: fade(@purple, 10%);
+  .clearfix;
+  .info-icon {
+    float: left;
+    font-size: 30px;
+    width: 40px;
+    //min-height: 75px;
+  }
+  p {
+    margin-left: 42px;
+  }
 }
 
 .intro {

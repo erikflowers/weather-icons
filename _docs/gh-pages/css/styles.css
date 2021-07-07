@@ -9043,7 +9043,6 @@ header .icon .icon-box {
   font-family: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 100;
   margin-bottom: 10px;
-  margin-top: 30px;
   color: #9667a2;
   line-height: 1.3em;
   font-size: 25px;
@@ -9052,6 +9051,9 @@ header .icon .icon-box {
   .section-title {
     font-size: 40px;
   }
+}
+.icon-set {
+  margin-bottom: 20px;
 }
 .new-icons ul {
   list-style: none;
@@ -9065,9 +9067,36 @@ header .icon .icon-box {
   font-size: 20px;
 }
 .instructions {
-  margin-bottom: 10px;
-  border-left: 10px solid rgba(146, 77, 163, 0.5);
-  padding-left: 20px;
+  margin-bottom: 30px;
+  padding: 15px 20px;
+  border-radius: 10px;
+  color: #924da3;
+  text-shadow: 0px 1px 0px #ffffff;
+  background-color: rgba(146, 77, 163, 0.1);
+}
+.instructions:before,
+.instructions:after {
+  content: " ";
+  display: table;
+}
+.instructions:after {
+  clear: both;
+}
+.instructions:before,
+.instructions:after {
+  content: " ";
+  display: table;
+}
+.instructions:after {
+  clear: both;
+}
+.instructions .info-icon {
+  float: left;
+  font-size: 30px;
+  width: 40px;
+}
+.instructions p {
+  margin-left: 42px;
 }
 .intro {
   font-size: 18px;
