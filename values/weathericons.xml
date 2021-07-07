@@ -434,7 +434,7 @@
     <string name="wi_owm_620">&#xf017;</string>
     <string name="wi_owm_621">&#xf01b;</string>
     <string name="wi_owm_622">&#xf01b;</string>
-    <string name="wi_owm_701">&#xf01a;</string>
+    <string name="wi_owm_701">&#xf014;</string>
     <string name="wi_owm_711">&#xf062;</string>
     <string name="wi_owm_721">&#xf0b6;</string>
     <string name="wi_owm_731">&#xf063;</string>
@@ -495,7 +495,7 @@
     <string name="wi_owm_day_620">&#xf006;</string>
     <string name="wi_owm_day_621">&#xf00a;</string>
     <string name="wi_owm_day_622">&#xf00a;</string>
-    <string name="wi_owm_day_701">&#xf009;</string>
+    <string name="wi_owm_day_701">&#xf003;</string>
     <string name="wi_owm_day_711">&#xf062;</string>
     <string name="wi_owm_day_721">&#xf0b6;</string>
     <string name="wi_owm_day_731">&#xf063;</string>
@@ -556,7 +556,7 @@
     <string name="wi_owm_night_620">&#xf026;</string>
     <string name="wi_owm_night_621">&#xf02a;</string>
     <string name="wi_owm_night_622">&#xf02a;</string>
-    <string name="wi_owm_night_701">&#xf029;</string>
+    <string name="wi_owm_night_701">&#xf04a;</string>
     <string name="wi_owm_night_711">&#xf062;</string>
     <string name="wi_owm_night_721">&#xf0b6;</string>
     <string name="wi_owm_night_731">&#xf063;</string>
