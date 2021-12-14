@@ -1,49 +1,59 @@
-.col-sm-12
+.col-sm-12.icon-set
   .section-title Daytime
   .row
     include icon-list-day
-.col-sm-12
+.col-sm-12.icon-set
   .section-title Nighttime
   .row
     include icon-list-night
-.col-sm-12
+.col-sm-12.icon-set
   .section-title Neutral
   .row
     include icon-list-neutral
-.col-sm-12
+.col-sm-12.icon-set
   .section-title Miscellaneous
   .row
     include icon-list-misc
-.col-sm-12
+.col-sm-12.icon-set
   .section-title Moon Phases
+  .instructions
+    .info-icon
+      i.fa.fa-info-circle
+    p The moons are split into 28 icons, to correspond neatly with the 28 day moon cycle. There is a primary set and alternate set. The primary set is meant to be interpreted as: where there are pixels, that is the illuminated part of the moon. The alternate set is meant to be interpreted as: where there are pixels, that is the shadowed part of the moon.
   .row
     include icon-list-moon
-.col-sm-12
+.col-sm-12.icon-set
   .section-title Time
   .row
     include icon-list-time
-.col-sm-12
+.col-sm-12.icon-set
   .section-title Directional Arrows
   .row
     include icon-list-direction
-.col-sm-12
+.col-sm-12.icon-set
   .section-title Wind Degree Examples
   .instructions
+    .info-icon
+      i.fa.fa-info-circle
     p The classes for the wind direction indicator is split into 2 options. You can choose towards or from. Towards points to the degree, zero at the top. From points directly away from the degree. This means, if you want the indicator to represent "wind is coming from the south", you can use the <code>towards-0-deg</code> class, or if you prefer to use from, then you would use <code>from-180-deg</code>.
     p There are 360 classes for each in 1 degree increments for maximum precision.
     p
+    p NOTE: You must include the additional stylesheeet, <code>weather-icons-wind.css</code> to use the wind icons and API mappings.
   .row
     include icon-list-wind
-.col-sm-12
+.col-sm-12.icon-set
   .section-title Wind Cardinal Examples
   .instructions
+    .info-icon
+      i.fa.fa-info-circle
     p The classes for the cardinal wind direction indicator is split into 2 options. You can choose towards or from. Towards points to the direction in the class, north at the top. From points directly away from the direction in the class. This means, if you want the indicator to represent "wind is coming from the south", you can use the <code>towards-n</code> class, or if you prefer to use from, then you would use <code>from-s</code>.
     p The purpose of this is to accommodate applications that prefer to point to where the wind is originating from (arrow points against the wind), or pointing where the wind is blowing (arrow points in direction of wind). You can decide which fits your application best and use the class that matches.
     p There are 16 classes each for precision when using cardinal directions.
     p
+    p NOTE: You must include the additional stylesheeet, <code>weather-icons-wind.css</code> to use the wind icons and API mappings.
   .row
     include icon-list-wind-cardinal
-.col-sm-12
+.col-sm-12.icon-set
   .section-title Beaufort Wind Scale
   .row
     include icon-list-beaufort
